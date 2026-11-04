@@ -1,0 +1,5 @@
+# source: https://s3-us-west-2.amazonaws.com/human-pangenomics/working/HPRC/HG01943/assemblies/release2/annotation/chrom_assignment/HG01943_pat_hprc_r2_v1.0.1.gaps.bed (its rows on the child's contigs aligned over the locus)
+HG01943#1#CM089354.1	47396431	47396531
+HG01943#1#CM089354.1	47765590	47765690
+HG01943#1#CM089354.1	48221141	48221241
+HG01943#1#CM089354.1	48522660	48522760

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="HG01943&#x27;s chr2 over the segment: what the reads hold and what the assembly holds, each in its own coordinates" class="fig"><style>
+.t{fill:var(--ink,#16181d);font-family:var(--sans,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif);font-size:12px}
+.tm{fill:var(--muted,#5d6470)}.tb{font-weight:650}.ts{font-size:10.5px}.tx{font-size:14px}
+.mono{font-family:var(--mono,ui-monospace,"SF Mono",Menlo,Consolas,monospace)}
+.c1{fill:var(--c1,#2f6fdb)}.c2{fill:var(--c2,#0e9f8f)}.cm{fill:var(--cm,#b8862b)}.cr{fill:var(--cr,#8f96a3)}
+.c1s{stroke:var(--c1,#2f6fdb);fill:none}.c2s{stroke:var(--c2,#0e9f8f);fill:none}.cms{stroke:var(--cm,#b8862b);fill:none}
+.crs{stroke:var(--cr,#8f96a3);fill:none}.js{stroke:var(--jx,#d1336e);fill:none}.jx{fill:var(--jx,#d1336e)}
+.c1l{fill:var(--c1l,#d7e4fb)}.c2l{fill:var(--c2l,#cdeee9)}.cml{fill:var(--cml,#f1e3c6)}.shade{fill:var(--shade,#eef0f4)}
+.ln{stroke:var(--line,#dcd8cf);fill:none}.lk{stroke:var(--ink,#16181d);fill:none}.lm{stroke:var(--muted,#5d6470);fill:none}
+.pa{fill:var(--panel,#ffffff)}
+.h1{fill:var(--c2,#0e9f8f)}.h2{fill:var(--h2,#7c4dda)}.h1s{stroke:var(--c2,#0e9f8f);fill:none}.h2s{stroke:var(--h2,#7c4dda);fill:none}
+.hov{fill:transparent}.miss{fill:none;stroke:var(--jx,#d1336e);stroke-dasharray:4 3}.wt{fill:#fff}
+</style><rect width="100%" height="100%" fill="#ffffff"/><text x="20.0" y="34.0" class="t tb ts tm">WHAT THE READS HOLD</text><text x="20.0" y="180.0" class="t tb ts tm">WHAT THE ASSEMBLY HOLDS (HPRC release 2, trio-phased hifiasm 0.19.9)</text><text x="218.0" y="70.0" class="t tb ts" text-anchor="end">mother&#x27;s chromosome</text><text x="218.0" y="130.0" class="t tb ts" text-anchor="end">father&#x27;s chromosome</text><text x="218.0" y="230.0" class="t tb ts" text-anchor="end">paternal CM089354.1</text><text x="218.0" y="290.0" class="t tb ts" text-anchor="end">maternal CM089362.1</text><text x="218.0" y="344.0" class="t tb ts" text-anchor="end">unplaced maternal contig</text><rect x="230.0" y="54.0" width="45.8" height="24.0" rx="3" class="cr"><title>the left flank, GRCh38 chr2:46,820,725-46,970,724</title></rect><rect x="275.8" y="54.0" width="331.7" height="24.0" rx="3" class="cm"><title>a maternal copy of chr2:46,970,725-48,057,041 (1,086,317 bp)</title></rect><text x="441.7" y="70.0" class="t tb ts wt" text-anchor="middle"><title>a maternal copy of chr2:46,970,725-48,057,041 (1,086,317 bp)</title>copy, 1,086,317 bp</text><rect x="607.5" y="54.0" width="331.7" height="24.0" rx="3" class="cm"><title>the other maternal copy of chr2:46,970,725-48,057,041 (1,086,317 bp)</title></rect><text x="773.3" y="70.0" class="t tb ts wt" text-anchor="middle"><title>the other maternal copy of chr2:46,970,725-48,057,041 (1,086,317 bp)</title>copy, 1,086,317 bp</text><rect x="939.2" y="54.0" width="45.8" height="24.0" rx="3" class="cr"><title>the right flank, GRCh38 chr2:48,057,042-48,207,041</title></rect><rect x="465.0" y="82.0" width="34.8" height="5.0" class="jx"><title>where the two maternal copies differ: chr2:47,590,351-47,704,313
+(one carries the mother&#x27;s other chromosome there; which one, the reads cannot say)</title></rect><rect x="796.7" y="82.0" width="34.8" height="5.0" class="jx"><title>where the two maternal copies differ: chr2:47,590,351-47,704,313
+(one carries the mother&#x27;s other chromosome there; which one, the reads cannot say)</title></rect><text x="814.1" y="99.0" class="t ts tm" text-anchor="middle">the copies differ here</text><line x1="607.5" y1="46.0" x2="607.5" y2="86.0" class="js" stroke-width="3"><title>the junction: chr2:48,057,041 joined to chr2:46,970,725
+31 HiFi reads, 29 of them phased: all the mother&#x27;s</title></line><text x="607.5" y="42.0" class="t ts tb" text-anchor="middle">junction (31 HiFi reads)</text><rect x="230.0" y="114.0" width="45.8" height="24.0" rx="3" class="cr"><title>the left flank</title></rect><rect x="275.8" y="114.0" width="331.7" height="24.0" rx="3" class="c1"><title>the paternal copy of chr2:46,970,725-48,057,041</title></rect><text x="441.7" y="130.0" class="t tb ts wt" text-anchor="middle"><title>the paternal copy of chr2:46,970,725-48,057,041</title>once, 1,086,317 bp</text><rect x="607.5" y="114.0" width="45.8" height="24.0" rx="3" class="cr"><title>the right flank</title></rect><rect x="230.0" y="214.0" width="45.8" height="24.0" rx="3" class="cr"><title>piece A - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:44,643,737-47,396,431 (2,752,695 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:44,588,993-47,340,307, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 8,006 over 2,749,507 aligned bases (2.91 per kb); 12 indels of 50 bp or more
+inside the segment: 0 of the mother&#x27;s own alleles, 352 of the father&#x27;s own -&gt; paternal
+against M over chr2:46,950,725-47,340,307 (389,583 bp): 481 SNVs, 136 indels
+against B over chr2:46,971,835-47,340,307 (368,473 bp): 436 SNVs, 127 indels
+against C over chr2:47,319,800-47,340,307 (20,508 bp): 0 SNVs, 6 indels</title></rect><rect x="275.8" y="214.0" width="112.9" height="24.0" rx="3" class="c1"><title>piece A - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:44,643,737-47,396,431 (2,752,695 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:44,588,993-47,340,307, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 8,006 over 2,749,507 aligned bases (2.91 per kb); 12 indels of 50 bp or more
+inside the segment: 0 of the mother&#x27;s own alleles, 352 of the father&#x27;s own -&gt; paternal
+against M over chr2:46,950,725-47,340,307 (389,583 bp): 481 SNVs, 136 indels
+against B over chr2:46,971,835-47,340,307 (368,473 bp): 436 SNVs, 127 indels
+against C over chr2:47,319,800-47,340,307 (20,508 bp): 0 SNVs, 6 indels</title></rect><text x="332.3" y="230.0" class="t tb ts wt" text-anchor="middle"><title>piece A - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:44,643,737-47,396,431 (2,752,695 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:44,588,993-47,340,307, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 8,006 over 2,749,507 aligned bases (2.91 per kb); 12 indels of 50 bp or more
+inside the segment: 0 of the mother&#x27;s own alleles, 352 of the father&#x27;s own -&gt; paternal
+against M over chr2:46,950,725-47,340,307 (389,583 bp): 481 SNVs, 136 indels
+against B over chr2:46,971,835-47,340,307 (368,473 bp): 436 SNVs, 127 indels
+against C over chr2:47,319,800-47,340,307 (20,508 bp): 0 SNVs, 6 indels</title>A</text><rect x="388.7" y="214.0" width="112.7" height="24.0" rx="3" class="cm"><title>piece B - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:47,396,532-47,765,590 (369,059 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:46,971,835-47,340,686, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 1,210 over 368,532 aligned bases (3.28 per kb); 2 indels of 50 bp or more
+inside the segment: 279 of the mother&#x27;s own alleles, 0 of the father&#x27;s own -&gt; maternal
+against M over chr2:46,971,835-47,340,686 (368,852 bp): 0 SNVs, 0 indels - identical
+against A over chr2:46,971,835-47,340,307 (368,473 bp): 436 SNVs, 127 indels
+against C over chr2:47,319,800-47,340,686 (20,887 bp): 0 SNVs, 0 indels - identical</title></rect><text x="445.1" y="230.0" class="t tb ts wt" text-anchor="middle"><title>piece B - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:47,396,532-47,765,590 (369,059 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:46,971,835-47,340,686, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 1,210 over 368,532 aligned bases (3.28 per kb); 2 indels of 50 bp or more
+inside the segment: 279 of the mother&#x27;s own alleles, 0 of the father&#x27;s own -&gt; maternal
+against M over chr2:46,971,835-47,340,686 (368,852 bp): 0 SNVs, 0 indels - identical
+against A over chr2:46,971,835-47,340,307 (368,473 bp): 436 SNVs, 127 indels
+against C over chr2:47,319,800-47,340,686 (20,887 bp): 0 SNVs, 0 indels - identical</title>B</text><rect x="501.5" y="214.0" width="139.1" height="24.0" rx="3" class="c1"><title>piece C - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:47,765,691-48,221,141 (455,451 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:47,319,800-47,774,341, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 1,658 over 454,325 aligned bases (3.65 per kb); 1 indels of 50 bp or more
+inside the segment: 0 of the mother&#x27;s own alleles, 122 of the father&#x27;s own -&gt; paternal
+against M over chr2:47,319,800-47,774,341 (454,542 bp): 285 SNVs, 108 indels
+against A over chr2:47,319,800-47,340,307 (20,508 bp): 0 SNVs, 6 indels
+against B over chr2:47,319,800-47,340,686 (20,887 bp): 0 SNVs, 0 indels - identical
+against U over chr2:47,426,809-47,656,968 (230,160 bp): 58 SNVs, 23 indels
+against D over chr2:47,755,434-47,774,341 (18,908 bp): 0 SNVs, 0 indels - identical
+against E over chr2:47,756,575-47,774,341 (17,767 bp): 0 SNVs, 0 indels - identical</title></rect><text x="571.0" y="230.0" class="t tb ts wt" text-anchor="middle"><title>piece C - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:47,765,691-48,221,141 (455,451 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:47,319,800-47,774,341, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 1,658 over 454,325 aligned bases (3.65 per kb); 1 indels of 50 bp or more
+inside the segment: 0 of the mother&#x27;s own alleles, 122 of the father&#x27;s own -&gt; paternal
+against M over chr2:47,319,800-47,774,341 (454,542 bp): 285 SNVs, 108 indels
+against A over chr2:47,319,800-47,340,307 (20,508 bp): 0 SNVs, 6 indels
+against B over chr2:47,319,800-47,340,686 (20,887 bp): 0 SNVs, 0 indels - identical
+against U over chr2:47,426,809-47,656,968 (230,160 bp): 58 SNVs, 23 indels
+against D over chr2:47,755,434-47,774,341 (18,908 bp): 0 SNVs, 0 indels - identical
+against E over chr2:47,756,575-47,774,341 (17,767 bp): 0 SNVs, 0 indels - identical</title>C</text><rect x="640.6" y="214.0" width="92.0" height="24.0" rx="3" class="cm"><title>piece D - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:48,221,250-48,522,660 (301,411 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:47,755,434-48,055,872, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 1,486 over 300,276 aligned bases (4.95 per kb); 1 indels of 50 bp or more
+inside the segment: 3 of the mother&#x27;s own alleles, 0 of the father&#x27;s own -&gt; maternal
+against M over chr2:47,755,434-48,055,872 (300,439 bp): 0 SNVs, 0 indels - identical
+against C over chr2:47,755,434-47,774,341 (18,908 bp): 0 SNVs, 0 indels - identical
+against E over chr2:47,756,575-48,055,872 (299,298 bp): 15 SNVs, 6 indels</title></rect><text x="686.6" y="230.0" class="t tb ts wt" text-anchor="middle"><title>piece D - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:48,221,250-48,522,660 (301,411 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:47,755,434-48,055,872, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 1,486 over 300,276 aligned bases (4.95 per kb); 1 indels of 50 bp or more
+inside the segment: 3 of the mother&#x27;s own alleles, 0 of the father&#x27;s own -&gt; maternal
+against M over chr2:47,755,434-48,055,872 (300,439 bp): 0 SNVs, 0 indels - identical
+against C over chr2:47,755,434-47,774,341 (18,908 bp): 0 SNVs, 0 indels - identical
+against E over chr2:47,756,575-48,055,872 (299,298 bp): 15 SNVs, 6 indels</title>D</text><rect x="732.6" y="214.0" width="91.9" height="24.0" rx="3" class="c1"><title>piece E - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:48,522,761-49,322,940 (800,180 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:47,756,575-48,555,799, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 2,146 over 798,855 aligned bases (2.69 per kb); 1 indels of 50 bp or more
+inside the segment: 0 of the mother&#x27;s own alleles, 7 of the father&#x27;s own -&gt; paternal
+against M over chr2:47,756,575-48,077,041 (320,467 bp): 15 SNVs, 6 indels
+against C over chr2:47,756,575-47,774,341 (17,767 bp): 0 SNVs, 0 indels - identical
+against D over chr2:47,756,575-48,055,872 (299,298 bp): 15 SNVs, 6 indels</title></rect><text x="778.6" y="230.0" class="t tb ts wt" text-anchor="middle"><title>piece E - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:48,522,761-49,322,940 (800,180 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:47,756,575-48,555,799, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 2,146 over 798,855 aligned bases (2.69 per kb); 1 indels of 50 bp or more
+inside the segment: 0 of the mother&#x27;s own alleles, 7 of the father&#x27;s own -&gt; paternal
+against M over chr2:47,756,575-48,077,041 (320,467 bp): 15 SNVs, 6 indels
+against C over chr2:47,756,575-47,774,341 (17,767 bp): 0 SNVs, 0 indels - identical
+against D over chr2:47,756,575-48,055,872 (299,298 bp): 15 SNVs, 6 indels</title>E</text><rect x="824.5" y="214.0" width="45.8" height="24.0" rx="3" class="cr"><title>piece E - the paternal assembly&#x27;s chromosome scaffold
+CM089354.1:48,522,761-49,322,940 (800,180 bp of a 242,965,546-bp sequence)
+aligned to GRCh38 chr2:47,756,575-48,555,799, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 2,146 over 798,855 aligned bases (2.69 per kb); 1 indels of 50 bp or more
+inside the segment: 0 of the mother&#x27;s own alleles, 7 of the father&#x27;s own -&gt; paternal
+against M over chr2:47,756,575-48,077,041 (320,467 bp): 15 SNVs, 6 indels
+against C over chr2:47,756,575-47,774,341 (17,767 bp): 0 SNVs, 0 indels - identical
+against D over chr2:47,756,575-48,055,872 (299,298 bp): 15 SNVs, 6 indels</title></rect><line x1="388.7" y1="206.0" x2="388.7" y2="246.0" class="lk" stroke-width="2.5"><title>join 1: A&#x27;s end to B&#x27;s start across CM089354.1:47,396,432-47,396,531 (100 N)
+on GRCh38 the scaffold jumps from chr2:47,340,307 back to chr2:46,971,835 (368,472 bp)
+HiFi reads carrying the join: 0; straight through its two points: 80 and 94</title></line><text x="388.7" y="202.0" class="t ts tb" text-anchor="middle"><title>join 1: A&#x27;s end to B&#x27;s start across CM089354.1:47,396,432-47,396,531 (100 N)
+on GRCh38 the scaffold jumps from chr2:47,340,307 back to chr2:46,971,835 (368,472 bp)
+HiFi reads carrying the join: 0; straight through its two points: 80 and 94</title>gap 1</text><line x1="501.4" y1="206.0" x2="501.4" y2="246.0" class="lk" stroke-width="2.5"><title>join 2: B&#x27;s end to C&#x27;s start across CM089354.1:47,765,591-47,765,690 (100 N)
+on GRCh38 the scaffold jumps from chr2:47,340,686 back to chr2:47,319,800 (20,886 bp)
+HiFi reads carrying the join: 0; straight through its two points: 79 and 84</title></line><text x="501.4" y="202.0" class="t ts tb" text-anchor="middle"><title>join 2: B&#x27;s end to C&#x27;s start across CM089354.1:47,765,591-47,765,690 (100 N)
+on GRCh38 the scaffold jumps from chr2:47,340,686 back to chr2:47,319,800 (20,886 bp)
+HiFi reads carrying the join: 0; straight through its two points: 79 and 84</title>gap 2</text><line x1="640.5" y1="206.0" x2="640.5" y2="246.0" class="lk" stroke-width="2.5"><title>join 3: C&#x27;s end to D&#x27;s start across CM089354.1:48,221,142-48,221,241 (100 N)
+on GRCh38 the scaffold jumps from chr2:47,774,341 back to chr2:47,755,434 (18,907 bp)
+HiFi reads carrying the join: 0; straight through its two points: 80 and 81</title></line><text x="640.5" y="202.0" class="t ts tb" text-anchor="middle"><title>join 3: C&#x27;s end to D&#x27;s start across CM089354.1:48,221,142-48,221,241 (100 N)
+on GRCh38 the scaffold jumps from chr2:47,774,341 back to chr2:47,755,434 (18,907 bp)
+HiFi reads carrying the join: 0; straight through its two points: 80 and 81</title>gap 3</text><line x1="732.6" y1="206.0" x2="732.6" y2="246.0" class="lk" stroke-width="2.5"><title>join 4: D&#x27;s end to E&#x27;s start across CM089354.1:48,522,661-48,522,760 (100 N)
+on GRCh38 the scaffold jumps from chr2:48,055,872 back to chr2:47,756,575 (299,297 bp)
+HiFi reads carrying the join: 0; straight through its two points: 99 and 81</title></line><text x="732.6" y="202.0" class="t ts tb" text-anchor="middle"><title>join 4: D&#x27;s end to E&#x27;s start across CM089354.1:48,522,661-48,522,760 (100 N)
+on GRCh38 the scaffold jumps from chr2:48,055,872 back to chr2:47,756,575 (299,297 bp)
+HiFi reads carrying the join: 0; straight through its two points: 99 and 81</title>gap 4</text><rect x="230.0" y="274.0" width="45.8" height="24.0" rx="3" class="cr"><title>the left flank on CM089362.1</title></rect><rect x="275.8" y="274.0" width="332.0" height="24.0" rx="3" class="cm"><title>piece M - the maternal assembly&#x27;s chromosome
+CM089362.1:44,613,400-48,584,116 (3,970,717 bp of a 242,297,524-bp sequence)
+aligned to GRCh38 chr2:44,588,649-48,555,799, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 13,112 over 3,964,333 aligned bases (3.31 per kb); 14 indels of 50 bp or more
+inside the segment: 422 of the mother&#x27;s own alleles, 0 of the father&#x27;s own -&gt; maternal
+against A over chr2:46,950,725-47,340,307 (389,583 bp): 481 SNVs, 136 indels
+against B over chr2:46,971,835-47,340,686 (368,852 bp): 0 SNVs, 0 indels - identical
+against C over chr2:47,319,800-47,774,341 (454,542 bp): 285 SNVs, 108 indels
+against U over chr2:47,426,809-47,656,968 (230,160 bp): 102 SNVs, 28 indels
+against D over chr2:47,755,434-48,055,872 (300,439 bp): 0 SNVs, 0 indels - identical
+against E over chr2:47,756,575-48,077,041 (320,467 bp): 15 SNVs, 6 indels</title></rect><text x="441.8" y="290.0" class="t tb ts wt" text-anchor="middle"><title>piece M - the maternal assembly&#x27;s chromosome
+CM089362.1:44,613,400-48,584,116 (3,970,717 bp of a 242,297,524-bp sequence)
+aligned to GRCh38 chr2:44,588,649-48,555,799, + strand, MAPQ 60, a supplementary record (Winnowmap)
+edits against GRCh38: NM 13,112 over 3,964,333 aligned bases (3.31 per kb); 14 indels of 50 bp or more
+inside the segment: 422 of the mother&#x27;s own alleles, 0 of the father&#x27;s own -&gt; maternal
+against A over chr2:46,950,725-47,340,307 (389,583 bp): 481 SNVs, 136 indels
+against B over chr2:46,971,835-47,340,686 (368,852 bp): 0 SNVs, 0 indels - identical
+against C over chr2:47,319,800-47,774,341 (454,542 bp): 285 SNVs, 108 indels
+against U over chr2:47,426,809-47,656,968 (230,160 bp): 102 SNVs, 28 indels
+against D over chr2:47,755,434-48,055,872 (300,439 bp): 0 SNVs, 0 indels - identical
+against E over chr2:47,756,575-48,077,041 (320,467 bp): 15 SNVs, 6 indels</title>M: once, straight through</text><rect x="607.8" y="274.0" width="45.8" height="24.0" rx="3" class="cr"><title>the right flank</title></rect><rect x="415.1" y="328.0" width="70.3" height="24.0" rx="3" class="cm" opacity="0.85"><title>piece U - the maternal assembly, unplaced
+JBHIIL010000075.1:1-230,135 (230,135 bp of a 230,135-bp sequence)
+aligned to GRCh38 chr2:47,426,809-47,656,968, + strand, MAPQ 60, a primary record (Winnowmap)
+edits against GRCh38: NM 204 over 230,109 aligned bases (0.89 per kb); 0 indels of 50 bp or more
+inside the segment: 27 of the mother&#x27;s own alleles, 0 of the father&#x27;s own -&gt; maternal
+against M over chr2:47,426,809-47,656,968 (230,160 bp): 102 SNVs, 28 indels
+against C over chr2:47,426,809-47,656,968 (230,160 bp): 58 SNVs, 23 indels</title></rect><text x="450.2" y="344.0" class="t tb ts wt" text-anchor="middle"><title>piece U - the maternal assembly, unplaced
+JBHIIL010000075.1:1-230,135 (230,135 bp of a 230,135-bp sequence)
+aligned to GRCh38 chr2:47,426,809-47,656,968, + strand, MAPQ 60, a primary record (Winnowmap)
+edits against GRCh38: NM 204 over 230,109 aligned bases (0.89 per kb); 0 indels of 50 bp or more
+inside the segment: 27 of the mother&#x27;s own alleles, 0 of the father&#x27;s own -&gt; maternal
+against M over chr2:47,426,809-47,656,968 (230,160 bp): 102 SNVs, 28 indels
+against C over chr2:47,426,809-47,656,968 (230,160 bp): 58 SNVs, 23 indels</title>U</text><text x="493.3" y="344.0" class="t ts tm">JBHIIL010000075.1, 230,135 bp: no chromosome position (drawn under its GRCh38 span)</text><text x="20.0" y="392.0" class="t tm ts">Each row in its own coordinates, to scale, 0.15 Mb of flank either side. Colours by each piece&#x27;s alleles at the trio&#x27;s informative sites.</text></svg>

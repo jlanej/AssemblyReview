@@ -1,0 +1,12 @@
+# local and machine-specific: never committed
+CLAUDE.local.md
+local/
+
+# partial downloads and caches
+*.part
+__pycache__/
+*.pyc
+.DS_Store
+
+# Files over GitHub's 100-MB limit go here, by name, each listed in its case's data/MANIFEST.tsv with its public
+# source. None yet.

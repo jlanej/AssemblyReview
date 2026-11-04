@@ -1,0 +1,1040 @@
+{
+ "S": 46970725,
+ "E": 48057041,
+ "L": 1086317,
+ "jr": 31,
+ "jr_mat": 29,
+ "jr_pat": 0,
+ "jr_unphased": 2,
+ "jr_runs": {
+  "m64043_210718_100009": 5,
+  "m64043_210719_210019": 6,
+  "m84081_231122_210358_s4": 5,
+  "m84081_231124_031433_s4": 11,
+  "m64043_210716_230222": 4
+ },
+ "jr_mapq60": 31,
+ "jr_left": [
+  997,
+  23624
+ ],
+ "jr_right": [
+  556,
+  20808
+ ],
+ "jr_mom_own": [
+  4,
+  30
+ ],
+ "jr_dad_own": 0,
+ "jr_oh_m": 535,
+ "jr_oh_p": 0,
+ "jr_starts": 31,
+ "jr_ends": 30,
+ "through_s": {
+  "pat": 31,
+  "mat": 33
+ },
+ "through_e": 69,
+ "hifi_stop": 1,
+ "hifi_in": 2.7857587965518937,
+ "hifi_mat": 1.875107275023095,
+ "hifi_pat": 0.8867066431253792,
+ "hifi_phased_bins": 29,
+ "hifi_phased_span": [
+  46990001,
+  47320000
+ ],
+ "hifi_flank_bins": 8,
+ "hifi_flank_mat": 0.8575633674244703,
+ "hifi_flank_pat": 1.1722905198943923,
+ "sr_rel": 1.5104511694770226,
+ "sr_child": 1.5220326386523395,
+ "sr_father": 1.0011458606808437,
+ "sr_mother": 1.0033966386363378,
+ "sr_flank": {
+  "child": 35.5223,
+  "father": 36.5664,
+  "mother": 35.1524
+ },
+ "split": 6,
+ "split_mapq": [
+  0,
+  6,
+  21,
+  23,
+  41,
+  60
+ ],
+ "pairs": 31,
+ "pair_mapq_med": 60.0,
+ "clip_s": 5,
+ "clip_e": 7,
+ "parents_sr": {
+  "father": [
+   0,
+   0,
+   0
+  ],
+  "mother": [
+   0,
+   0,
+   0
+  ]
+ },
+ "oh_in": [
+  0.6521739130434783,
+  221,
+  0.6814159292035398,
+  221
+ ],
+ "oh_out": [
+  0.5,
+  163,
+  0.42857142857142855,
+  157
+ ],
+ "sites": {
+  "MH": 861,
+  "BH": 274,
+  "FH": 541,
+  "OH": 384
+ },
+ "snvs": 2928,
+ "sites_in": {
+  "OH": 221,
+  "FH": 361,
+  "MH": 382,
+  "BH": 74
+ },
+ "last_oh": 47291000,
+ "pieces": {
+  "A": {
+   "hap": "pat",
+   "contig": "CM089354.1",
+   "rs": 44588993,
+   "re": 47340307,
+   "qs": 44643737,
+   "qe": 47396431,
+   "parent": "paternal",
+   "mom_own": 0,
+   "dad_own": 352,
+   "nm": 8006,
+   "aligned": 2749507,
+   "mapq": 60,
+   "kind": "supplementary"
+  },
+  "B": {
+   "hap": "pat",
+   "contig": "CM089354.1",
+   "rs": 46971835,
+   "re": 47340686,
+   "qs": 47396532,
+   "qe": 47765590,
+   "parent": "maternal",
+   "mom_own": 279,
+   "dad_own": 0,
+   "nm": 1210,
+   "aligned": 368532,
+   "mapq": 60,
+   "kind": "supplementary"
+  },
+  "C": {
+   "hap": "pat",
+   "contig": "CM089354.1",
+   "rs": 47319800,
+   "re": 47774341,
+   "qs": 47765691,
+   "qe": 48221141,
+   "parent": "paternal",
+   "mom_own": 0,
+   "dad_own": 122,
+   "nm": 1658,
+   "aligned": 454325,
+   "mapq": 60,
+   "kind": "supplementary"
+  },
+  "D": {
+   "hap": "pat",
+   "contig": "CM089354.1",
+   "rs": 47755434,
+   "re": 48055872,
+   "qs": 48221250,
+   "qe": 48522660,
+   "parent": "maternal",
+   "mom_own": 3,
+   "dad_own": 0,
+   "nm": 1486,
+   "aligned": 300276,
+   "mapq": 60,
+   "kind": "supplementary"
+  },
+  "E": {
+   "hap": "pat",
+   "contig": "CM089354.1",
+   "rs": 47756575,
+   "re": 48555799,
+   "qs": 48522761,
+   "qe": 49322940,
+   "parent": "paternal",
+   "mom_own": 0,
+   "dad_own": 7,
+   "nm": 2146,
+   "aligned": 798855,
+   "mapq": 60,
+   "kind": "supplementary"
+  },
+  "M": {
+   "hap": "mat",
+   "contig": "CM089362.1",
+   "rs": 44588649,
+   "re": 48555799,
+   "qs": 44613400,
+   "qe": 48584116,
+   "parent": "maternal",
+   "mom_own": 422,
+   "dad_own": 0,
+   "nm": 13112,
+   "aligned": 3964333,
+   "mapq": 60,
+   "kind": "supplementary"
+  },
+  "U": {
+   "hap": "mat",
+   "contig": "JBHIIL010000075.1",
+   "rs": 47426809,
+   "re": 47656968,
+   "qs": 1,
+   "qe": 230135,
+   "parent": "maternal",
+   "mom_own": 27,
+   "dad_own": 0,
+   "nm": 204,
+   "aligned": 230109,
+   "mapq": 60,
+   "kind": "primary"
+  }
+ },
+ "joins": [
+  {
+   "left": "A",
+   "right": "B",
+   "p1": 47340307,
+   "p2": 46971835,
+   "gap": [
+    47396432,
+    47396531
+   ],
+   "unaligned": 100,
+   "back": 368472,
+   "carry": 0,
+   "through1": 80,
+   "through2": 94,
+   "stop": 2
+  },
+  {
+   "left": "B",
+   "right": "C",
+   "p1": 47340686,
+   "p2": 47319800,
+   "gap": [
+    47765591,
+    47765690
+   ],
+   "unaligned": 100,
+   "back": 20886,
+   "carry": 0,
+   "through1": 79,
+   "through2": 84,
+   "stop": 2
+  },
+  {
+   "left": "C",
+   "right": "D",
+   "p1": 47774341,
+   "p2": 47755434,
+   "gap": [
+    48221142,
+    48221241
+   ],
+   "unaligned": 108,
+   "back": 18907,
+   "carry": 0,
+   "through1": 80,
+   "through2": 81,
+   "stop": 1
+  },
+  {
+   "left": "D",
+   "right": "E",
+   "p1": 48055872,
+   "p2": 47756575,
+   "gap": [
+    48522661,
+    48522760
+   ],
+   "unaligned": 100,
+   "back": 299297,
+   "carry": 0,
+   "through1": 99,
+   "through2": 81,
+   "stop": 1
+  }
+ ],
+ "gap_count": 4,
+ "copies": {
+  "3": 87,
+  "4": 3,
+  "2": 19
+ },
+ "holes": [
+  [
+   46970725,
+   46971834
+  ],
+  [
+   47340687,
+   47426808
+  ],
+  [
+   47656969,
+   47755433
+  ],
+  [
+   48055873,
+   48057041
+  ]
+ ],
+ "piece_pairs": [
+  {
+   "x": "M",
+   "y": "A",
+   "lo": 46950725,
+   "hi": 47340307,
+   "len": 389583,
+   "snv": 481,
+   "indel": 136,
+   "per_kb": 1.5837446705836753,
+   "where": {
+    "elsewhere": 617
+   },
+   "first": 46952761,
+   "last": 47323075,
+   "same_scaffold": false,
+   "parents": [
+    "maternal",
+    "paternal"
+   ]
+  },
+  {
+   "x": "M",
+   "y": "B",
+   "lo": 46971835,
+   "hi": 47340686,
+   "len": 368852,
+   "snv": 0,
+   "indel": 0,
+   "per_kb": 0.0,
+   "where": {},
+   "first": null,
+   "last": null,
+   "same_scaffold": false,
+   "parents": [
+    "maternal",
+    "maternal"
+   ]
+  },
+  {
+   "x": "M",
+   "y": "C",
+   "lo": 47319800,
+   "hi": 47774341,
+   "len": 454542,
+   "snv": 285,
+   "indel": 108,
+   "per_kb": 0.8646065710099397,
+   "where": {
+    "stretch": 162,
+    "elsewhere": 197,
+    "patchy": 34
+   },
+   "first": 47344452,
+   "last": 47744620,
+   "same_scaffold": false,
+   "parents": [
+    "maternal",
+    "paternal"
+   ]
+  },
+  {
+   "x": "M",
+   "y": "U",
+   "lo": 47426809,
+   "hi": 47656968,
+   "len": 230160,
+   "snv": 102,
+   "indel": 28,
+   "per_kb": 0.564824469933959,
+   "where": {
+    "patchy": 12,
+    "stretch": 114,
+    "elsewhere": 4
+   },
+   "first": 47444769,
+   "last": 47656863,
+   "same_scaffold": false,
+   "parents": [
+    "maternal",
+    "maternal"
+   ]
+  },
+  {
+   "x": "M",
+   "y": "D",
+   "lo": 47755434,
+   "hi": 48055872,
+   "len": 300439,
+   "snv": 0,
+   "indel": 0,
+   "per_kb": 0.0,
+   "where": {},
+   "first": null,
+   "last": null,
+   "same_scaffold": false,
+   "parents": [
+    "maternal",
+    "maternal"
+   ]
+  },
+  {
+   "x": "M",
+   "y": "E",
+   "lo": 47756575,
+   "hi": 48077041,
+   "len": 320467,
+   "snv": 15,
+   "indel": 6,
+   "per_kb": 0.06552936807846049,
+   "where": {
+    "elsewhere": 21
+   },
+   "first": 47775219,
+   "last": 48054885,
+   "same_scaffold": false,
+   "parents": [
+    "maternal",
+    "paternal"
+   ]
+  },
+  {
+   "x": "A",
+   "y": "B",
+   "lo": 46971835,
+   "hi": 47340307,
+   "len": 368473,
+   "snv": 436,
+   "indel": 127,
+   "per_kb": 1.527927419376725,
+   "where": {
+    "elsewhere": 563
+   },
+   "first": 46972163,
+   "last": 47323075,
+   "same_scaffold": true,
+   "parents": [
+    "paternal",
+    "maternal"
+   ]
+  },
+  {
+   "x": "A",
+   "y": "C",
+   "lo": 47319800,
+   "hi": 47340307,
+   "len": 20508,
+   "snv": 0,
+   "indel": 6,
+   "per_kb": 0.29256875365710944,
+   "where": {
+    "elsewhere": 6
+   },
+   "first": 47322834,
+   "last": 47323075,
+   "same_scaffold": true,
+   "parents": [
+    "paternal",
+    "paternal"
+   ]
+  },
+  {
+   "x": "B",
+   "y": "C",
+   "lo": 47319800,
+   "hi": 47340686,
+   "len": 20887,
+   "snv": 0,
+   "indel": 0,
+   "per_kb": 0.0,
+   "where": {},
+   "first": null,
+   "last": null,
+   "same_scaffold": true,
+   "parents": [
+    "maternal",
+    "paternal"
+   ]
+  },
+  {
+   "x": "C",
+   "y": "U",
+   "lo": 47426809,
+   "hi": 47656968,
+   "len": 230160,
+   "snv": 58,
+   "indel": 23,
+   "per_kb": 0.35192909280500523,
+   "where": {
+    "patchy": 38,
+    "stretch": 24,
+    "elsewhere": 19
+   },
+   "first": 47432119,
+   "last": 47636592,
+   "same_scaffold": false,
+   "parents": [
+    "paternal",
+    "maternal"
+   ]
+  },
+  {
+   "x": "C",
+   "y": "D",
+   "lo": 47755434,
+   "hi": 47774341,
+   "len": 18908,
+   "snv": 0,
+   "indel": 0,
+   "per_kb": 0.0,
+   "where": {},
+   "first": null,
+   "last": null,
+   "same_scaffold": true,
+   "parents": [
+    "paternal",
+    "maternal"
+   ]
+  },
+  {
+   "x": "C",
+   "y": "E",
+   "lo": 47756575,
+   "hi": 47774341,
+   "len": 17767,
+   "snv": 0,
+   "indel": 0,
+   "per_kb": 0.0,
+   "where": {},
+   "first": null,
+   "last": null,
+   "same_scaffold": true,
+   "parents": [
+    "paternal",
+    "paternal"
+   ]
+  },
+  {
+   "x": "D",
+   "y": "E",
+   "lo": 47756575,
+   "hi": 48055872,
+   "len": 299298,
+   "snv": 15,
+   "indel": 6,
+   "per_kb": 0.07016418419100695,
+   "where": {
+    "elsewhere": 21
+   },
+   "first": 47775219,
+   "last": 48054885,
+   "same_scaffold": true,
+   "parents": [
+    "maternal",
+    "paternal"
+   ]
+  }
+ ],
+ "missing": [
+  {
+   "lo": 47340687,
+   "hi": 47426808,
+   "tally": {
+    "M same": 100,
+    "C differs": 99,
+    "C same": 1
+   }
+  },
+  {
+   "lo": 47656969,
+   "hi": 47755433,
+   "tally": {
+    "M differs": 27,
+    "C same": 53,
+    "M same": 28,
+    "C differs": 2
+   }
+  }
+ ],
+ "flags_placed": [
+  {
+   "track": "nucflag",
+   "contig": "CM089354.1",
+   "qs": 47380968,
+   "qe": 47411932,
+   "label": "MISJOIN",
+   "piece": "A",
+   "rs": 47324847,
+   "re": 47340307
+  },
+  {
+   "track": "nucflag",
+   "contig": "CM089354.1",
+   "qs": 47747754,
+   "qe": 47785333,
+   "label": "MISJOIN",
+   "piece": "B",
+   "rs": 47322847,
+   "re": 47340686
+  },
+  {
+   "track": "nucflag",
+   "contig": "CM089354.1",
+   "qs": 48132360,
+   "qe": 48157426,
+   "label": "COLLAPSE",
+   "piece": "C",
+   "rs": 47686528,
+   "re": 47711595
+  },
+  {
+   "track": "nucflag",
+   "contig": "CM089354.1",
+   "qs": 48190413,
+   "qe": 48190430,
+   "label": "MISJOIN",
+   "piece": "C",
+   "rs": 47744602,
+   "re": 47744619
+  },
+  {
+   "track": "nucflag",
+   "contig": "CM089354.1",
+   "qs": 48210885,
+   "qe": 48240410,
+   "label": "MISJOIN",
+   "piece": "C",
+   "rs": 47765076,
+   "re": 47774341
+  },
+  {
+   "track": "nucflag",
+   "contig": "CM089354.1",
+   "qs": 48505515,
+   "qe": 48566045,
+   "label": "MISJOIN",
+   "piece": "D",
+   "rs": 48038699,
+   "re": 48055872
+  },
+  {
+   "track": "nucflag",
+   "contig": "JBHIIL010000075.1",
+   "qs": 2,
+   "qe": 2052,
+   "label": "MISJOIN",
+   "piece": "U",
+   "rs": 47426810,
+   "re": 47428860
+  },
+  {
+   "track": "nucflag",
+   "contig": "JBHIIL010000075.1",
+   "qs": 229695,
+   "qe": 230135,
+   "label": "MISJOIN",
+   "piece": "U",
+   "rs": 47656528,
+   "re": 47656968
+  }
+ ],
+ "contigs": {
+  "pat": [
+   "CM089354.1"
+  ],
+  "mat": [
+   "CM089362.1",
+   "JBHIIL010000075.1"
+  ]
+ },
+ "self_pieces": 240,
+ "self_first": 240,
+ "self_other": 9,
+ "self_bp": {
+  "before the start": [],
+  "after the start": [],
+  "before the end": [
+   [
+    "chr2",
+    47910579,
+    47913565,
+    2996,
+    0.952
+   ]
+  ],
+  "after the end": []
+ },
+ "self_family": 54,
+ "mh": 1,
+ "ont": {
+  "junction": 0,
+  "through_s": 10,
+  "through_e": 10,
+  "reads": 2423,
+  "blocks": [
+   [
+    47059845,
+    47106698,
+    28
+   ],
+   [
+    47163438,
+    47385570,
+    122
+   ],
+   [
+    47557874,
+    47730934,
+    177
+   ],
+   [
+    47768911,
+    48146937,
+    163
+   ]
+  ],
+  "conflicts": 0,
+  "reach": 28,
+  "len": 3555,
+  "depth": 15,
+  "linked": 768
+ },
+ "hifi_len": 18627,
+ "consistency": {
+  "mat|reads": 1194,
+  "mat|with a mother-only allele": 414,
+  "mat|with a father-only allele": 10,
+  "mat|mother-only alleles": 2829,
+  "mat|father-only alleles": 10,
+  "pat|reads": 707,
+  "pat|with a mother-only allele": 0,
+  "pat|with a father-only allele": 539,
+  "pat|mother-only alleles": 0,
+  "pat|father-only alleles": 4336
+ },
+ "stretch": [
+  47590351,
+  47704313
+ ],
+ "stretch_differ": 111,
+ "stretch_n": 117,
+ "agree_before": 118,
+ "agree_after": 133,
+ "differ_outside": [
+  47495696,
+  47560570,
+  47571608,
+  47572237,
+  47578662,
+  47578901,
+  47580921,
+  47582164,
+  47586996
+ ],
+ "bounds": [
+  47588806,
+  47590351,
+  47704313,
+  47713612
+ ],
+ "compo": {
+  "left": {
+   "0": 15,
+   "1": 8,
+   "2": 7
+  },
+  "inside": {
+   "1": 109,
+   "0": 2,
+   "2": 4
+  },
+  "right": {
+   "2": 22
+  },
+  "block": [
+   47557874,
+   47730934,
+   177
+  ]
+ },
+ "switch_left": {
+  "2>2": 21,
+  "dad": 16,
+  "2>1": 21
+ },
+ "switch_right": {
+  "2>1": 10,
+  "1>1": 8
+ },
+ "carriers": [
+  "HG01943"
+ ],
+ "realign": {
+  "reads": 6765,
+  "one_copy": 37.42,
+  "flank_pat": 41.22,
+  "flank_mat": 33.61,
+  "per_piece": {
+   "A": {
+    "pat": 778,
+    "reads": 901,
+    "q0": 10,
+    "?": 123
+   },
+   "M": {
+    "?": 1572,
+    "reads": 2691,
+    "q0": 1488,
+    "mat": 1119
+   },
+   "B": {
+    "mat": 578,
+    "reads": 622,
+    "q0": 622,
+    "?": 44
+   },
+   "C": {
+    "?": 586,
+    "reads": 892,
+    "q0": 72,
+    "pat": 306
+   },
+   "E": {
+    "?": 771,
+    "reads": 797,
+    "q0": 389,
+    "pat": 26
+   },
+   "D": {
+    "?": 502,
+    "reads": 504,
+    "q0": 504,
+    "mat": 2
+   },
+   "U": {
+    "?": 265,
+    "reads": 358,
+    "q0": 103,
+    "mat": 93
+   }
+  },
+  "jr_split_at_m": 29,
+  "jr_at_end": 30,
+  "jr_at_start": 30,
+  "jr_through": 0,
+  "joins": [
+   {
+    "left": "A",
+    "right": "B",
+    "lend": 590594,
+    "rbeg": 590695,
+    "p1": {
+     "n": 80,
+     "where": {
+      "C|?": 7,
+      "M|?": 57,
+      "C|pat": 16
+     }
+    },
+    "p2": {
+     "n": 94,
+     "where": {
+      "A|pat": 30,
+      "M|mat": 51,
+      "M|?": 13
+     }
+    },
+    "stop_left": 0,
+    "stop_right": 0,
+    "cross": 0,
+    "edge_left": 0.04892780904327576,
+    "edge_right": 0.013632835241606833
+   },
+   {
+    "left": "B",
+    "right": "C",
+    "lend": 959753,
+    "rbeg": 959854,
+    "p1": {
+     "n": 79,
+     "where": {
+      "C|?": 6,
+      "M|?": 55,
+      "C|pat": 18
+     }
+    },
+    "p2": {
+     "n": 84,
+     "where": {
+      "A|pat": 25,
+      "M|mat": 24,
+      "A|?": 4,
+      "B|mat": 16,
+      "B|?": 7,
+      "M|?": 8
+     }
+    },
+    "stop_left": 0,
+    "stop_right": 0,
+    "cross": 0,
+    "edge_left": 0.026537939064622554,
+    "edge_right": 0.07339171356491365
+   },
+   {
+    "left": "C",
+    "right": "D",
+    "lend": 1415304,
+    "rbeg": 1415413,
+    "p1": {
+     "n": 80,
+     "where": {
+      "M|?": 22,
+      "E|?": 24,
+      "D|?": 31,
+      "E|pat": 3
+     }
+    },
+    "p2": {
+     "n": 81,
+     "where": {
+      "M|?": 55,
+      "C|?": 26
+     }
+    },
+    "stop_left": 0,
+    "stop_right": 0,
+    "cross": 0,
+    "edge_left": 0.048491170192121104,
+    "edge_right": 0.019381913448476618
+   },
+   {
+    "left": "D",
+    "right": "E",
+    "lend": 1716823,
+    "rbeg": 1716924,
+    "p1": {
+     "n": 99,
+     "where": {
+      "M|mat": 11,
+      "M|?": 50,
+      "E|?": 38
+     }
+    },
+    "p2": {
+     "n": 81,
+     "where": {
+      "M|?": 56,
+      "C|?": 25
+     }
+    },
+    "stop_left": 0,
+    "stop_right": 0,
+    "cross": 0,
+    "edge_left": 0.08513244711818359,
+    "edge_right": 0.024257713953037066
+   }
+  ],
+  "m_segment": [
+   220695,
+   1308103
+  ],
+  "seqs": {
+   "hap1": {
+    "contig": "CM089354.1",
+    "hap": "pat",
+    "q0": 46805838,
+    "q1": 49047195,
+    "source": "published",
+    "len": 2241358,
+    "N": 400,
+    "rec_differ": 0,
+    "rec_lack": 8
+   },
+   "hap2": {
+    "contig": "CM089362.1",
+    "hap": "mat",
+    "q0": 46777285,
+    "q1": 48308368,
+    "source": "published",
+    "len": 1531084,
+    "N": 0,
+    "rec_differ": 0,
+    "rec_lack": 0
+   },
+   "U": {
+    "contig": "JBHIIL010000075.1",
+    "hap": "mat",
+    "q0": 1,
+    "q1": 230135,
+    "source": "published",
+    "len": 230135,
+    "N": 0,
+    "rec_differ": 0,
+    "rec_lack": 0
+   }
+  }
+ },
+ "dot_read": {
+  "read": "m84081_231124_031433_s4/133041701/ccs",
+  "len": 22246,
+  "junction_at": 10510,
+  "left": 10521,
+  "right": 11738,
+  "join1": [
+   {
+    "key": "p1",
+    "read": "m84081_231124_031433_s4/208276713/ccs",
+    "lab": "pat",
+    "len": 22137,
+    "aligns_to": "C"
+   },
+   {
+    "key": "p2",
+    "read": "m84081_231124_031433_s4/147914807/ccs",
+    "lab": "mat",
+    "len": 25697,
+    "aligns_to": "M"
+   }
+  ]
+ },
+ "screen": {
+  "child_split": "6",
+  "child_disc": "33",
+  "child_depth_ratio": "1.55",
+  "father_depth_ratio": "1.00",
+  "mother_depth_ratio": "1.00",
+  "child_paternal_share": "0.35",
+  "informative_sites": "212",
+  "parent_of_origin": "maternal",
+  "junction_at": "chr2:46970725/chr2:48057041",
+  "child_af_dev": "0.17"
+ }
+}

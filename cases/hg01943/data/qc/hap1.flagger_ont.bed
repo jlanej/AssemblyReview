@@ -1,0 +1,5 @@
+# source: https://s3-us-west-2.amazonaws.com/human-pangenomics/submissions/ca366a13-5bad-487b-8a57-97344e9aa0e4--HPRC_RELEASE_2_SUPPLEMENTARY_ASSEMBLY_QC/HG01943/hprc_r2/assembly_qc/hmm_flagger/v1.2.0_ont/HG01943.R941_minimap2_2.28.corrected.downsample_1.0.hmm_flagger_v1.2.0_prediction.conservative.canonical.no_Hap.hap1.bed (its rows on the child's contigs aligned over the locus)
+HG01943#1#CM089354.1	47396431	47396531	NNN	0	.	47396431	47396531	0,0,0
+HG01943#1#CM089354.1	47765590	47765690	NNN	0	.	47765590	47765690	0,0,0
+HG01943#1#CM089354.1	48221141	48221241	NNN	0	.	48221141	48221241	0,0,0
+HG01943#1#CM089354.1	48522660	48522760	NNN	0	.	48522660	48522760	0,0,0

@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="1000" height="580" role="img" aria-label="The two maternal copies against the mother&#x27;s two haplotypes, and the HiFi reads across each end of the stretch where they differ" class="fig"><style>
+.t{fill:var(--ink,#16181d);font-family:var(--sans,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif);font-size:12px}
+.tm{fill:var(--muted,#5d6470)}.tb{font-weight:650}.ts{font-size:10.5px}.tx{font-size:14px}
+.mono{font-family:var(--mono,ui-monospace,"SF Mono",Menlo,Consolas,monospace)}
+.c1{fill:var(--c1,#2f6fdb)}.c2{fill:var(--c2,#0e9f8f)}.cm{fill:var(--cm,#b8862b)}.cr{fill:var(--cr,#8f96a3)}
+.c1s{stroke:var(--c1,#2f6fdb);fill:none}.c2s{stroke:var(--c2,#0e9f8f);fill:none}.cms{stroke:var(--cm,#b8862b);fill:none}
+.crs{stroke:var(--cr,#8f96a3);fill:none}.js{stroke:var(--jx,#d1336e);fill:none}.jx{fill:var(--jx,#d1336e)}
+.c1l{fill:var(--c1l,#d7e4fb)}.c2l{fill:var(--c2l,#cdeee9)}.cml{fill:var(--cml,#f1e3c6)}.shade{fill:var(--shade,#eef0f4)}
+.ln{stroke:var(--line,#dcd8cf);fill:none}.lk{stroke:var(--ink,#16181d);fill:none}.lm{stroke:var(--muted,#5d6470);fill:none}
+.pa{fill:var(--panel,#ffffff)}
+.h1{fill:var(--c2,#0e9f8f)}.h2{fill:var(--h2,#7c4dda)}.h1s{stroke:var(--c2,#0e9f8f);fill:none}.h2s{stroke:var(--h2,#7c4dda);fill:none}
+.hov{fill:transparent}.miss{fill:none;stroke:var(--jx,#d1336e);stroke-dasharray:4 3}.wt{fill:#fff}
+</style><rect width="100%" height="100%" fill="#ffffff"/><text x="160.0" y="20.0" class="t tb ts">Each of the mother&#x27;s phased sites (her nanopore reads): which of her haplotypes the child&#x27;s two maternal copies carry</text><rect x="465.7" y="28.0" width="348.4" height="92.0" class="jx" opacity="0.08"><title>where the copies differ: chr2:47,590,351-47,704,313</title></rect><text x="150.0" y="48.0" class="t ts" text-anchor="end">both her haplotype 1</text><line x1="160.0" y1="44.0" x2="980.0" y2="44.0" class="ln" stroke-width="1" stroke-dasharray="2 4"/><text x="150.0" y="78.0" class="t ts" text-anchor="end">one of each</text><line x1="160.0" y1="74.0" x2="980.0" y2="74.0" class="ln" stroke-width="1" stroke-dasharray="2 4"/><text x="150.0" y="108.0" class="t ts" text-anchor="end">both her haplotype 2</text><line x1="160.0" y1="104.0" x2="980.0" y2="104.0" class="ln" stroke-width="1" stroke-dasharray="2 4"/><rect x="365.2" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,557,874 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,28) | mother 0/1 (22,15) | child 1/1 (0,54)
+the child&#x27;s HiFi reads: T 106
+assembly pieces: C T, M T, U T
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="371.5" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,559,940 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: C
+short reads (C,G): father 1/1 (0,40) | mother 0/1 (21,20) | child 1/1 (0,54)
+the child&#x27;s HiFi reads: G 106
+assembly pieces: C G, M G, U G
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="372.1" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,560,118 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: T
+short reads (T,C): father 1/1 (0,39) | mother 0/1 (14,15) | child 1/1 (0,48)
+the child&#x27;s HiFi reads: C 106
+assembly pieces: C C, M C, U C
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="373.4" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,560,570 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: G
+short reads (G,C): father 1/1 (0,43) | mother 0/1 (21,18) | child 0/1 (9,29)
+the child&#x27;s HiFi reads: C 71, G 37
+assembly pieces: C C, M C, U G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="375.5" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,561,233 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,36) | mother 0/1 (25,24) | child 0/1 (32,9)
+the child&#x27;s HiFi reads: C 70, T 38
+assembly pieces: C T, M C, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="382.3" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,563,472 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele T
+the allele only the mother has: G
+short reads (G,T): father 1/1 (0,36) | mother 0/1 (18,16) | child 0/1 (24,26)
+the child&#x27;s HiFi reads: G 64, T 37
+assembly pieces: C T, M G, U G
+the mother&#x27;s phase: G on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="383.7" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,563,918 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele T
+the allele only the mother has: A
+short reads (A,T): father 1/1 (0,25) | mother 0/1 (17,22) | child 0/1 (29,13)
+the child&#x27;s HiFi reads: A 59, T 37
+assembly pieces: C T, M A, U A
+the mother&#x27;s phase: A on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="385.9" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,564,640 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,36) | mother 0/1 (18,13) | child 0/1 (40,19)
+the child&#x27;s HiFi reads: C 61, T 38
+assembly pieces: C T, M C, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="387.2" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,565,070 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,33) | mother 0/1 (18,23) | child 0/1 (20,17)
+the child&#x27;s HiFi reads: G 61, A 37
+assembly pieces: C A, M G, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="390.3" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,566,078 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,35) | mother 0/1 (21,13) | child 1/1 (0,56)
+the child&#x27;s HiFi reads: T 96
+assembly pieces: C T, M T, U T
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="394.0" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,567,287 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: T
+short reads (T,C): father 1/1 (0,44) | mother 0/1 (22,13) | child 1/1 (0,61)
+the child&#x27;s HiFi reads: C 91
+assembly pieces: C C, M C, U C
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="403.7" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,570,475 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,47) | mother 0/1 (30,23) | child 1/1 (0,66)
+the child&#x27;s HiFi reads: T 87
+assembly pieces: C T, M T, U T
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="405.0" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,570,898 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,56) | mother 0/1 (29,19) | child 1/1 (0,68)
+the child&#x27;s HiFi reads: G 85
+assembly pieces: C G, M G, U G
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="407.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,571,608 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele A
+the allele only the mother has: T
+short reads (T,A): father 1/1 (0,47) | mother 0/1 (20,21) | child 0/1 (19,49)
+the child&#x27;s HiFi reads: A 53, T 30, ? 1
+assembly pieces: C A, M A, U T
+the mother&#x27;s phase: T on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="409.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,572,237 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: C
+short reads (C,G): father 1/1 (0,53) | mother 0/1 (22,26) | child 0/1 (14,34)
+the child&#x27;s HiFi reads: G 53, C 29
+assembly pieces: C G, M G, U C
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="419.2" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,575,539 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (46,0) | mother 0/1 (9,19) | child 0/1 (16,38)
+the child&#x27;s HiFi reads: T 51, C 25, ? 1
+assembly pieces: C C, M T, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="423.1" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,576,807 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele A
+the allele only the mother has: C
+short reads (C,A): father 1/1 (0,29) | mother 0/1 (19,14) | child 0/1 (40,22)
+the child&#x27;s HiFi reads: C 57, A 25
+assembly pieces: C A, M C, U C
+the mother&#x27;s phase: C on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="428.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,578,662 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: C
+short reads (C,G): father 1/1 (0,34) | mother 0/1 (8,20) | child 0/1 (10,32)
+the child&#x27;s HiFi reads: G 57, C 34
+assembly pieces: C G, M G, U C
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="429.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,578,901 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: T
+short reads (T,C): father 1/1 (0,38) | mother 0/1 (15,27) | child 0/1 (14,38)
+the child&#x27;s HiFi reads: C 55, T 33
+assembly pieces: C C, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="435.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,580,921 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (43,0) | mother 0/1 (17,19) | child 0/1 (35,18)
+the child&#x27;s HiFi reads: C 61, T 27
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="439.4" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,582,164 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele T
+the allele only the mother has: T
+short reads (G,T): father 0/0 (35,0) | mother 0/1 (16,13) | child 0/1 (35,23)
+the child&#x27;s HiFi reads: G 61, T 28
+assembly pieces: C G, M T, U G
+the mother&#x27;s phase: G on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="440.1" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,582,374 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (43,0) | mother 0/1 (22,18) | child 0/1 (20,34)
+the child&#x27;s HiFi reads: G 64, A 24
+assembly pieces: C A, M G, U G
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="440.7" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,582,586 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (42,0) | mother 0/1 (17,13) | child 0/1 (20,39)
+the child&#x27;s HiFi reads: G 60, A 24
+assembly pieces: C A, M G, U G
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="446.3" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,584,413 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (30,0) | mother 0/1 (22,17) | child 0/1 (20,26)
+the child&#x27;s HiFi reads: C 66, T 24
+assembly pieces: C T, M C, U C
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="446.4" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,584,427 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele G
+the allele only the mother has: T
+short reads (T,G): father 1/1 (0,33) | mother 0/1 (16,21) | child 0/1 (29,16)
+the child&#x27;s HiFi reads: T 66, G 24
+assembly pieces: C G, M T, U T
+the mother&#x27;s phase: G on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="448.0" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,584,947 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (34,0) | mother 0/1 (25,12) | child 0/1 (15,39)
+the child&#x27;s HiFi reads: G 64, A 25
+assembly pieces: C A, M G, U G
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="454.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,586,996 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele G
+the allele only the mother has: T
+short reads (T,G): father 1/1 (0,53) | mother 0/1 (10,11) | child 0/1 (17,36)
+the child&#x27;s HiFi reads: G 57, T 30
+assembly pieces: C G, M T, U G
+the mother&#x27;s phase: G on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="458.1" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,588,274 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,46) | mother 0/1 (23,7) | child 0/1 (34,19)
+the child&#x27;s HiFi reads: G 61, A 26
+assembly pieces: C A, M G, U G
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="458.5" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,588,405 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (35,0) | mother 0/1 (15,14) | child 0/1 (26,29)
+the child&#x27;s HiFi reads: G 60, A 26
+assembly pieces: C A, M G, U G
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="459.7" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,588,806 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele T
+the allele only the mother has: T
+short reads (G,T): father 0/0 (24,0) | mother 0/1 (20,22) | child 0/1 (9,39)
+the child&#x27;s HiFi reads: T 59, G 28
+assembly pieces: C G, M T, U T
+the mother&#x27;s phase: G on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="464.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,590,351 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (48,0) | mother 0/1 (23,16) | child 0/1 (47,18)
+the child&#x27;s HiFi reads: A 60, G 31
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="467.5" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,591,342 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,31) | mother 0/1 (22,12) | child 0/1 (33,16)
+the child&#x27;s HiFi reads: A 63, G 29
+assembly pieces: C G, M A, U A
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="467.5" y="95.0" width="2.4" height="18.0" class="h2"><title>chr2:47,591,345 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (27,0) | mother 0/1 (13,17) | child 0/1 (15,32)
+the child&#x27;s HiFi reads: A 63, G 29
+assembly pieces: C G, M A, U A
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 2</title></rect><rect x="476.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,594,202 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,34) | mother 0/1 (11,17) | child 0/1 (15,36)
+the child&#x27;s HiFi reads: T 64, C 33
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="477.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,594,640 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele C
+the allele only the mother has: A
+short reads (A,C): father 1/1 (0,31) | mother 0/1 (17,17) | child 0/1 (20,37)
+the child&#x27;s HiFi reads: C 66, A 35
+assembly pieces: C C, M A, U C
+the mother&#x27;s phase: C on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="478.9" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,595,057 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,27) | mother 0/1 (10,25) | child 0/1 (20,39)
+the child&#x27;s HiFi reads: T 67, C 33
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="482.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,596,119 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: T
+short reads (T,C): father 1/1 (0,39) | mother 0/1 (19,16) | child 0/1 (18,35)
+the child&#x27;s HiFi reads: C 66, T 31
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="487.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,597,808 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,32) | mother 0/1 (24,12) | child 0/1 (20,27)
+the child&#x27;s HiFi reads: T 60, C 31
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="488.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,598,325 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (34,0) | mother 0/1 (18,19) | child 0/1 (21,16)
+the child&#x27;s HiFi reads: G 58, C 32
+assembly pieces: C G, M C, U G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="490.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,598,877 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: T
+short reads (T,C): father 1/1 (0,35) | mother 0/1 (16,16) | child 0/1 (22,37)
+the child&#x27;s HiFi reads: C 56, T 34
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="490.9" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,598,998 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele T
+the allele only the mother has: T
+short reads (A,T): father 0/0 (39,0) | mother 0/1 (18,14) | child 0/1 (32,24)
+the child&#x27;s HiFi reads: A 56, T 34
+assembly pieces: C A, M T, U A
+the mother&#x27;s phase: A on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="491.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,599,082 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: T
+short reads (T,C): father 1/1 (0,31) | mother 0/1 (21,15) | child 0/1 (26,19)
+the child&#x27;s HiFi reads: C 54, T 34
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="491.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,599,257 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (48,0) | mother 0/1 (21,18) | child 0/1 (33,27)
+the child&#x27;s HiFi reads: A 55, G 34
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="491.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,599,298 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,22) | mother 0/1 (24,9) | child 0/1 (28,16)
+the child&#x27;s HiFi reads: G 55, A 34
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="492.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,599,542 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,42) | mother 0/1 (20,23) | child 0/1 (16,30)
+the child&#x27;s HiFi reads: A 56, G 34
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="493.0" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,599,691 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,43) | mother 0/1 (19,17) | child 0/1 (21,31)
+the child&#x27;s HiFi reads: A 55, G 34
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="496.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,600,881 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele T
+the allele only the mother has: A
+short reads (A,T): father 1/1 (0,33) | mother 0/1 (17,25) | child 0/1 (28,42)
+the child&#x27;s HiFi reads: T 60, A 37
+assembly pieces: C T, M A, U T
+the mother&#x27;s phase: T on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="497.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,601,253 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: G
+short reads (G,C): father 1/1 (0,40) | mother 0/1 (24,20) | child 0/1 (26,32)
+the child&#x27;s HiFi reads: C 59, G 36
+assembly pieces: C C, M G, U C
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="500.4" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,602,091 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,45) | mother 0/1 (26,15) | child 0/1 (23,33)
+the child&#x27;s HiFi reads: G 60, A 36
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="504.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,603,552 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (21,0) | mother 0/1 (12,19) | child 0/1 (34,12)
+the child&#x27;s HiFi reads: G 63, A 34
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="506.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,604,166 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele T
+the allele only the mother has: G
+short reads (G,T): father 1/1 (0,43) | mother 0/1 (19,13) | child 0/1 (12,37)
+the child&#x27;s HiFi reads: T 65, G 34
+assembly pieces: C T, M G, U T
+the mother&#x27;s phase: T on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="508.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,604,654 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (26,0) | mother 0/1 (16,18) | child 0/1 (28,20)
+the child&#x27;s HiFi reads: C 69, T 34
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="510.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,605,473 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (35,0) | mother 0/1 (19,16) | child 0/1 (28,13)
+the child&#x27;s HiFi reads: T 66, C 35
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="511.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,605,671 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele A
+the allele only the mother has: A
+short reads (C,A): father 0/0 (35,0) | mother 0/1 (23,17) | child 0/1 (35,18)
+the child&#x27;s HiFi reads: C 68, A 35
+assembly pieces: C C, M A, U C
+the mother&#x27;s phase: C on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="512.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,606,090 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: C
+short reads (C,G): father 1/1 (0,30) | mother 0/1 (13,21) | child 0/1 (18,32)
+the child&#x27;s HiFi reads: G 69, C 35
+assembly pieces: C G, M C, U G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="514.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,606,777 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (31,0) | mother 0/1 (17,25) | child 0/1 (53,24)
+the child&#x27;s HiFi reads: A 64, G 36
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="515.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,606,941 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (32,0) | mother 0/1 (20,20) | child 0/1 (36,20)
+the child&#x27;s HiFi reads: G 66, A 36
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="515.9" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,607,174 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: T
+short reads (T,C): father 1/1 (0,24) | mother 0/1 (22,20) | child 0/1 (19,30)
+the child&#x27;s HiFi reads: C 67, T 35
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="516.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,607,384 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele G
+the allele only the mother has: T
+short reads (T,G): father 1/1 (0,29) | mother 0/1 (21,18) | child 0/1 (23,38)
+the child&#x27;s HiFi reads: G 69, T 34
+assembly pieces: C G, M T, U G
+the mother&#x27;s phase: G on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="517.4" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,607,652 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: C
+short reads (C,G): father 1/1 (0,32) | mother 0/1 (27,16) | child 0/1 (21,43)
+the child&#x27;s HiFi reads: G 68, C 34
+assembly pieces: C G, M C, U G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="517.4" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,607,655 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: G
+short reads (C,G): father 0/0 (32,0) | mother 0/1 (16,26) | child 0/1 (42,22)
+the child&#x27;s HiFi reads: C 68, G 34
+assembly pieces: C C, M G, U C
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="527.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,610,847 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele A
+the allele only the mother has: C
+short reads (C,A): father 1/1 (0,36) | mother 0/1 (20,17) | child 0/1 (14,36)
+the child&#x27;s HiFi reads: A 78, C 33
+assembly pieces: C A, M C, U A
+the mother&#x27;s phase: A on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="527.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,611,016 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (38,0) | mother 0/1 (24,16) | child 0/1 (29,8)
+the child&#x27;s HiFi reads: G 77, C 33
+assembly pieces: C G, M C, U G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="528.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,611,203 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (36,0) | mother 0/1 (19,15) | child 0/1 (42,13)
+the child&#x27;s HiFi reads: C 76, T 32
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="529.4" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,611,583 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,26) | mother 0/1 (17,15) | child 0/1 (15,35)
+the child&#x27;s HiFi reads: A 75, G 32
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="529.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,611,735 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,35) | mother 0/1 (18,17) | child 0/1 (15,22)
+the child&#x27;s HiFi reads: A 73, G 31
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="530.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,611,999 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele C
+the allele only the mother has: C
+short reads (A,C): father 0/0 (28,0) | mother 0/1 (15,16) | child 0/1 (31,9)
+the child&#x27;s HiFi reads: A 75, C 27
+assembly pieces: C A, M C, U A
+the mother&#x27;s phase: A on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="547.0" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,617,366 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,28) | mother 0/1 (16,18) | child 0/1 (15,36)
+the child&#x27;s HiFi reads: G 69, A 29
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="550.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,618,384 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (39,0) | mother 0/1 (24,25) | child 0/1 (44,12)
+the child&#x27;s HiFi reads: C 70, T 29
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="551.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,618,706 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele T
+the allele only the mother has: T
+short reads (G,T): father 0/0 (39,0) | mother 0/1 (12,22) | child 0/1 (22,19)
+the child&#x27;s HiFi reads: G 70, T 29
+assembly pieces: C G, M T, U G
+the mother&#x27;s phase: G on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="552.4" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,619,107 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (28,0) | mother 0/1 (10,17) | child 0/1 (33,10)
+the child&#x27;s HiFi reads: G 73, A 28
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="554.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,619,675 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,25) | mother 0/1 (14,16) | child 0/1 (15,34)
+the child&#x27;s HiFi reads: A 72, G 28
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="554.9" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,619,930 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,32) | mother 0/1 (23,18) | child 0/1 (16,27)
+the child&#x27;s HiFi reads: G 72, A 29
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="555.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,620,042 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (30,0) | mother 0/1 (21,16) | child 0/1 (30,19)
+the child&#x27;s HiFi reads: T 75, C 29
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="556.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,620,483 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (41,0) | mother 0/1 (17,19) | child 0/1 (30,16)
+the child&#x27;s HiFi reads: G 77, A 28
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="560.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,621,797 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,27) | mother 0/1 (21,14) | child 0/1 (11,35)
+the child&#x27;s HiFi reads: A 81, G 30
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="569.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,624,767 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,22) | mother 0/1 (8,22) | child 0/1 (13,34)
+the child&#x27;s HiFi reads: T 76, C 30
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="570.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,625,149 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: G
+short reads (G,C): father 1/1 (0,35) | mother 0/1 (12,11) | child 0/1 (13,33)
+the child&#x27;s HiFi reads: C 78, G 30
+assembly pieces: C C, M G, U C
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="572.9" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,625,833 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (37,0) | mother 0/1 (19,13) | child 0/1 (43,19)
+the child&#x27;s HiFi reads: G 80, A 30
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="573.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,625,898 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele T
+the allele only the mother has: T
+short reads (A,T): father 0/0 (34,0) | mother 0/1 (18,8) | child 0/1 (43,6)
+the child&#x27;s HiFi reads: A 81, T 30
+assembly pieces: C A, M T, U A
+the mother&#x27;s phase: A on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="573.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,626,042 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (30,0) | mother 0/1 (18,11) | child 0/1 (35,12)
+the child&#x27;s HiFi reads: G 77, C 30
+assembly pieces: C G, M C, U G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="573.9" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,626,141 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: G
+short reads (C,G): father 0/0 (29,0) | mother 0/1 (19,14) | child 0/1 (41,12)
+the child&#x27;s HiFi reads: C 75, G 30
+assembly pieces: C C, M G, U C
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="579.9" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,628,117 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele C
+the allele only the mother has: C
+short reads (A,C): father 0/0 (45,0) | mother 0/1 (16,21) | child 0/1 (41,25)
+the child&#x27;s HiFi reads: A 70, C 31
+assembly pieces: C A, M C, U A
+the mother&#x27;s phase: A on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="583.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,629,189 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele G
+the allele only the mother has: G
+short reads (T,G): father 0/0 (18,0) | mother 0/1 (22,17) | child 0/1 (24,18)
+the child&#x27;s HiFi reads: T 69, G 34
+assembly pieces: C T, M G, U T
+the mother&#x27;s phase: T on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="590.7" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,631,640 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (36,0) | mother 0/1 (11,12) | child 0/0 (42,0)
+the child&#x27;s HiFi reads: A 117
+assembly pieces: C A, M A, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="595.4" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,633,183 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele T
+the allele only the mother has: G
+short reads (G,T): father 1/1 (0,37) | mother 0/1 (17,21) | child 0/1 (20,28)
+the child&#x27;s HiFi reads: T 80, G 42
+assembly pieces: C T, M G, U T
+the mother&#x27;s phase: T on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="598.6" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,634,242 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (32,0) | mother 0/1 (16,13) | child 0/0 (52,0)
+the child&#x27;s HiFi reads: G 123
+assembly pieces: C G, M G, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="600.6" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,634,870 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele G
+the allele only the mother has: T
+short reads (T,G): father 1/1 (0,22) | mother 0/1 (11,10) | child 1/1 (0,37)
+the child&#x27;s HiFi reads: G 126
+assembly pieces: C G, M G, U G
+the mother&#x27;s phase: G on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="601.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,635,213 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: G
+short reads (C,G): father 0/0 (38,0) | mother 0/1 (18,15) | child 0/1 (40,15)
+the child&#x27;s HiFi reads: C 83, G 43
+assembly pieces: C C, M G, U C
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="603.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,635,936 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (22,0) | mother 0/1 (19,17) | child 0/1 (39,5)
+the child&#x27;s HiFi reads: G 80, A 46
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="607.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,637,222 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (31,0) | mother 0/1 (18,13) | child 0/1 (24,16)
+the child&#x27;s HiFi reads: T 77, C 47
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="609.9" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,637,940 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele T
+the allele only the mother has: A
+short reads (A,T): father 1/1 (0,37) | mother 0/1 (27,20) | child 0/1 (16,39)
+the child&#x27;s HiFi reads: T 82, A 49
+assembly pieces: C T, M A, U T
+the mother&#x27;s phase: T on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="614.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,639,517 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (32,0) | mother 0/1 (22,12) | child 0/1 (36,13)
+the child&#x27;s HiFi reads: C 78, T 49
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="621.9" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,641,840 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele C
+the allele only the mother has: C
+short reads (A,C): father 0/0 (38,0) | mother 0/1 (16,16) | child 0/1 (47,20)
+the child&#x27;s HiFi reads: A 74, C 46
+assembly pieces: C A, M C, U A
+the mother&#x27;s phase: A on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="630.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,644,531 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (32,0) | mother 0/1 (16,14) | child 0/1 (29,15)
+the child&#x27;s HiFi reads: G 73, C 42
+assembly pieces: C G, M C, U G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="631.0" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,644,828 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (40,0) | mother 0/1 (11,18) | child 0/1 (38,11)
+the child&#x27;s HiFi reads: T 75, C 42
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="631.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,644,859 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,34) | mother 0/1 (19,13) | child 0/1 (10,32)
+the child&#x27;s HiFi reads: T 73, C 42
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="631.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,645,062 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele C
+the allele only the mother has: C
+short reads (A,C): father 0/0 (34,0) | mother 0/1 (11,15) | child 0/1 (36,12)
+the child&#x27;s HiFi reads: A 75, C 42
+assembly pieces: C A, M C, U A
+the mother&#x27;s phase: A on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="632.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,645,264 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele A
+the allele only the mother has: A
+short reads (C,A): father 0/0 (29,0) | mother 0/1 (24,16) | child 0/1 (26,13)
+the child&#x27;s HiFi reads: C 76, A 42
+assembly pieces: C C, M A, U C
+the mother&#x27;s phase: C on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="632.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,645,324 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (42,0) | mother 0/1 (22,13) | child 0/1 (29,15)
+the child&#x27;s HiFi reads: C 76, T 42
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="632.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,645,406 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,44) | mother 0/1 (13,15) | child 0/1 (15,32)
+the child&#x27;s HiFi reads: A 76, G 41
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="634.0" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,645,804 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (47,0) | mother 0/1 (13,17) | child 0/1 (39,13)
+the child&#x27;s HiFi reads: T 78, C 42
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="634.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,646,026 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (44,0) | mother 0/1 (16,21) | child 0/1 (43,20)
+the child&#x27;s HiFi reads: C 77, T 40
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="634.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,646,031 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele T
+the allele only the mother has: T
+short reads (A,T): father 0/0 (45,0) | mother 0/1 (14,21) | child 0/1 (43,20)
+the child&#x27;s HiFi reads: A 76, T 40, ? 1
+assembly pieces: C A, M T, U A
+the mother&#x27;s phase: A on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="638.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,647,213 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele A
+the allele only the mother has: A
+short reads (T,A): father 0/0 (32,0) | mother 0/1 (23,19) | child 0/1 (37,24)
+the child&#x27;s HiFi reads: T 70, A 38
+assembly pieces: C T, M A, U T
+the mother&#x27;s phase: T on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="639.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,647,464 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (45,0) | mother 0/1 (16,19) | child 0/1 (28,15)
+the child&#x27;s HiFi reads: G 67, C 40
+assembly pieces: C G, M C, U G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="639.4" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,647,574 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (46,0) | mother 0/1 (15,23) | child 0/1 (34,21)
+the child&#x27;s HiFi reads: C 67, T 39
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="639.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,647,696 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (37,0) | mother 0/1 (11,14) | child 0/1 (28,14)
+the child&#x27;s HiFi reads: A 68, G 39
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="640.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,647,822 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele G
+the allele only the mother has: G
+short reads (T,G): father 0/0 (35,0) | mother 0/1 (19,16) | child 0/1 (38,18)
+the child&#x27;s HiFi reads: T 68, G 39
+assembly pieces: C T, M G, U T
+the mother&#x27;s phase: T on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="643.0" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,648,749 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (30,0) | mother 0/1 (9,15) | child 0/1 (24,9)
+the child&#x27;s HiFi reads: C 65, T 36
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="645.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,649,515 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele A
+the allele only the mother has: A
+short reads (T,A): father 0/0 (41,0) | mother 0/1 (20,27) | child 0/1 (36,14)
+the child&#x27;s HiFi reads: T 65, A 31
+assembly pieces: C T, M A, U T
+the mother&#x27;s phase: T on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="645.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,649,659 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (45,0) | mother 0/1 (12,25) | child 0/1 (54,19)
+the child&#x27;s HiFi reads: G 64, A 29
+assembly pieces: C G, M A, U G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="646.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,649,987 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele C
+the allele only the mother has: C
+short reads (A,C): father 0/0 (42,0) | mother 0/1 (21,17) | child 0/1 (37,22)
+the child&#x27;s HiFi reads: A 62, C 28
+assembly pieces: C A, M C, U A
+the mother&#x27;s phase: A on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="647.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,650,249 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (37,0) | mother 0/1 (16,14) | child 0/1 (31,25)
+the child&#x27;s HiFi reads: A 62, G 28
+assembly pieces: C A, M G, U A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="653.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,652,063 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (44,0) | mother 0/1 (16,14) | child 0/1 (31,15)
+the child&#x27;s HiFi reads: C 60, T 25
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="663.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,655,567 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (28,0) | mother 0/1 (21,16) | child 0/1 (35,21)
+the child&#x27;s HiFi reads: C 55, T 15
+assembly pieces: C C, M T, U C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="665.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,656,218 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (27,0) | mother 0/1 (16,21) | child 0/1 (28,13)
+the child&#x27;s HiFi reads: T 55, C 15
+assembly pieces: C T, M C, U T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="667.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,656,863 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (38,0) | mother 0/1 (21,21) | child 0/1 (31,10)
+the child&#x27;s HiFi reads: G 55, C 15
+assembly pieces: C G, M C, U G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="672.1" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,658,273 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele C
+the allele only the mother has: C
+short reads (A,C): father 0/0 (34,0) | mother 0/1 (18,13) | child 0/1 (32,11)
+the child&#x27;s HiFi reads: A 53, C 14
+assembly pieces: C A, M C
+the mother&#x27;s phase: A on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="672.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,658,337 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele T
+the allele only the mother has: T
+short reads (G,T): father 0/0 (42,0) | mother 0/1 (23,13) | child 0/1 (31,16)
+the child&#x27;s HiFi reads: G 53, T 14
+assembly pieces: C G, M T
+the mother&#x27;s phase: G on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="673.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,658,788 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (29,0) | mother 0/1 (14,21) | child 0/1 (41,17)
+the child&#x27;s HiFi reads: G 53, C 13
+assembly pieces: C G, M C
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="677.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,659,951 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (26,0) | mother 0/1 (17,17) | child 0/1 (39,16)
+the child&#x27;s HiFi reads: G 54, A 15
+assembly pieces: C G, M A
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="682.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,661,684 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (33,0) | mother 0/1 (19,16) | child 0/1 (25,10)
+the child&#x27;s HiFi reads: T 58, C 17
+assembly pieces: C T, M C
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="687.1" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,663,192 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (34,0) | mother 0/1 (18,17) | child 0/0 (54,0)
+the child&#x27;s HiFi reads: T 74
+assembly pieces: C T, M T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="692.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,664,866 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (33,0) | mother 0/1 (22,21) | child 0/1 (25,13)
+the child&#x27;s HiFi reads: G 60, A 21
+assembly pieces: C G, M A
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="693.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,665,350 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (45,0) | mother 0/1 (18,16) | child 0/1 (39,16)
+the child&#x27;s HiFi reads: G 65, A 21
+assembly pieces: C G, M A
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="695.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,665,860 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (37,0) | mother 0/1 (20,19) | child 0/1 (32,24)
+the child&#x27;s HiFi reads: G 66, C 21
+assembly pieces: C G, M C
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="699.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,667,333 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (43,0) | mother 0/1 (18,16) | child 0/1 (30,15)
+the child&#x27;s HiFi reads: A 64, G 24
+assembly pieces: C A, M G
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="727.7" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,676,456 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: T
+short reads (T,C): father 1/1 (0,32) | mother 0/1 (21,19) | child 0/1 (18,35)
+the child&#x27;s HiFi reads: C 69, T 41
+assembly pieces: C C, M T
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="729.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,676,957 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,41) | mother 0/1 (16,15) | child 0/1 (15,35)
+the child&#x27;s HiFi reads: T 70, C 41, ? 1
+assembly pieces: C T, M C
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="730.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,677,293 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele A
+the allele only the mother has: A
+short reads (T,A): father 0/0 (39,0) | mother 0/1 (10,15) | child 0/1 (37,13)
+the child&#x27;s HiFi reads: T 72, A 40
+assembly pieces: C T, M A
+the mother&#x27;s phase: T on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="733.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,678,251 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele A
+the allele only the mother has: A
+short reads (C,A): father 0/0 (29,0) | mother 0/1 (13,13) | child 0/1 (30,15)
+the child&#x27;s HiFi reads: C 72, A 41
+assembly pieces: C C, M A
+the mother&#x27;s phase: C on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="739.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,680,337 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,31) | mother 0/1 (19,12) | child 0/1 (17,39)
+the child&#x27;s HiFi reads: G 65, A 38
+assembly pieces: C G, M A
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="743.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,681,535 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: G
+short reads (C,G): father 0/0 (39,0) | mother 0/1 (16,15) | child 0/1 (36,19)
+the child&#x27;s HiFi reads: C 63, G 35
+assembly pieces: C C, M G
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="748.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,683,199 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (26,0) | mother 0/1 (16,13) | child 0/1 (32,19)
+the child&#x27;s HiFi reads: G 64, C 35
+assembly pieces: C G, M C
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="756.2" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,685,799 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: G
+short reads (C,G): father 0/0 (41,0) | mother 0/1 (21,15) | child 0/1 (33,26)
+the child&#x27;s HiFi reads: C 58, G 41
+assembly pieces: C C, M G
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="757.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,686,163 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (36,0) | mother 0/1 (12,14) | child 0/1 (45,20)
+the child&#x27;s HiFi reads: T 58, C 41
+assembly pieces: C T, M C
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="757.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,686,219 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele C
+the allele only the mother has: C
+short reads (T,C): father 0/0 (31,0) | mother 0/1 (11,11) | child 0/1 (36,16)
+the child&#x27;s HiFi reads: T 57, C 41
+assembly pieces: C T, M C
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="759.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,686,875 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: C
+short reads (G,C): father 0/0 (41,0) | mother 0/1 (22,17) | child 0/1 (38,13)
+the child&#x27;s HiFi reads: G 56, C 39
+assembly pieces: C G, M C
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="765.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,688,926 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (37,0) | mother 0/1 (24,17) | child 0/1 (31,21)
+the child&#x27;s HiFi reads: C 59, T 41
+assembly pieces: C C, M T
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="783.5" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,694,717 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (33,0) | mother 0/1 (14,18) | child 0/1 (33,26)
+the child&#x27;s HiFi reads: C 65, T 34
+assembly pieces: C C, M T
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="787.0" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,695,851 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,27) | mother 0/1 (14,13) | child 0/1 (11,32)
+the child&#x27;s HiFi reads: A 65, G 37
+assembly pieces: C A, M G
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="793.3" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,697,922 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: G
+short reads (A,G): father 0/0 (42,0) | mother 0/1 (23,11) | child 0/1 (30,19)
+the child&#x27;s HiFi reads: A 71, G 38
+assembly pieces: C A, M G
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="799.6" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,699,998 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,40) | mother 0/1 (17,16) | child 0/1 (16,27)
+the child&#x27;s HiFi reads: G 66, A 40
+assembly pieces: C G, M A
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="812.8" y="65.0" width="2.4" height="18.0" class="jx"><title>chr2:47,704,313 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele T
+the allele only the mother has: G
+short reads (G,T): father 1/1 (0,24) | mother 0/1 (16,23) | child 0/1 (13,25)
+the child&#x27;s HiFi reads: T 71, G 43
+assembly pieces: C T, M G
+the mother&#x27;s phase: T on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: one of each</title></rect><rect x="841.2" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,713,612 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele C
+the allele only the mother has: G
+short reads (G,C): father 1/1 (0,46) | mother 0/1 (12,15) | child 1/1 (0,56)
+the child&#x27;s HiFi reads: C 107, ? 1
+assembly pieces: C C, M C
+the mother&#x27;s phase: C on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="841.8" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,713,801 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,32) | mother 0/1 (14,15) | child 1/1 (0,58)
+the child&#x27;s HiFi reads: A 106
+assembly pieces: C A, M A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="842.9" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,714,165 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,42) | mother 0/1 (19,19) | child 1/1 (0,58)
+the child&#x27;s HiFi reads: A 101, G 4
+assembly pieces: C A, M A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="843.8" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,714,445 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele T
+the allele only the mother has: A
+short reads (A,T): father 1/1 (0,29) | mother 0/1 (15,27) | child 1/1 (0,42)
+the child&#x27;s HiFi reads: T 99, A 2
+assembly pieces: C T, M T
+the mother&#x27;s phase: T on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="844.4" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,714,654 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele T
+the allele only the mother has: G
+short reads (G,T): father 1/1 (0,29) | mother 0/1 (11,11) | child 1/1 (0,52)
+the child&#x27;s HiFi reads: T 107
+assembly pieces: C T, M T
+the mother&#x27;s phase: T on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="844.9" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,714,806 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: C
+short reads (C,G): father 1/1 (0,48) | mother 0/1 (15,18) | child 1/1 (0,47)
+the child&#x27;s HiFi reads: G 107
+assembly pieces: C G, M G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="845.1" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,714,882 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,34) | mother 0/1 (11,15) | child 1/1 (0,54)
+the child&#x27;s HiFi reads: T 105
+assembly pieces: C T, M T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="845.5" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,715,005 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele G
+the allele only the mother has: C
+short reads (C,G): father 1/1 (0,34) | mother 0/1 (19,13) | child 1/1 (0,50)
+the child&#x27;s HiFi reads: G 104
+assembly pieces: C G, M G
+the mother&#x27;s phase: G on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="846.8" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,715,415 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,32) | mother 0/1 (15,11) | child 1/1 (0,53)
+the child&#x27;s HiFi reads: A 101, G 1
+assembly pieces: C A, M A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="847.1" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,715,513 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,33) | mother 0/1 (15,11) | child 1/1 (0,51)
+the child&#x27;s HiFi reads: T 101
+assembly pieces: C T, M T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="847.1" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,715,514 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,34) | mother 0/1 (15,12) | child 1/1 (0,50)
+the child&#x27;s HiFi reads: G 101
+assembly pieces: C G, M G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="847.2" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,715,565 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,40) | mother 0/1 (17,15) | child 1/1 (0,57)
+the child&#x27;s HiFi reads: T 102
+assembly pieces: C T, M T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="847.6" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,715,686 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,40) | mother 0/1 (9,19) | child 1/1 (0,61)
+the child&#x27;s HiFi reads: G 103
+assembly pieces: C G, M G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="847.8" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,715,763 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,40) | mother 0/1 (15,19) | child 1/1 (0,59)
+the child&#x27;s HiFi reads: G 103
+assembly pieces: C G, M G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="849.1" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,716,195 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,45) | mother 0/1 (21,20) | child 1/1 (0,62)
+the child&#x27;s HiFi reads: A 105
+assembly pieces: C A, M A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="849.5" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,716,309 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: G
+short reads (G,A): father 1/1 (0,39) | mother 0/1 (19,15) | child 1/1 (0,66)
+the child&#x27;s HiFi reads: A 105
+assembly pieces: C A, M A
+the mother&#x27;s phase: A on her haplotype 1, G on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="849.7" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,716,370 - mother-only site (only the mother heterozygous)
+GRCh38 T; the other allele A
+the allele only the mother has: T
+short reads (T,A): father 1/1 (0,33) | mother 0/1 (20,21) | child 1/1 (0,54)
+the child&#x27;s HiFi reads: A 105
+assembly pieces: C A, M A
+the mother&#x27;s phase: A on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="850.0" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,716,488 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,30) | mother 0/1 (22,21) | child 1/1 (0,48)
+the child&#x27;s HiFi reads: T 106, C 1
+assembly pieces: C T, M T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="851.0" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,716,808 - mother-only site (only the mother heterozygous)
+GRCh38 A; the other allele G
+the allele only the mother has: A
+short reads (A,G): father 1/1 (0,23) | mother 0/1 (16,18) | child 1/1 (0,59)
+the child&#x27;s HiFi reads: G 105
+assembly pieces: C G, M G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="872.5" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,723,834 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: C
+short reads (C,T): father 1/1 (0,37) | mother 0/1 (23,20) | child 1/1 (0,53)
+the child&#x27;s HiFi reads: T 99, C 1
+assembly pieces: C T, M T
+the mother&#x27;s phase: T on her haplotype 1, C on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="873.2" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,724,054 - mother-only site (only the mother heterozygous)
+GRCh38 C; the other allele T
+the allele only the mother has: T
+short reads (C,T): father 0/0 (38,0) | mother 0/1 (21,21) | child 0/0 (60,0)
+the child&#x27;s HiFi reads: C 100
+assembly pieces: C C, M C
+the mother&#x27;s phase: C on her haplotype 1, T on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><rect x="894.2" y="35.0" width="2.4" height="18.0" class="h1"><title>chr2:47,730,934 - mother-only site (only the mother heterozygous)
+GRCh38 G; the other allele A
+the allele only the mother has: A
+short reads (G,A): father 0/0 (39,0) | mother 0/1 (21,11) | child 0/0 (72,0)
+the child&#x27;s HiFi reads: G 107
+assembly pieces: C G, M G
+the mother&#x27;s phase: G on her haplotype 1, A on 2
+the child&#x27;s two maternal copies: both her haplotype 1</title></rect><text x="189.5" y="134.0" class="t tm ts" text-anchor="middle">47.50</text><text x="342.3" y="134.0" class="t tm ts" text-anchor="middle">47.55</text><text x="495.2" y="134.0" class="t tm ts" text-anchor="middle">47.60</text><text x="648.0" y="134.0" class="t tm ts" text-anchor="middle">47.65</text><text x="800.8" y="134.0" class="t tm ts" text-anchor="middle">47.70</text><text x="953.7" y="134.0" class="t tm ts" text-anchor="middle">47.75</text><line x1="460.9" y1="28.0" x2="460.9" y2="120.0" class="lm" stroke-width="1" stroke-dasharray="3 3"/><line x1="465.7" y1="28.0" x2="465.7" y2="120.0" class="lm" stroke-width="1" stroke-dasharray="3 3"/><line x1="814.0" y1="28.0" x2="814.0" y2="120.0" class="lm" stroke-width="1" stroke-dasharray="3 3"/><line x1="842.4" y1="28.0" x2="842.4" y2="120.0" class="lm" stroke-width="1" stroke-dasharray="3 3"/><text x="160.0" y="158.0" class="t tb ts">the stretch&#x27;s left end: 58 HiFi reads across chr2:47,588,806-47,590,351</text><rect x="350.8" y="170.0" width="13.4" height="360.0" class="shade"><title>the end of the stretch: between chr2:47,588,806 and chr2:47,590,351</title></rect><text x="160.0" y="182.0" class="t ts tm">21 stay on her haplotype 2</text><line x1="160.0" y1="191.0" x2="406.3" y2="191.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,565,711-47,595,206
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 22222112222222222222222222</title></line><circle cx="164.2" cy="191.0" r="1.6" class="h2"/><circle cx="191.8" cy="191.0" r="1.6" class="h2"/><circle cx="195.5" cy="191.0" r="1.6" class="h2"/><circle cx="201.6" cy="191.0" r="1.6" class="h2"/><circle cx="207.1" cy="191.0" r="1.6" class="h2"/><circle cx="235.7" cy="191.0" r="1.6" class="h1"/><circle cx="246.7" cy="191.0" r="1.6" class="h1"/><circle cx="262.8" cy="191.0" r="1.6" class="h2"/><circle cx="264.9" cy="191.0" r="1.6" class="h2"/><circle cx="282.4" cy="191.0" r="1.6" class="h2"/><circle cx="293.2" cy="191.0" r="1.6" class="h2"/><circle cx="295.0" cy="191.0" r="1.6" class="h2"/><circle cx="296.9" cy="191.0" r="1.6" class="h2"/><circle cx="312.7" cy="191.0" r="1.6" class="h2"/><circle cx="312.8" cy="191.0" r="1.6" class="h2"/><circle cx="317.3" cy="191.0" r="1.6" class="h2"/><circle cx="335.1" cy="191.0" r="1.6" class="h2"/><circle cx="346.2" cy="191.0" r="1.6" class="h2"/><circle cx="347.3" cy="191.0" r="1.6" class="h2"/><circle cx="350.8" cy="191.0" r="1.6" class="h2"/><circle cx="364.2" cy="191.0" r="1.6" class="h2"/><circle cx="372.8" cy="191.0" r="1.6" class="h2"/><circle cx="372.8" cy="191.0" r="1.6" class="h2"/><circle cx="397.6" cy="191.0" r="1.6" class="h2"/><circle cx="401.4" cy="191.0" r="1.6" class="h2"/><circle cx="405.0" cy="191.0" r="1.6" class="h2"/><line x1="176.5" y1="196.0" x2="396.6" y2="196.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,568,713-47,594,086
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 2222112222222222222222</title></line><circle cx="191.8" cy="196.0" r="1.6" class="h2"/><circle cx="195.5" cy="196.0" r="1.6" class="h2"/><circle cx="201.6" cy="196.0" r="1.6" class="h2"/><circle cx="207.1" cy="196.0" r="1.6" class="h2"/><circle cx="235.7" cy="196.0" r="1.6" class="h1"/><circle cx="246.7" cy="196.0" r="1.6" class="h1"/><circle cx="262.8" cy="196.0" r="1.6" class="h2"/><circle cx="264.9" cy="196.0" r="1.6" class="h2"/><circle cx="282.4" cy="196.0" r="1.6" class="h2"/><circle cx="293.2" cy="196.0" r="1.6" class="h2"/><circle cx="295.0" cy="196.0" r="1.6" class="h2"/><circle cx="296.9" cy="196.0" r="1.6" class="h2"/><circle cx="312.7" cy="196.0" r="1.6" class="h2"/><circle cx="312.8" cy="196.0" r="1.6" class="h2"/><circle cx="317.3" cy="196.0" r="1.6" class="h2"/><circle cx="335.1" cy="196.0" r="1.6" class="h2"/><circle cx="346.2" cy="196.0" r="1.6" class="h2"/><circle cx="347.3" cy="196.0" r="1.6" class="h2"/><circle cx="350.8" cy="196.0" r="1.6" class="h2"/><circle cx="364.2" cy="196.0" r="1.6" class="h2"/><circle cx="372.8" cy="196.0" r="1.6" class="h2"/><circle cx="372.8" cy="196.0" r="1.6" class="h2"/><line x1="197.3" y1="201.0" x2="409.6" y2="201.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,571,108-47,595,584
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 22112222222222222222222</title></line><circle cx="201.6" cy="201.0" r="1.6" class="h2"/><circle cx="207.1" cy="201.0" r="1.6" class="h2"/><circle cx="235.7" cy="201.0" r="1.6" class="h1"/><circle cx="246.7" cy="201.0" r="1.6" class="h1"/><circle cx="262.8" cy="201.0" r="1.6" class="h2"/><circle cx="264.9" cy="201.0" r="1.6" class="h2"/><circle cx="282.4" cy="201.0" r="1.6" class="h2"/><circle cx="293.2" cy="201.0" r="1.6" class="h2"/><circle cx="295.0" cy="201.0" r="1.6" class="h2"/><circle cx="296.9" cy="201.0" r="1.6" class="h2"/><circle cx="312.7" cy="201.0" r="1.6" class="h2"/><circle cx="312.8" cy="201.0" r="1.6" class="h2"/><circle cx="317.3" cy="201.0" r="1.6" class="h2"/><circle cx="335.1" cy="201.0" r="1.6" class="h2"/><circle cx="346.2" cy="201.0" r="1.6" class="h2"/><circle cx="347.3" cy="201.0" r="1.6" class="h2"/><circle cx="350.8" cy="201.0" r="1.6" class="h2"/><circle cx="364.2" cy="201.0" r="1.6" class="h2"/><circle cx="372.8" cy="201.0" r="1.6" class="h2"/><circle cx="372.8" cy="201.0" r="1.6" class="h2"/><circle cx="397.6" cy="201.0" r="1.6" class="h2"/><circle cx="401.4" cy="201.0" r="1.6" class="h2"/><circle cx="405.0" cy="201.0" r="1.6" class="h2"/><line x1="224.7" y1="206.0" x2="393.3" y2="206.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,574,264-47,593,711
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 111111222221222122</title></line><circle cx="235.7" cy="206.0" r="1.6" class="h1"/><circle cx="246.7" cy="206.0" r="1.6" class="h1"/><circle cx="262.8" cy="206.0" r="1.6" class="h1"/><circle cx="264.9" cy="206.0" r="1.6" class="h1"/><circle cx="282.4" cy="206.0" r="1.6" class="h1"/><circle cx="293.2" cy="206.0" r="1.6" class="h1"/><circle cx="295.0" cy="206.0" r="1.6" class="h2"/><circle cx="296.9" cy="206.0" r="1.6" class="h2"/><circle cx="312.7" cy="206.0" r="1.6" class="h2"/><circle cx="312.8" cy="206.0" r="1.6" class="h2"/><circle cx="317.3" cy="206.0" r="1.6" class="h2"/><circle cx="335.1" cy="206.0" r="1.6" class="h1"/><circle cx="346.2" cy="206.0" r="1.6" class="h2"/><circle cx="347.3" cy="206.0" r="1.6" class="h2"/><circle cx="350.8" cy="206.0" r="1.6" class="h2"/><circle cx="364.2" cy="206.0" r="1.6" class="h1"/><circle cx="372.8" cy="206.0" r="1.6" class="h2"/><circle cx="372.8" cy="206.0" r="1.6" class="h2"/><line x1="225.8" y1="211.0" x2="404.2" y2="211.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,574,396-47,594,964
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 11222222222222222222</title></line><circle cx="235.7" cy="211.0" r="1.6" class="h1"/><circle cx="246.7" cy="211.0" r="1.6" class="h1"/><circle cx="262.8" cy="211.0" r="1.6" class="h2"/><circle cx="264.9" cy="211.0" r="1.6" class="h2"/><circle cx="282.4" cy="211.0" r="1.6" class="h2"/><circle cx="293.2" cy="211.0" r="1.6" class="h2"/><circle cx="295.0" cy="211.0" r="1.6" class="h2"/><circle cx="296.9" cy="211.0" r="1.6" class="h2"/><circle cx="312.7" cy="211.0" r="1.6" class="h2"/><circle cx="312.8" cy="211.0" r="1.6" class="h2"/><circle cx="317.3" cy="211.0" r="1.6" class="h2"/><circle cx="335.1" cy="211.0" r="1.6" class="h2"/><circle cx="346.2" cy="211.0" r="1.6" class="h2"/><circle cx="347.3" cy="211.0" r="1.6" class="h2"/><circle cx="350.8" cy="211.0" r="1.6" class="h2"/><circle cx="364.2" cy="211.0" r="1.6" class="h2"/><circle cx="372.8" cy="211.0" r="1.6" class="h2"/><circle cx="372.8" cy="211.0" r="1.6" class="h2"/><circle cx="397.6" cy="211.0" r="1.6" class="h2"/><circle cx="401.4" cy="211.0" r="1.6" class="h2"/><line x1="239.9" y1="216.0" x2="427.1" y2="216.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,576,021-47,597,599
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 122222222222222222222</title></line><circle cx="246.7" cy="216.0" r="1.6" class="h1"/><circle cx="262.8" cy="216.0" r="1.6" class="h2"/><circle cx="264.9" cy="216.0" r="1.6" class="h2"/><circle cx="282.4" cy="216.0" r="1.6" class="h2"/><circle cx="293.2" cy="216.0" r="1.6" class="h2"/><circle cx="295.0" cy="216.0" r="1.6" class="h2"/><circle cx="296.9" cy="216.0" r="1.6" class="h2"/><circle cx="312.7" cy="216.0" r="1.6" class="h2"/><circle cx="312.8" cy="216.0" r="1.6" class="h2"/><circle cx="317.3" cy="216.0" r="1.6" class="h2"/><circle cx="335.1" cy="216.0" r="1.6" class="h2"/><circle cx="346.2" cy="216.0" r="1.6" class="h2"/><circle cx="347.3" cy="216.0" r="1.6" class="h2"/><circle cx="350.8" cy="216.0" r="1.6" class="h2"/><circle cx="364.2" cy="216.0" r="1.6" class="h2"/><circle cx="372.8" cy="216.0" r="1.6" class="h2"/><circle cx="372.8" cy="216.0" r="1.6" class="h2"/><circle cx="397.6" cy="216.0" r="1.6" class="h2"/><circle cx="401.4" cy="216.0" r="1.6" class="h2"/><circle cx="405.0" cy="216.0" r="1.6" class="h2"/><circle cx="414.2" cy="216.0" r="1.6" class="h2"/><line x1="245.5" y1="221.0" x2="394.4" y2="221.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,576,664-47,593,832
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 12222222222222222</title></line><circle cx="246.7" cy="221.0" r="1.6" class="h1"/><circle cx="262.8" cy="221.0" r="1.6" class="h2"/><circle cx="264.9" cy="221.0" r="1.6" class="h2"/><circle cx="282.4" cy="221.0" r="1.6" class="h2"/><circle cx="293.2" cy="221.0" r="1.6" class="h2"/><circle cx="295.0" cy="221.0" r="1.6" class="h2"/><circle cx="296.9" cy="221.0" r="1.6" class="h2"/><circle cx="312.7" cy="221.0" r="1.6" class="h2"/><circle cx="312.8" cy="221.0" r="1.6" class="h2"/><circle cx="317.3" cy="221.0" r="1.6" class="h2"/><circle cx="335.1" cy="221.0" r="1.6" class="h2"/><circle cx="346.2" cy="221.0" r="1.6" class="h2"/><circle cx="347.3" cy="221.0" r="1.6" class="h2"/><circle cx="350.8" cy="221.0" r="1.6" class="h2"/><circle cx="364.2" cy="221.0" r="1.6" class="h2"/><circle cx="372.8" cy="221.0" r="1.6" class="h2"/><circle cx="372.8" cy="221.0" r="1.6" class="h2"/><line x1="246.0" y1="226.0" x2="393.9" y2="226.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,576,717-47,593,774
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 11111222221222122</title></line><circle cx="246.7" cy="226.0" r="1.6" class="h1"/><circle cx="262.8" cy="226.0" r="1.6" class="h1"/><circle cx="264.9" cy="226.0" r="1.6" class="h1"/><circle cx="282.4" cy="226.0" r="1.6" class="h1"/><circle cx="293.2" cy="226.0" r="1.6" class="h1"/><circle cx="295.0" cy="226.0" r="1.6" class="h2"/><circle cx="296.9" cy="226.0" r="1.6" class="h2"/><circle cx="312.7" cy="226.0" r="1.6" class="h2"/><circle cx="312.8" cy="226.0" r="1.6" class="h2"/><circle cx="317.3" cy="226.0" r="1.6" class="h2"/><circle cx="335.1" cy="226.0" r="1.6" class="h1"/><circle cx="346.2" cy="226.0" r="1.6" class="h2"/><circle cx="347.3" cy="226.0" r="1.6" class="h2"/><circle cx="350.8" cy="226.0" r="1.6" class="h2"/><circle cx="364.2" cy="226.0" r="1.6" class="h1"/><circle cx="372.8" cy="226.0" r="1.6" class="h2"/><circle cx="372.8" cy="226.0" r="1.6" class="h2"/><line x1="253.9" y1="231.0" x2="406.3" y2="231.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,577,637-47,595,204
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 2222222222222222222</title></line><circle cx="262.8" cy="231.0" r="1.6" class="h2"/><circle cx="264.9" cy="231.0" r="1.6" class="h2"/><circle cx="282.4" cy="231.0" r="1.6" class="h2"/><circle cx="293.2" cy="231.0" r="1.6" class="h2"/><circle cx="295.0" cy="231.0" r="1.6" class="h2"/><circle cx="296.9" cy="231.0" r="1.6" class="h2"/><circle cx="312.7" cy="231.0" r="1.6" class="h2"/><circle cx="312.8" cy="231.0" r="1.6" class="h2"/><circle cx="317.3" cy="231.0" r="1.6" class="h2"/><circle cx="335.1" cy="231.0" r="1.6" class="h2"/><circle cx="346.2" cy="231.0" r="1.6" class="h2"/><circle cx="347.3" cy="231.0" r="1.6" class="h2"/><circle cx="350.8" cy="231.0" r="1.6" class="h2"/><circle cx="364.2" cy="231.0" r="1.6" class="h2"/><circle cx="372.8" cy="231.0" r="1.6" class="h2"/><circle cx="372.8" cy="231.0" r="1.6" class="h2"/><circle cx="397.6" cy="231.0" r="1.6" class="h2"/><circle cx="401.4" cy="231.0" r="1.6" class="h2"/><circle cx="405.0" cy="231.0" r="1.6" class="h2"/><line x1="257.9" y1="236.0" x2="405.0" y2="236.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,578,089-47,595,052
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 222222222222222222</title></line><circle cx="262.8" cy="236.0" r="1.6" class="h2"/><circle cx="264.9" cy="236.0" r="1.6" class="h2"/><circle cx="282.4" cy="236.0" r="1.6" class="h2"/><circle cx="293.2" cy="236.0" r="1.6" class="h2"/><circle cx="295.0" cy="236.0" r="1.6" class="h2"/><circle cx="296.9" cy="236.0" r="1.6" class="h2"/><circle cx="312.7" cy="236.0" r="1.6" class="h2"/><circle cx="312.8" cy="236.0" r="1.6" class="h2"/><circle cx="317.3" cy="236.0" r="1.6" class="h2"/><circle cx="335.1" cy="236.0" r="1.6" class="h2"/><circle cx="346.2" cy="236.0" r="1.6" class="h2"/><circle cx="347.3" cy="236.0" r="1.6" class="h2"/><circle cx="350.8" cy="236.0" r="1.6" class="h2"/><circle cx="364.2" cy="236.0" r="1.6" class="h2"/><circle cx="372.8" cy="236.0" r="1.6" class="h2"/><circle cx="372.8" cy="236.0" r="1.6" class="h2"/><circle cx="397.6" cy="236.0" r="1.6" class="h2"/><circle cx="401.4" cy="236.0" r="1.6" class="h2"/><line x1="274.6" y1="241.0" x2="458.0" y2="241.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,580,020-47,601,164
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 2222222222222222222222222222</title></line><circle cx="282.4" cy="241.0" r="1.6" class="h2"/><circle cx="293.2" cy="241.0" r="1.6" class="h2"/><circle cx="295.0" cy="241.0" r="1.6" class="h2"/><circle cx="296.9" cy="241.0" r="1.6" class="h2"/><circle cx="312.7" cy="241.0" r="1.6" class="h2"/><circle cx="312.8" cy="241.0" r="1.6" class="h2"/><circle cx="317.3" cy="241.0" r="1.6" class="h2"/><circle cx="335.1" cy="241.0" r="1.6" class="h2"/><circle cx="346.2" cy="241.0" r="1.6" class="h2"/><circle cx="347.3" cy="241.0" r="1.6" class="h2"/><circle cx="350.8" cy="241.0" r="1.6" class="h2"/><circle cx="364.2" cy="241.0" r="1.6" class="h2"/><circle cx="372.8" cy="241.0" r="1.6" class="h2"/><circle cx="372.8" cy="241.0" r="1.6" class="h2"/><circle cx="397.6" cy="241.0" r="1.6" class="h2"/><circle cx="401.4" cy="241.0" r="1.6" class="h2"/><circle cx="405.0" cy="241.0" r="1.6" class="h2"/><circle cx="414.2" cy="241.0" r="1.6" class="h2"/><circle cx="428.9" cy="241.0" r="1.6" class="h2"/><circle cx="433.4" cy="241.0" r="1.6" class="h2"/><circle cx="438.1" cy="241.0" r="1.6" class="h2"/><circle cx="439.2" cy="241.0" r="1.6" class="h2"/><circle cx="439.9" cy="241.0" r="1.6" class="h2"/><circle cx="441.4" cy="241.0" r="1.6" class="h2"/><circle cx="441.8" cy="241.0" r="1.6" class="h2"/><circle cx="443.9" cy="241.0" r="1.6" class="h2"/><circle cx="445.2" cy="241.0" r="1.6" class="h2"/><circle cx="455.5" cy="241.0" r="1.6" class="h2"/><line x1="280.1" y1="246.0" x2="427.6" y2="246.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,580,655-47,597,665
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 222222222222222222</title></line><circle cx="282.4" cy="246.0" r="1.6" class="h2"/><circle cx="293.2" cy="246.0" r="1.6" class="h2"/><circle cx="295.0" cy="246.0" r="1.6" class="h2"/><circle cx="296.9" cy="246.0" r="1.6" class="h2"/><circle cx="312.7" cy="246.0" r="1.6" class="h2"/><circle cx="312.8" cy="246.0" r="1.6" class="h2"/><circle cx="317.3" cy="246.0" r="1.6" class="h2"/><circle cx="335.1" cy="246.0" r="1.6" class="h2"/><circle cx="346.2" cy="246.0" r="1.6" class="h2"/><circle cx="347.3" cy="246.0" r="1.6" class="h2"/><circle cx="350.8" cy="246.0" r="1.6" class="h2"/><circle cx="364.2" cy="246.0" r="1.6" class="h2"/><circle cx="372.8" cy="246.0" r="1.6" class="h2"/><circle cx="372.8" cy="246.0" r="1.6" class="h2"/><circle cx="397.6" cy="246.0" r="1.6" class="h2"/><circle cx="401.4" cy="246.0" r="1.6" class="h2"/><circle cx="405.0" cy="246.0" r="1.6" class="h2"/><circle cx="414.2" cy="246.0" r="1.6" class="h2"/><line x1="281.2" y1="251.0" x2="422.1" y2="251.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,580,779-47,597,032
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 222222222222222222</title></line><circle cx="282.4" cy="251.0" r="1.6" class="h2"/><circle cx="293.2" cy="251.0" r="1.6" class="h2"/><circle cx="295.0" cy="251.0" r="1.6" class="h2"/><circle cx="296.9" cy="251.0" r="1.6" class="h2"/><circle cx="312.7" cy="251.0" r="1.6" class="h2"/><circle cx="312.8" cy="251.0" r="1.6" class="h2"/><circle cx="317.3" cy="251.0" r="1.6" class="h2"/><circle cx="335.1" cy="251.0" r="1.6" class="h2"/><circle cx="346.2" cy="251.0" r="1.6" class="h2"/><circle cx="347.3" cy="251.0" r="1.6" class="h2"/><circle cx="350.8" cy="251.0" r="1.6" class="h2"/><circle cx="364.2" cy="251.0" r="1.6" class="h2"/><circle cx="372.8" cy="251.0" r="1.6" class="h2"/><circle cx="372.8" cy="251.0" r="1.6" class="h2"/><circle cx="397.6" cy="251.0" r="1.6" class="h2"/><circle cx="401.4" cy="251.0" r="1.6" class="h2"/><circle cx="405.0" cy="251.0" r="1.6" class="h2"/><circle cx="414.2" cy="251.0" r="1.6" class="h2"/><line x1="281.4" y1="256.0" x2="451.7" y2="256.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,580,803-47,600,442
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 222222222222222222222222222</title></line><circle cx="282.4" cy="256.0" r="1.6" class="h2"/><circle cx="293.2" cy="256.0" r="1.6" class="h2"/><circle cx="295.0" cy="256.0" r="1.6" class="h2"/><circle cx="296.9" cy="256.0" r="1.6" class="h2"/><circle cx="312.7" cy="256.0" r="1.6" class="h2"/><circle cx="312.8" cy="256.0" r="1.6" class="h2"/><circle cx="317.3" cy="256.0" r="1.6" class="h2"/><circle cx="335.1" cy="256.0" r="1.6" class="h2"/><circle cx="346.2" cy="256.0" r="1.6" class="h2"/><circle cx="347.3" cy="256.0" r="1.6" class="h2"/><circle cx="350.8" cy="256.0" r="1.6" class="h2"/><circle cx="364.2" cy="256.0" r="1.6" class="h2"/><circle cx="372.8" cy="256.0" r="1.6" class="h2"/><circle cx="372.8" cy="256.0" r="1.6" class="h2"/><circle cx="397.6" cy="256.0" r="1.6" class="h2"/><circle cx="401.4" cy="256.0" r="1.6" class="h2"/><circle cx="405.0" cy="256.0" r="1.6" class="h2"/><circle cx="414.2" cy="256.0" r="1.6" class="h2"/><circle cx="428.9" cy="256.0" r="1.6" class="h2"/><circle cx="433.4" cy="256.0" r="1.6" class="h2"/><circle cx="438.1" cy="256.0" r="1.6" class="h2"/><circle cx="439.2" cy="256.0" r="1.6" class="h2"/><circle cx="439.9" cy="256.0" r="1.6" class="h2"/><circle cx="441.4" cy="256.0" r="1.6" class="h2"/><circle cx="441.8" cy="256.0" r="1.6" class="h2"/><circle cx="443.9" cy="256.0" r="1.6" class="h2"/><circle cx="445.2" cy="256.0" r="1.6" class="h2"/><line x1="283.6" y1="261.0" x2="511.0" y2="261.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,581,062-47,607,280
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 22222222222222222222222222222222222222</title></line><circle cx="293.2" cy="261.0" r="1.6" class="h2"/><circle cx="295.0" cy="261.0" r="1.6" class="h2"/><circle cx="296.9" cy="261.0" r="1.6" class="h2"/><circle cx="312.7" cy="261.0" r="1.6" class="h2"/><circle cx="312.8" cy="261.0" r="1.6" class="h2"/><circle cx="317.3" cy="261.0" r="1.6" class="h2"/><circle cx="335.1" cy="261.0" r="1.6" class="h2"/><circle cx="346.2" cy="261.0" r="1.6" class="h2"/><circle cx="347.3" cy="261.0" r="1.6" class="h2"/><circle cx="350.8" cy="261.0" r="1.6" class="h2"/><circle cx="364.2" cy="261.0" r="1.6" class="h2"/><circle cx="372.8" cy="261.0" r="1.6" class="h2"/><circle cx="372.8" cy="261.0" r="1.6" class="h2"/><circle cx="397.6" cy="261.0" r="1.6" class="h2"/><circle cx="401.4" cy="261.0" r="1.6" class="h2"/><circle cx="405.0" cy="261.0" r="1.6" class="h2"/><circle cx="414.2" cy="261.0" r="1.6" class="h2"/><circle cx="428.9" cy="261.0" r="1.6" class="h2"/><circle cx="433.4" cy="261.0" r="1.6" class="h2"/><circle cx="438.1" cy="261.0" r="1.6" class="h2"/><circle cx="439.2" cy="261.0" r="1.6" class="h2"/><circle cx="439.9" cy="261.0" r="1.6" class="h2"/><circle cx="441.4" cy="261.0" r="1.6" class="h2"/><circle cx="441.8" cy="261.0" r="1.6" class="h2"/><circle cx="443.9" cy="261.0" r="1.6" class="h2"/><circle cx="445.2" cy="261.0" r="1.6" class="h2"/><circle cx="455.5" cy="261.0" r="1.6" class="h2"/><circle cx="458.7" cy="261.0" r="1.6" class="h2"/><circle cx="466.0" cy="261.0" r="1.6" class="h2"/><circle cx="478.7" cy="261.0" r="1.6" class="h2"/><circle cx="484.0" cy="261.0" r="1.6" class="h2"/><circle cx="488.2" cy="261.0" r="1.6" class="h2"/><circle cx="495.3" cy="261.0" r="1.6" class="h2"/><circle cx="497.1" cy="261.0" r="1.6" class="h2"/><circle cx="500.7" cy="261.0" r="1.6" class="h2"/><circle cx="506.7" cy="261.0" r="1.6" class="h2"/><circle cx="508.1" cy="261.0" r="1.6" class="h2"/><circle cx="510.1" cy="261.0" r="1.6" class="h2"/><line x1="293.9" y1="266.0" x2="487.5" y2="266.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,582,241-47,604,571
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 22222222222222222222222222222</title></line><circle cx="295.0" cy="266.0" r="1.6" class="h2"/><circle cx="296.9" cy="266.0" r="1.6" class="h2"/><circle cx="312.7" cy="266.0" r="1.6" class="h2"/><circle cx="312.8" cy="266.0" r="1.6" class="h2"/><circle cx="335.1" cy="266.0" r="1.6" class="h2"/><circle cx="346.2" cy="266.0" r="1.6" class="h2"/><circle cx="347.3" cy="266.0" r="1.6" class="h2"/><circle cx="350.8" cy="266.0" r="1.6" class="h2"/><circle cx="364.2" cy="266.0" r="1.6" class="h2"/><circle cx="372.8" cy="266.0" r="1.6" class="h2"/><circle cx="372.8" cy="266.0" r="1.6" class="h2"/><circle cx="397.6" cy="266.0" r="1.6" class="h2"/><circle cx="401.4" cy="266.0" r="1.6" class="h2"/><circle cx="405.0" cy="266.0" r="1.6" class="h2"/><circle cx="414.2" cy="266.0" r="1.6" class="h2"/><circle cx="428.9" cy="266.0" r="1.6" class="h2"/><circle cx="433.4" cy="266.0" r="1.6" class="h2"/><circle cx="438.1" cy="266.0" r="1.6" class="h2"/><circle cx="439.2" cy="266.0" r="1.6" class="h2"/><circle cx="439.9" cy="266.0" r="1.6" class="h2"/><circle cx="441.4" cy="266.0" r="1.6" class="h2"/><circle cx="441.8" cy="266.0" r="1.6" class="h2"/><circle cx="443.9" cy="266.0" r="1.6" class="h2"/><circle cx="445.2" cy="266.0" r="1.6" class="h2"/><circle cx="455.5" cy="266.0" r="1.6" class="h2"/><circle cx="458.7" cy="266.0" r="1.6" class="h2"/><circle cx="466.0" cy="266.0" r="1.6" class="h2"/><circle cx="478.7" cy="266.0" r="1.6" class="h2"/><circle cx="484.0" cy="266.0" r="1.6" class="h2"/><line x1="297.7" y1="271.0" x2="475.8" y2="271.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,582,678-47,603,216
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 22222222222222222222222222</title></line><circle cx="312.7" cy="271.0" r="1.6" class="h2"/><circle cx="312.8" cy="271.0" r="1.6" class="h2"/><circle cx="317.3" cy="271.0" r="1.6" class="h2"/><circle cx="335.1" cy="271.0" r="1.6" class="h2"/><circle cx="346.2" cy="271.0" r="1.6" class="h2"/><circle cx="347.3" cy="271.0" r="1.6" class="h2"/><circle cx="350.8" cy="271.0" r="1.6" class="h2"/><circle cx="364.2" cy="271.0" r="1.6" class="h2"/><circle cx="372.8" cy="271.0" r="1.6" class="h2"/><circle cx="372.8" cy="271.0" r="1.6" class="h2"/><circle cx="397.6" cy="271.0" r="1.6" class="h2"/><circle cx="401.4" cy="271.0" r="1.6" class="h2"/><circle cx="405.0" cy="271.0" r="1.6" class="h2"/><circle cx="414.2" cy="271.0" r="1.6" class="h2"/><circle cx="428.9" cy="271.0" r="1.6" class="h2"/><circle cx="433.4" cy="271.0" r="1.6" class="h2"/><circle cx="438.1" cy="271.0" r="1.6" class="h2"/><circle cx="439.2" cy="271.0" r="1.6" class="h2"/><circle cx="439.9" cy="271.0" r="1.6" class="h2"/><circle cx="441.4" cy="271.0" r="1.6" class="h2"/><circle cx="441.8" cy="271.0" r="1.6" class="h2"/><circle cx="443.9" cy="271.0" r="1.6" class="h2"/><circle cx="445.2" cy="271.0" r="1.6" class="h2"/><circle cx="455.5" cy="271.0" r="1.6" class="h2"/><circle cx="458.7" cy="271.0" r="1.6" class="h2"/><circle cx="466.0" cy="271.0" r="1.6" class="h2"/><line x1="301.5" y1="276.0" x2="453.3" y2="276.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,583,117-47,600,628
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 22222222222222222222222</title></line><circle cx="312.7" cy="276.0" r="1.6" class="h2"/><circle cx="312.8" cy="276.0" r="1.6" class="h2"/><circle cx="317.3" cy="276.0" r="1.6" class="h2"/><circle cx="335.1" cy="276.0" r="1.6" class="h2"/><circle cx="346.2" cy="276.0" r="1.6" class="h2"/><circle cx="347.3" cy="276.0" r="1.6" class="h2"/><circle cx="350.8" cy="276.0" r="1.6" class="h2"/><circle cx="364.2" cy="276.0" r="1.6" class="h2"/><circle cx="372.8" cy="276.0" r="1.6" class="h2"/><circle cx="372.8" cy="276.0" r="1.6" class="h2"/><circle cx="397.6" cy="276.0" r="1.6" class="h2"/><circle cx="401.4" cy="276.0" r="1.6" class="h2"/><circle cx="405.0" cy="276.0" r="1.6" class="h2"/><circle cx="414.2" cy="276.0" r="1.6" class="h2"/><circle cx="428.9" cy="276.0" r="1.6" class="h2"/><circle cx="433.4" cy="276.0" r="1.6" class="h2"/><circle cx="438.1" cy="276.0" r="1.6" class="h2"/><circle cx="439.2" cy="276.0" r="1.6" class="h2"/><circle cx="439.9" cy="276.0" r="1.6" class="h2"/><circle cx="441.4" cy="276.0" r="1.6" class="h2"/><circle cx="441.8" cy="276.0" r="1.6" class="h2"/><circle cx="443.9" cy="276.0" r="1.6" class="h2"/><circle cx="445.2" cy="276.0" r="1.6" class="h2"/><line x1="306.5" y1="281.0" x2="494.0" y2="281.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,583,693-47,605,317
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 22222222222222222222222222222</title></line><circle cx="312.7" cy="281.0" r="1.6" class="h2"/><circle cx="312.8" cy="281.0" r="1.6" class="h2"/><circle cx="317.3" cy="281.0" r="1.6" class="h2"/><circle cx="335.1" cy="281.0" r="1.6" class="h2"/><circle cx="346.2" cy="281.0" r="1.6" class="h2"/><circle cx="347.3" cy="281.0" r="1.6" class="h2"/><circle cx="350.8" cy="281.0" r="1.6" class="h2"/><circle cx="364.2" cy="281.0" r="1.6" class="h2"/><circle cx="372.8" cy="281.0" r="1.6" class="h2"/><circle cx="372.8" cy="281.0" r="1.6" class="h2"/><circle cx="397.6" cy="281.0" r="1.6" class="h2"/><circle cx="401.4" cy="281.0" r="1.6" class="h2"/><circle cx="405.0" cy="281.0" r="1.6" class="h2"/><circle cx="414.2" cy="281.0" r="1.6" class="h2"/><circle cx="428.9" cy="281.0" r="1.6" class="h2"/><circle cx="433.4" cy="281.0" r="1.6" class="h2"/><circle cx="438.1" cy="281.0" r="1.6" class="h2"/><circle cx="439.2" cy="281.0" r="1.6" class="h2"/><circle cx="439.9" cy="281.0" r="1.6" class="h2"/><circle cx="441.4" cy="281.0" r="1.6" class="h2"/><circle cx="441.8" cy="281.0" r="1.6" class="h2"/><circle cx="443.9" cy="281.0" r="1.6" class="h2"/><circle cx="445.2" cy="281.0" r="1.6" class="h2"/><circle cx="455.5" cy="281.0" r="1.6" class="h2"/><circle cx="458.7" cy="281.0" r="1.6" class="h2"/><circle cx="466.0" cy="281.0" r="1.6" class="h2"/><circle cx="478.7" cy="281.0" r="1.6" class="h2"/><circle cx="484.0" cy="281.0" r="1.6" class="h2"/><circle cx="488.2" cy="281.0" r="1.6" class="h2"/><line x1="311.1" y1="286.0" x2="465.2" y2="286.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,584,230-47,602,002
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 2222222222222222222222222</title></line><circle cx="312.7" cy="286.0" r="1.6" class="h2"/><circle cx="312.8" cy="286.0" r="1.6" class="h2"/><circle cx="317.3" cy="286.0" r="1.6" class="h2"/><circle cx="335.1" cy="286.0" r="1.6" class="h2"/><circle cx="346.2" cy="286.0" r="1.6" class="h2"/><circle cx="347.3" cy="286.0" r="1.6" class="h2"/><circle cx="350.8" cy="286.0" r="1.6" class="h2"/><circle cx="364.2" cy="286.0" r="1.6" class="h2"/><circle cx="372.8" cy="286.0" r="1.6" class="h2"/><circle cx="372.8" cy="286.0" r="1.6" class="h2"/><circle cx="397.6" cy="286.0" r="1.6" class="h2"/><circle cx="401.4" cy="286.0" r="1.6" class="h2"/><circle cx="405.0" cy="286.0" r="1.6" class="h2"/><circle cx="414.2" cy="286.0" r="1.6" class="h2"/><circle cx="428.9" cy="286.0" r="1.6" class="h2"/><circle cx="433.4" cy="286.0" r="1.6" class="h2"/><circle cx="438.1" cy="286.0" r="1.6" class="h2"/><circle cx="439.2" cy="286.0" r="1.6" class="h2"/><circle cx="439.9" cy="286.0" r="1.6" class="h2"/><circle cx="441.4" cy="286.0" r="1.6" class="h2"/><circle cx="441.8" cy="286.0" r="1.6" class="h2"/><circle cx="443.9" cy="286.0" r="1.6" class="h2"/><circle cx="445.2" cy="286.0" r="1.6" class="h2"/><circle cx="455.5" cy="286.0" r="1.6" class="h2"/><circle cx="458.7" cy="286.0" r="1.6" class="h2"/><line x1="312.5" y1="291.0" x2="475.7" y2="291.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,584,393-47,603,208
+her haplotype 2 before the end, 2 after
+its haplotype at each of her phased sites here: 22222222222222222222222222</title></line><circle cx="312.7" cy="291.0" r="1.6" class="h2"/><circle cx="312.8" cy="291.0" r="1.6" class="h2"/><circle cx="317.3" cy="291.0" r="1.6" class="h2"/><circle cx="335.1" cy="291.0" r="1.6" class="h2"/><circle cx="346.2" cy="291.0" r="1.6" class="h2"/><circle cx="347.3" cy="291.0" r="1.6" class="h2"/><circle cx="350.8" cy="291.0" r="1.6" class="h2"/><circle cx="364.2" cy="291.0" r="1.6" class="h2"/><circle cx="372.8" cy="291.0" r="1.6" class="h2"/><circle cx="372.8" cy="291.0" r="1.6" class="h2"/><circle cx="397.6" cy="291.0" r="1.6" class="h2"/><circle cx="401.4" cy="291.0" r="1.6" class="h2"/><circle cx="405.0" cy="291.0" r="1.6" class="h2"/><circle cx="414.2" cy="291.0" r="1.6" class="h2"/><circle cx="428.9" cy="291.0" r="1.6" class="h2"/><circle cx="433.4" cy="291.0" r="1.6" class="h2"/><circle cx="438.1" cy="291.0" r="1.6" class="h2"/><circle cx="439.2" cy="291.0" r="1.6" class="h2"/><circle cx="439.9" cy="291.0" r="1.6" class="h2"/><circle cx="441.4" cy="291.0" r="1.6" class="h2"/><circle cx="441.8" cy="291.0" r="1.6" class="h2"/><circle cx="443.9" cy="291.0" r="1.6" class="h2"/><circle cx="445.2" cy="291.0" r="1.6" class="h2"/><circle cx="455.5" cy="291.0" r="1.6" class="h2"/><circle cx="458.7" cy="291.0" r="1.6" class="h2"/><circle cx="466.0" cy="291.0" r="1.6" class="h2"/><text x="160.0" y="303.0" class="t ts tm">21 go from her haplotype 2 to 1</text><line x1="232.7" y1="312.0" x2="418.6" y2="312.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,575,191-47,596,623
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 1111112222212221221111</title></line><circle cx="235.7" cy="312.0" r="1.6" class="h1"/><circle cx="246.7" cy="312.0" r="1.6" class="h1"/><circle cx="262.8" cy="312.0" r="1.6" class="h1"/><circle cx="264.9" cy="312.0" r="1.6" class="h1"/><circle cx="282.4" cy="312.0" r="1.6" class="h1"/><circle cx="293.2" cy="312.0" r="1.6" class="h1"/><circle cx="295.0" cy="312.0" r="1.6" class="h2"/><circle cx="296.9" cy="312.0" r="1.6" class="h2"/><circle cx="312.7" cy="312.0" r="1.6" class="h2"/><circle cx="312.8" cy="312.0" r="1.6" class="h2"/><circle cx="317.3" cy="312.0" r="1.6" class="h2"/><circle cx="335.1" cy="312.0" r="1.6" class="h1"/><circle cx="346.2" cy="312.0" r="1.6" class="h2"/><circle cx="347.3" cy="312.0" r="1.6" class="h2"/><circle cx="350.8" cy="312.0" r="1.6" class="h2"/><circle cx="364.2" cy="312.0" r="1.6" class="h1"/><circle cx="372.8" cy="312.0" r="1.6" class="h2"/><circle cx="372.8" cy="312.0" r="1.6" class="h2"/><circle cx="397.6" cy="312.0" r="1.6" class="h1"/><circle cx="401.4" cy="312.0" r="1.6" class="h1"/><circle cx="405.0" cy="312.0" r="1.6" class="h1"/><circle cx="414.2" cy="312.0" r="1.6" class="h1"/><line x1="237.0" y1="317.0" x2="478.8" y2="317.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,575,685-47,603,562
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 1111122222122212211111111111111111</title></line><circle cx="246.7" cy="317.0" r="1.6" class="h1"/><circle cx="262.8" cy="317.0" r="1.6" class="h1"/><circle cx="264.9" cy="317.0" r="1.6" class="h1"/><circle cx="282.4" cy="317.0" r="1.6" class="h1"/><circle cx="293.2" cy="317.0" r="1.6" class="h1"/><circle cx="295.0" cy="317.0" r="1.6" class="h2"/><circle cx="296.9" cy="317.0" r="1.6" class="h2"/><circle cx="312.7" cy="317.0" r="1.6" class="h2"/><circle cx="312.8" cy="317.0" r="1.6" class="h2"/><circle cx="317.3" cy="317.0" r="1.6" class="h2"/><circle cx="335.1" cy="317.0" r="1.6" class="h1"/><circle cx="346.2" cy="317.0" r="1.6" class="h2"/><circle cx="347.3" cy="317.0" r="1.6" class="h2"/><circle cx="350.8" cy="317.0" r="1.6" class="h2"/><circle cx="364.2" cy="317.0" r="1.6" class="h1"/><circle cx="372.8" cy="317.0" r="1.6" class="h2"/><circle cx="372.8" cy="317.0" r="1.6" class="h2"/><circle cx="397.6" cy="317.0" r="1.6" class="h1"/><circle cx="401.4" cy="317.0" r="1.6" class="h1"/><circle cx="405.0" cy="317.0" r="1.6" class="h1"/><circle cx="414.2" cy="317.0" r="1.6" class="h1"/><circle cx="428.9" cy="317.0" r="1.6" class="h1"/><circle cx="433.4" cy="317.0" r="1.6" class="h1"/><circle cx="438.1" cy="317.0" r="1.6" class="h1"/><circle cx="439.2" cy="317.0" r="1.6" class="h1"/><circle cx="439.9" cy="317.0" r="1.6" class="h1"/><circle cx="441.4" cy="317.0" r="1.6" class="h1"/><circle cx="441.8" cy="317.0" r="1.6" class="h1"/><circle cx="443.9" cy="317.0" r="1.6" class="h1"/><circle cx="445.2" cy="317.0" r="1.6" class="h1"/><circle cx="455.5" cy="317.0" r="1.6" class="h1"/><circle cx="458.7" cy="317.0" r="1.6" class="h1"/><circle cx="466.0" cy="317.0" r="1.6" class="h1"/><circle cx="478.7" cy="317.0" r="1.6" class="h1"/><line x1="241.6" y1="322.0" x2="426.9" y2="322.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,576,214-47,597,575
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 111112222212221221111</title></line><circle cx="246.7" cy="322.0" r="1.6" class="h1"/><circle cx="262.8" cy="322.0" r="1.6" class="h1"/><circle cx="264.9" cy="322.0" r="1.6" class="h1"/><circle cx="282.4" cy="322.0" r="1.6" class="h1"/><circle cx="293.2" cy="322.0" r="1.6" class="h1"/><circle cx="295.0" cy="322.0" r="1.6" class="h2"/><circle cx="296.9" cy="322.0" r="1.6" class="h2"/><circle cx="312.7" cy="322.0" r="1.6" class="h2"/><circle cx="312.8" cy="322.0" r="1.6" class="h2"/><circle cx="317.3" cy="322.0" r="1.6" class="h2"/><circle cx="335.1" cy="322.0" r="1.6" class="h1"/><circle cx="346.2" cy="322.0" r="1.6" class="h2"/><circle cx="347.3" cy="322.0" r="1.6" class="h2"/><circle cx="350.8" cy="322.0" r="1.6" class="h2"/><circle cx="364.2" cy="322.0" r="1.6" class="h1"/><circle cx="372.8" cy="322.0" r="1.6" class="h2"/><circle cx="372.8" cy="322.0" r="1.6" class="h2"/><circle cx="397.6" cy="322.0" r="1.6" class="h1"/><circle cx="401.4" cy="322.0" r="1.6" class="h1"/><circle cx="405.0" cy="322.0" r="1.6" class="h1"/><circle cx="414.2" cy="322.0" r="1.6" class="h1"/><line x1="244.9" y1="327.0" x2="423.1" y2="327.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,576,598-47,597,142
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 111112222212221221111</title></line><circle cx="246.7" cy="327.0" r="1.6" class="h1"/><circle cx="262.8" cy="327.0" r="1.6" class="h1"/><circle cx="264.9" cy="327.0" r="1.6" class="h1"/><circle cx="282.4" cy="327.0" r="1.6" class="h1"/><circle cx="293.2" cy="327.0" r="1.6" class="h1"/><circle cx="295.0" cy="327.0" r="1.6" class="h2"/><circle cx="296.9" cy="327.0" r="1.6" class="h2"/><circle cx="312.7" cy="327.0" r="1.6" class="h2"/><circle cx="312.8" cy="327.0" r="1.6" class="h2"/><circle cx="317.3" cy="327.0" r="1.6" class="h2"/><circle cx="335.1" cy="327.0" r="1.6" class="h1"/><circle cx="346.2" cy="327.0" r="1.6" class="h2"/><circle cx="347.3" cy="327.0" r="1.6" class="h2"/><circle cx="350.8" cy="327.0" r="1.6" class="h2"/><circle cx="364.2" cy="327.0" r="1.6" class="h1"/><circle cx="372.8" cy="327.0" r="1.6" class="h2"/><circle cx="372.8" cy="327.0" r="1.6" class="h2"/><circle cx="397.6" cy="327.0" r="1.6" class="h1"/><circle cx="401.4" cy="327.0" r="1.6" class="h1"/><circle cx="405.0" cy="327.0" r="1.6" class="h1"/><circle cx="414.2" cy="327.0" r="1.6" class="h1"/><line x1="249.4" y1="332.0" x2="399.9" y2="332.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,577,110-47,594,464
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 11112222212221221</title></line><circle cx="262.8" cy="332.0" r="1.6" class="h1"/><circle cx="264.9" cy="332.0" r="1.6" class="h1"/><circle cx="282.4" cy="332.0" r="1.6" class="h1"/><circle cx="293.2" cy="332.0" r="1.6" class="h1"/><circle cx="295.0" cy="332.0" r="1.6" class="h2"/><circle cx="296.9" cy="332.0" r="1.6" class="h2"/><circle cx="312.7" cy="332.0" r="1.6" class="h2"/><circle cx="312.8" cy="332.0" r="1.6" class="h2"/><circle cx="317.3" cy="332.0" r="1.6" class="h2"/><circle cx="335.1" cy="332.0" r="1.6" class="h1"/><circle cx="346.2" cy="332.0" r="1.6" class="h2"/><circle cx="347.3" cy="332.0" r="1.6" class="h2"/><circle cx="350.8" cy="332.0" r="1.6" class="h2"/><circle cx="364.2" cy="332.0" r="1.6" class="h1"/><circle cx="372.8" cy="332.0" r="1.6" class="h2"/><circle cx="372.8" cy="332.0" r="1.6" class="h2"/><circle cx="397.6" cy="332.0" r="1.6" class="h1"/><line x1="249.7" y1="337.0" x2="409.9" y2="337.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,577,144-47,595,624
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 1111222221222122111</title></line><circle cx="262.8" cy="337.0" r="1.6" class="h1"/><circle cx="264.9" cy="337.0" r="1.6" class="h1"/><circle cx="282.4" cy="337.0" r="1.6" class="h1"/><circle cx="293.2" cy="337.0" r="1.6" class="h1"/><circle cx="295.0" cy="337.0" r="1.6" class="h2"/><circle cx="296.9" cy="337.0" r="1.6" class="h2"/><circle cx="312.7" cy="337.0" r="1.6" class="h2"/><circle cx="312.8" cy="337.0" r="1.6" class="h2"/><circle cx="317.3" cy="337.0" r="1.6" class="h2"/><circle cx="335.1" cy="337.0" r="1.6" class="h1"/><circle cx="346.2" cy="337.0" r="1.6" class="h2"/><circle cx="347.3" cy="337.0" r="1.6" class="h2"/><circle cx="350.8" cy="337.0" r="1.6" class="h2"/><circle cx="364.2" cy="337.0" r="1.6" class="h1"/><circle cx="372.8" cy="337.0" r="1.6" class="h2"/><circle cx="372.8" cy="337.0" r="1.6" class="h2"/><circle cx="397.6" cy="337.0" r="1.6" class="h1"/><circle cx="401.4" cy="337.0" r="1.6" class="h1"/><circle cx="405.0" cy="337.0" r="1.6" class="h1"/><line x1="250.3" y1="342.0" x2="473.0" y2="342.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,577,216-47,602,894
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 11112222212221221111111111111111</title></line><circle cx="262.8" cy="342.0" r="1.6" class="h1"/><circle cx="264.9" cy="342.0" r="1.6" class="h1"/><circle cx="282.4" cy="342.0" r="1.6" class="h1"/><circle cx="293.2" cy="342.0" r="1.6" class="h1"/><circle cx="295.0" cy="342.0" r="1.6" class="h2"/><circle cx="296.9" cy="342.0" r="1.6" class="h2"/><circle cx="312.7" cy="342.0" r="1.6" class="h2"/><circle cx="312.8" cy="342.0" r="1.6" class="h2"/><circle cx="317.3" cy="342.0" r="1.6" class="h2"/><circle cx="335.1" cy="342.0" r="1.6" class="h1"/><circle cx="346.2" cy="342.0" r="1.6" class="h2"/><circle cx="347.3" cy="342.0" r="1.6" class="h2"/><circle cx="350.8" cy="342.0" r="1.6" class="h2"/><circle cx="364.2" cy="342.0" r="1.6" class="h1"/><circle cx="372.8" cy="342.0" r="1.6" class="h2"/><circle cx="372.8" cy="342.0" r="1.6" class="h2"/><circle cx="397.6" cy="342.0" r="1.6" class="h1"/><circle cx="401.4" cy="342.0" r="1.6" class="h1"/><circle cx="405.0" cy="342.0" r="1.6" class="h1"/><circle cx="414.2" cy="342.0" r="1.6" class="h1"/><circle cx="428.9" cy="342.0" r="1.6" class="h1"/><circle cx="433.4" cy="342.0" r="1.6" class="h1"/><circle cx="438.1" cy="342.0" r="1.6" class="h1"/><circle cx="439.2" cy="342.0" r="1.6" class="h1"/><circle cx="439.9" cy="342.0" r="1.6" class="h1"/><circle cx="441.4" cy="342.0" r="1.6" class="h1"/><circle cx="441.8" cy="342.0" r="1.6" class="h1"/><circle cx="443.9" cy="342.0" r="1.6" class="h1"/><circle cx="445.2" cy="342.0" r="1.6" class="h1"/><circle cx="455.5" cy="342.0" r="1.6" class="h1"/><circle cx="458.7" cy="342.0" r="1.6" class="h1"/><circle cx="466.0" cy="342.0" r="1.6" class="h1"/><line x1="251.4" y1="347.0" x2="414.4" y2="347.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,577,340-47,596,138
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 11112222212221221111</title></line><circle cx="262.8" cy="347.0" r="1.6" class="h1"/><circle cx="264.9" cy="347.0" r="1.6" class="h1"/><circle cx="282.4" cy="347.0" r="1.6" class="h1"/><circle cx="293.2" cy="347.0" r="1.6" class="h1"/><circle cx="295.0" cy="347.0" r="1.6" class="h2"/><circle cx="296.9" cy="347.0" r="1.6" class="h2"/><circle cx="312.7" cy="347.0" r="1.6" class="h2"/><circle cx="312.8" cy="347.0" r="1.6" class="h2"/><circle cx="317.3" cy="347.0" r="1.6" class="h2"/><circle cx="335.1" cy="347.0" r="1.6" class="h1"/><circle cx="346.2" cy="347.0" r="1.6" class="h2"/><circle cx="347.3" cy="347.0" r="1.6" class="h2"/><circle cx="350.8" cy="347.0" r="1.6" class="h2"/><circle cx="364.2" cy="347.0" r="1.6" class="h1"/><circle cx="372.8" cy="347.0" r="1.6" class="h2"/><circle cx="372.8" cy="347.0" r="1.6" class="h2"/><circle cx="397.6" cy="347.0" r="1.6" class="h1"/><circle cx="401.4" cy="347.0" r="1.6" class="h1"/><circle cx="405.0" cy="347.0" r="1.6" class="h1"/><circle cx="414.2" cy="347.0" r="1.6" class="h1"/><line x1="261.5" y1="352.0" x2="429.0" y2="352.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,578,507-47,597,820
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 11112222122212211111</title></line><circle cx="262.8" cy="352.0" r="1.6" class="h1"/><circle cx="264.9" cy="352.0" r="1.6" class="h1"/><circle cx="282.4" cy="352.0" r="1.6" class="h1"/><circle cx="293.2" cy="352.0" r="1.6" class="h1"/><circle cx="295.0" cy="352.0" r="1.6" class="h2"/><circle cx="312.7" cy="352.0" r="1.6" class="h2"/><circle cx="312.8" cy="352.0" r="1.6" class="h2"/><circle cx="317.3" cy="352.0" r="1.6" class="h2"/><circle cx="335.1" cy="352.0" r="1.6" class="h1"/><circle cx="346.2" cy="352.0" r="1.6" class="h2"/><circle cx="347.3" cy="352.0" r="1.6" class="h2"/><circle cx="350.8" cy="352.0" r="1.6" class="h2"/><circle cx="364.2" cy="352.0" r="1.6" class="h1"/><circle cx="372.8" cy="352.0" r="1.6" class="h2"/><circle cx="372.8" cy="352.0" r="1.6" class="h2"/><circle cx="397.6" cy="352.0" r="1.6" class="h1"/><circle cx="401.4" cy="352.0" r="1.6" class="h1"/><circle cx="405.0" cy="352.0" r="1.6" class="h1"/><circle cx="414.2" cy="352.0" r="1.6" class="h1"/><circle cx="428.9" cy="352.0" r="1.6" class="h1"/><line x1="275.1" y1="357.0" x2="424.6" y2="357.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,580,081-47,597,319
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 112222212221221111</title></line><circle cx="282.4" cy="357.0" r="1.6" class="h1"/><circle cx="293.2" cy="357.0" r="1.6" class="h1"/><circle cx="295.0" cy="357.0" r="1.6" class="h2"/><circle cx="296.9" cy="357.0" r="1.6" class="h2"/><circle cx="312.7" cy="357.0" r="1.6" class="h2"/><circle cx="312.8" cy="357.0" r="1.6" class="h2"/><circle cx="317.3" cy="357.0" r="1.6" class="h2"/><circle cx="335.1" cy="357.0" r="1.6" class="h1"/><circle cx="346.2" cy="357.0" r="1.6" class="h2"/><circle cx="347.3" cy="357.0" r="1.6" class="h2"/><circle cx="350.8" cy="357.0" r="1.6" class="h2"/><circle cx="364.2" cy="357.0" r="1.6" class="h1"/><circle cx="372.8" cy="357.0" r="1.6" class="h2"/><circle cx="372.8" cy="357.0" r="1.6" class="h2"/><circle cx="397.6" cy="357.0" r="1.6" class="h1"/><circle cx="401.4" cy="357.0" r="1.6" class="h1"/><circle cx="405.0" cy="357.0" r="1.6" class="h1"/><circle cx="414.2" cy="357.0" r="1.6" class="h1"/><line x1="276.6" y1="362.0" x2="437.4" y2="362.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,580,249-47,598,794
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 11222221222122111111</title></line><circle cx="282.4" cy="362.0" r="1.6" class="h1"/><circle cx="293.2" cy="362.0" r="1.6" class="h1"/><circle cx="295.0" cy="362.0" r="1.6" class="h2"/><circle cx="296.9" cy="362.0" r="1.6" class="h2"/><circle cx="312.7" cy="362.0" r="1.6" class="h2"/><circle cx="312.8" cy="362.0" r="1.6" class="h2"/><circle cx="317.3" cy="362.0" r="1.6" class="h2"/><circle cx="335.1" cy="362.0" r="1.6" class="h1"/><circle cx="346.2" cy="362.0" r="1.6" class="h2"/><circle cx="347.3" cy="362.0" r="1.6" class="h2"/><circle cx="350.8" cy="362.0" r="1.6" class="h2"/><circle cx="364.2" cy="362.0" r="1.6" class="h1"/><circle cx="372.8" cy="362.0" r="1.6" class="h2"/><circle cx="372.8" cy="362.0" r="1.6" class="h2"/><circle cx="397.6" cy="362.0" r="1.6" class="h1"/><circle cx="401.4" cy="362.0" r="1.6" class="h1"/><circle cx="405.0" cy="362.0" r="1.6" class="h1"/><circle cx="414.2" cy="362.0" r="1.6" class="h1"/><circle cx="428.9" cy="362.0" r="1.6" class="h1"/><circle cx="433.4" cy="362.0" r="1.6" class="h1"/><line x1="280.2" y1="367.0" x2="465.5" y2="367.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,580,670-47,602,034
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 11222221222122111111111111111</title></line><circle cx="282.4" cy="367.0" r="1.6" class="h1"/><circle cx="293.2" cy="367.0" r="1.6" class="h1"/><circle cx="295.0" cy="367.0" r="1.6" class="h2"/><circle cx="296.9" cy="367.0" r="1.6" class="h2"/><circle cx="312.7" cy="367.0" r="1.6" class="h2"/><circle cx="312.8" cy="367.0" r="1.6" class="h2"/><circle cx="317.3" cy="367.0" r="1.6" class="h2"/><circle cx="335.1" cy="367.0" r="1.6" class="h1"/><circle cx="346.2" cy="367.0" r="1.6" class="h2"/><circle cx="347.3" cy="367.0" r="1.6" class="h2"/><circle cx="350.8" cy="367.0" r="1.6" class="h2"/><circle cx="364.2" cy="367.0" r="1.6" class="h1"/><circle cx="372.8" cy="367.0" r="1.6" class="h2"/><circle cx="372.8" cy="367.0" r="1.6" class="h2"/><circle cx="397.6" cy="367.0" r="1.6" class="h1"/><circle cx="401.4" cy="367.0" r="1.6" class="h1"/><circle cx="405.0" cy="367.0" r="1.6" class="h1"/><circle cx="414.2" cy="367.0" r="1.6" class="h1"/><circle cx="428.9" cy="367.0" r="1.6" class="h1"/><circle cx="433.4" cy="367.0" r="1.6" class="h1"/><circle cx="438.1" cy="367.0" r="1.6" class="h1"/><circle cx="439.2" cy="367.0" r="1.6" class="h1"/><circle cx="439.9" cy="367.0" r="1.6" class="h1"/><circle cx="441.4" cy="367.0" r="1.6" class="h1"/><circle cx="441.8" cy="367.0" r="1.6" class="h1"/><circle cx="443.9" cy="367.0" r="1.6" class="h1"/><circle cx="445.2" cy="367.0" r="1.6" class="h1"/><circle cx="455.5" cy="367.0" r="1.6" class="h1"/><circle cx="458.7" cy="367.0" r="1.6" class="h1"/><line x1="280.4" y1="372.0" x2="534.1" y2="372.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,580,692-47,609,944
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 112222212221221111111111111111111111111111</title></line><circle cx="282.4" cy="372.0" r="1.6" class="h1"/><circle cx="293.2" cy="372.0" r="1.6" class="h1"/><circle cx="295.0" cy="372.0" r="1.6" class="h2"/><circle cx="296.9" cy="372.0" r="1.6" class="h2"/><circle cx="312.7" cy="372.0" r="1.6" class="h2"/><circle cx="312.8" cy="372.0" r="1.6" class="h2"/><circle cx="317.3" cy="372.0" r="1.6" class="h2"/><circle cx="335.1" cy="372.0" r="1.6" class="h1"/><circle cx="346.2" cy="372.0" r="1.6" class="h2"/><circle cx="347.3" cy="372.0" r="1.6" class="h2"/><circle cx="350.8" cy="372.0" r="1.6" class="h2"/><circle cx="364.2" cy="372.0" r="1.6" class="h1"/><circle cx="372.8" cy="372.0" r="1.6" class="h2"/><circle cx="372.8" cy="372.0" r="1.6" class="h2"/><circle cx="397.6" cy="372.0" r="1.6" class="h1"/><circle cx="401.4" cy="372.0" r="1.6" class="h1"/><circle cx="405.0" cy="372.0" r="1.6" class="h1"/><circle cx="414.2" cy="372.0" r="1.6" class="h1"/><circle cx="428.9" cy="372.0" r="1.6" class="h1"/><circle cx="433.4" cy="372.0" r="1.6" class="h1"/><circle cx="438.1" cy="372.0" r="1.6" class="h1"/><circle cx="439.2" cy="372.0" r="1.6" class="h1"/><circle cx="439.9" cy="372.0" r="1.6" class="h1"/><circle cx="441.4" cy="372.0" r="1.6" class="h1"/><circle cx="441.8" cy="372.0" r="1.6" class="h1"/><circle cx="443.9" cy="372.0" r="1.6" class="h1"/><circle cx="445.2" cy="372.0" r="1.6" class="h1"/><circle cx="455.5" cy="372.0" r="1.6" class="h1"/><circle cx="458.7" cy="372.0" r="1.6" class="h1"/><circle cx="466.0" cy="372.0" r="1.6" class="h1"/><circle cx="478.7" cy="372.0" r="1.6" class="h1"/><circle cx="484.0" cy="372.0" r="1.6" class="h1"/><circle cx="488.2" cy="372.0" r="1.6" class="h1"/><circle cx="495.3" cy="372.0" r="1.6" class="h1"/><circle cx="497.1" cy="372.0" r="1.6" class="h1"/><circle cx="500.7" cy="372.0" r="1.6" class="h1"/><circle cx="506.7" cy="372.0" r="1.6" class="h1"/><circle cx="508.1" cy="372.0" r="1.6" class="h1"/><circle cx="510.1" cy="372.0" r="1.6" class="h1"/><circle cx="511.9" cy="372.0" r="1.6" class="h1"/><circle cx="514.2" cy="372.0" r="1.6" class="h1"/><circle cx="514.3" cy="372.0" r="1.6" class="h1"/><line x1="280.6" y1="377.0" x2="441.3" y2="377.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,580,712-47,599,245
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 11222221222122111111111</title></line><circle cx="282.4" cy="377.0" r="1.6" class="h1"/><circle cx="293.2" cy="377.0" r="1.6" class="h1"/><circle cx="295.0" cy="377.0" r="1.6" class="h2"/><circle cx="296.9" cy="377.0" r="1.6" class="h2"/><circle cx="312.7" cy="377.0" r="1.6" class="h2"/><circle cx="312.8" cy="377.0" r="1.6" class="h2"/><circle cx="317.3" cy="377.0" r="1.6" class="h2"/><circle cx="335.1" cy="377.0" r="1.6" class="h1"/><circle cx="346.2" cy="377.0" r="1.6" class="h2"/><circle cx="347.3" cy="377.0" r="1.6" class="h2"/><circle cx="350.8" cy="377.0" r="1.6" class="h2"/><circle cx="364.2" cy="377.0" r="1.6" class="h1"/><circle cx="372.8" cy="377.0" r="1.6" class="h2"/><circle cx="372.8" cy="377.0" r="1.6" class="h2"/><circle cx="397.6" cy="377.0" r="1.6" class="h1"/><circle cx="401.4" cy="377.0" r="1.6" class="h1"/><circle cx="405.0" cy="377.0" r="1.6" class="h1"/><circle cx="414.2" cy="377.0" r="1.6" class="h1"/><circle cx="428.9" cy="377.0" r="1.6" class="h1"/><circle cx="433.4" cy="377.0" r="1.6" class="h1"/><circle cx="438.1" cy="377.0" r="1.6" class="h1"/><circle cx="439.2" cy="377.0" r="1.6" class="h1"/><circle cx="439.9" cy="377.0" r="1.6" class="h1"/><line x1="284.7" y1="382.0" x2="435.6" y2="382.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,581,179-47,598,584
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 1222221222122111111</title></line><circle cx="293.2" cy="382.0" r="1.6" class="h1"/><circle cx="295.0" cy="382.0" r="1.6" class="h2"/><circle cx="296.9" cy="382.0" r="1.6" class="h2"/><circle cx="312.7" cy="382.0" r="1.6" class="h2"/><circle cx="312.8" cy="382.0" r="1.6" class="h2"/><circle cx="317.3" cy="382.0" r="1.6" class="h2"/><circle cx="335.1" cy="382.0" r="1.6" class="h1"/><circle cx="346.2" cy="382.0" r="1.6" class="h2"/><circle cx="347.3" cy="382.0" r="1.6" class="h2"/><circle cx="350.8" cy="382.0" r="1.6" class="h2"/><circle cx="364.2" cy="382.0" r="1.6" class="h1"/><circle cx="372.8" cy="382.0" r="1.6" class="h2"/><circle cx="372.8" cy="382.0" r="1.6" class="h2"/><circle cx="397.6" cy="382.0" r="1.6" class="h1"/><circle cx="401.4" cy="382.0" r="1.6" class="h1"/><circle cx="405.0" cy="382.0" r="1.6" class="h1"/><circle cx="414.2" cy="382.0" r="1.6" class="h1"/><circle cx="428.9" cy="382.0" r="1.6" class="h1"/><circle cx="433.4" cy="382.0" r="1.6" class="h1"/><line x1="287.4" y1="387.0" x2="432.5" y2="387.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,581,494-47,598,232
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 12222122212211111</title></line><circle cx="293.2" cy="387.0" r="1.6" class="h1"/><circle cx="295.0" cy="387.0" r="1.6" class="h2"/><circle cx="312.7" cy="387.0" r="1.6" class="h2"/><circle cx="312.8" cy="387.0" r="1.6" class="h2"/><circle cx="317.3" cy="387.0" r="1.6" class="h2"/><circle cx="335.1" cy="387.0" r="1.6" class="h1"/><circle cx="346.2" cy="387.0" r="1.6" class="h2"/><circle cx="347.3" cy="387.0" r="1.6" class="h2"/><circle cx="350.8" cy="387.0" r="1.6" class="h2"/><circle cx="364.2" cy="387.0" r="1.6" class="h1"/><circle cx="372.8" cy="387.0" r="1.6" class="h2"/><circle cx="372.8" cy="387.0" r="1.6" class="h2"/><circle cx="397.6" cy="387.0" r="1.6" class="h1"/><circle cx="401.4" cy="387.0" r="1.6" class="h1"/><circle cx="405.0" cy="387.0" r="1.6" class="h1"/><circle cx="414.2" cy="387.0" r="1.6" class="h1"/><circle cx="428.9" cy="387.0" r="1.6" class="h1"/><line x1="299.1" y1="392.0" x2="473.1" y2="392.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,582,846-47,602,903
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 22212221221111111111111111</title></line><circle cx="312.7" cy="392.0" r="1.6" class="h2"/><circle cx="312.8" cy="392.0" r="1.6" class="h2"/><circle cx="317.3" cy="392.0" r="1.6" class="h2"/><circle cx="335.1" cy="392.0" r="1.6" class="h1"/><circle cx="346.2" cy="392.0" r="1.6" class="h2"/><circle cx="347.3" cy="392.0" r="1.6" class="h2"/><circle cx="350.8" cy="392.0" r="1.6" class="h2"/><circle cx="364.2" cy="392.0" r="1.6" class="h1"/><circle cx="372.8" cy="392.0" r="1.6" class="h2"/><circle cx="372.8" cy="392.0" r="1.6" class="h2"/><circle cx="397.6" cy="392.0" r="1.6" class="h1"/><circle cx="401.4" cy="392.0" r="1.6" class="h1"/><circle cx="405.0" cy="392.0" r="1.6" class="h1"/><circle cx="414.2" cy="392.0" r="1.6" class="h1"/><circle cx="428.9" cy="392.0" r="1.6" class="h1"/><circle cx="433.4" cy="392.0" r="1.6" class="h1"/><circle cx="438.1" cy="392.0" r="1.6" class="h1"/><circle cx="439.2" cy="392.0" r="1.6" class="h1"/><circle cx="439.9" cy="392.0" r="1.6" class="h1"/><circle cx="441.4" cy="392.0" r="1.6" class="h1"/><circle cx="441.8" cy="392.0" r="1.6" class="h1"/><circle cx="443.9" cy="392.0" r="1.6" class="h1"/><circle cx="445.2" cy="392.0" r="1.6" class="h1"/><circle cx="455.5" cy="392.0" r="1.6" class="h1"/><circle cx="458.7" cy="392.0" r="1.6" class="h1"/><circle cx="466.0" cy="392.0" r="1.6" class="h1"/><line x1="310.2" y1="397.0" x2="461.5" y2="397.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,584,124-47,601,574
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 2221222122111111111111111</title></line><circle cx="312.7" cy="397.0" r="1.6" class="h2"/><circle cx="312.8" cy="397.0" r="1.6" class="h2"/><circle cx="317.3" cy="397.0" r="1.6" class="h2"/><circle cx="335.1" cy="397.0" r="1.6" class="h1"/><circle cx="346.2" cy="397.0" r="1.6" class="h2"/><circle cx="347.3" cy="397.0" r="1.6" class="h2"/><circle cx="350.8" cy="397.0" r="1.6" class="h2"/><circle cx="364.2" cy="397.0" r="1.6" class="h1"/><circle cx="372.8" cy="397.0" r="1.6" class="h2"/><circle cx="372.8" cy="397.0" r="1.6" class="h2"/><circle cx="397.6" cy="397.0" r="1.6" class="h1"/><circle cx="401.4" cy="397.0" r="1.6" class="h1"/><circle cx="405.0" cy="397.0" r="1.6" class="h1"/><circle cx="414.2" cy="397.0" r="1.6" class="h1"/><circle cx="428.9" cy="397.0" r="1.6" class="h1"/><circle cx="433.4" cy="397.0" r="1.6" class="h1"/><circle cx="438.1" cy="397.0" r="1.6" class="h1"/><circle cx="439.2" cy="397.0" r="1.6" class="h1"/><circle cx="439.9" cy="397.0" r="1.6" class="h1"/><circle cx="441.4" cy="397.0" r="1.6" class="h1"/><circle cx="441.8" cy="397.0" r="1.6" class="h1"/><circle cx="443.9" cy="397.0" r="1.6" class="h1"/><circle cx="445.2" cy="397.0" r="1.6" class="h1"/><circle cx="455.5" cy="397.0" r="1.6" class="h1"/><circle cx="458.7" cy="397.0" r="1.6" class="h1"/><line x1="314.4" y1="402.0" x2="445.1" y2="402.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,584,609-47,599,684
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 21222122111111111111</title></line><circle cx="317.3" cy="402.0" r="1.6" class="h2"/><circle cx="335.1" cy="402.0" r="1.6" class="h1"/><circle cx="346.2" cy="402.0" r="1.6" class="h2"/><circle cx="347.3" cy="402.0" r="1.6" class="h2"/><circle cx="350.8" cy="402.0" r="1.6" class="h2"/><circle cx="364.2" cy="402.0" r="1.6" class="h1"/><circle cx="372.8" cy="402.0" r="1.6" class="h2"/><circle cx="372.8" cy="402.0" r="1.6" class="h2"/><circle cx="397.6" cy="402.0" r="1.6" class="h1"/><circle cx="401.4" cy="402.0" r="1.6" class="h1"/><circle cx="405.0" cy="402.0" r="1.6" class="h1"/><circle cx="414.2" cy="402.0" r="1.6" class="h1"/><circle cx="428.9" cy="402.0" r="1.6" class="h1"/><circle cx="433.4" cy="402.0" r="1.6" class="h1"/><circle cx="438.1" cy="402.0" r="1.6" class="h1"/><circle cx="439.2" cy="402.0" r="1.6" class="h1"/><circle cx="439.9" cy="402.0" r="1.6" class="h1"/><circle cx="441.4" cy="402.0" r="1.6" class="h1"/><circle cx="441.8" cy="402.0" r="1.6" class="h1"/><circle cx="443.9" cy="402.0" r="1.6" class="h1"/><line x1="319.1" y1="407.0" x2="426.9" y2="407.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,585,155-47,597,577
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 12221221111</title></line><circle cx="335.1" cy="407.0" r="1.6" class="h1"/><circle cx="346.2" cy="407.0" r="1.6" class="h2"/><circle cx="347.3" cy="407.0" r="1.6" class="h2"/><circle cx="350.8" cy="407.0" r="1.6" class="h2"/><circle cx="364.2" cy="407.0" r="1.6" class="h1"/><circle cx="372.8" cy="407.0" r="1.6" class="h2"/><circle cx="372.8" cy="407.0" r="1.6" class="h2"/><circle cx="397.6" cy="407.0" r="1.6" class="h1"/><circle cx="401.4" cy="407.0" r="1.6" class="h1"/><circle cx="405.0" cy="407.0" r="1.6" class="h1"/><circle cx="414.2" cy="407.0" r="1.6" class="h1"/><line x1="319.9" y1="412.0" x2="503.9" y2="412.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,585,246-47,606,455
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 12221221111111111111111111111</title></line><circle cx="335.1" cy="412.0" r="1.6" class="h1"/><circle cx="346.2" cy="412.0" r="1.6" class="h2"/><circle cx="347.3" cy="412.0" r="1.6" class="h2"/><circle cx="350.8" cy="412.0" r="1.6" class="h2"/><circle cx="364.2" cy="412.0" r="1.6" class="h1"/><circle cx="372.8" cy="412.0" r="1.6" class="h2"/><circle cx="372.8" cy="412.0" r="1.6" class="h2"/><circle cx="397.6" cy="412.0" r="1.6" class="h1"/><circle cx="401.4" cy="412.0" r="1.6" class="h1"/><circle cx="405.0" cy="412.0" r="1.6" class="h1"/><circle cx="414.2" cy="412.0" r="1.6" class="h1"/><circle cx="428.9" cy="412.0" r="1.6" class="h1"/><circle cx="433.4" cy="412.0" r="1.6" class="h1"/><circle cx="438.1" cy="412.0" r="1.6" class="h1"/><circle cx="439.2" cy="412.0" r="1.6" class="h1"/><circle cx="439.9" cy="412.0" r="1.6" class="h1"/><circle cx="441.4" cy="412.0" r="1.6" class="h1"/><circle cx="441.8" cy="412.0" r="1.6" class="h1"/><circle cx="443.9" cy="412.0" r="1.6" class="h1"/><circle cx="445.2" cy="412.0" r="1.6" class="h1"/><circle cx="455.5" cy="412.0" r="1.6" class="h1"/><circle cx="458.7" cy="412.0" r="1.6" class="h1"/><circle cx="466.0" cy="412.0" r="1.6" class="h1"/><circle cx="478.7" cy="412.0" r="1.6" class="h1"/><circle cx="484.0" cy="412.0" r="1.6" class="h1"/><circle cx="488.2" cy="412.0" r="1.6" class="h1"/><circle cx="495.3" cy="412.0" r="1.6" class="h1"/><circle cx="497.1" cy="412.0" r="1.6" class="h1"/><circle cx="500.7" cy="412.0" r="1.6" class="h1"/><text x="160.0" y="424.0" class="t ts tm">16 the father&#x27;s (his own alleles)</text><line x1="209.7" y1="433.0" x2="403.9" y2="433.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,572,533-47,594,929
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 22221111111111111111</title></line><circle cx="235.7" cy="433.0" r="1.6" class="h2"/><circle cx="246.7" cy="433.0" r="1.6" class="h2"/><circle cx="262.8" cy="433.0" r="1.6" class="h2"/><circle cx="264.9" cy="433.0" r="1.6" class="h2"/><circle cx="282.4" cy="433.0" r="1.6" class="h1"/><circle cx="293.2" cy="433.0" r="1.6" class="h1"/><circle cx="295.0" cy="433.0" r="1.6" class="h1"/><circle cx="296.9" cy="433.0" r="1.6" class="h1"/><circle cx="312.7" cy="433.0" r="1.6" class="h1"/><circle cx="312.8" cy="433.0" r="1.6" class="h1"/><circle cx="317.3" cy="433.0" r="1.6" class="h1"/><circle cx="335.1" cy="433.0" r="1.6" class="h1"/><circle cx="346.2" cy="433.0" r="1.6" class="h1"/><circle cx="347.3" cy="433.0" r="1.6" class="h1"/><circle cx="350.8" cy="433.0" r="1.6" class="h1"/><circle cx="364.2" cy="433.0" r="1.6" class="h1"/><circle cx="372.8" cy="433.0" r="1.6" class="h1"/><circle cx="372.8" cy="433.0" r="1.6" class="h1"/><circle cx="397.6" cy="433.0" r="1.6" class="h1"/><circle cx="401.4" cy="433.0" r="1.6" class="h1"/><line x1="225.0" y1="438.0" x2="407.0" y2="438.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,574,297-47,595,291
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 222211111111111111111</title></line><circle cx="235.7" cy="438.0" r="1.6" class="h2"/><circle cx="246.7" cy="438.0" r="1.6" class="h2"/><circle cx="262.8" cy="438.0" r="1.6" class="h2"/><circle cx="264.9" cy="438.0" r="1.6" class="h2"/><circle cx="282.4" cy="438.0" r="1.6" class="h1"/><circle cx="293.2" cy="438.0" r="1.6" class="h1"/><circle cx="295.0" cy="438.0" r="1.6" class="h1"/><circle cx="296.9" cy="438.0" r="1.6" class="h1"/><circle cx="312.7" cy="438.0" r="1.6" class="h1"/><circle cx="312.8" cy="438.0" r="1.6" class="h1"/><circle cx="317.3" cy="438.0" r="1.6" class="h1"/><circle cx="335.1" cy="438.0" r="1.6" class="h1"/><circle cx="346.2" cy="438.0" r="1.6" class="h1"/><circle cx="347.3" cy="438.0" r="1.6" class="h1"/><circle cx="350.8" cy="438.0" r="1.6" class="h1"/><circle cx="364.2" cy="438.0" r="1.6" class="h1"/><circle cx="372.8" cy="438.0" r="1.6" class="h1"/><circle cx="372.8" cy="438.0" r="1.6" class="h1"/><circle cx="397.6" cy="438.0" r="1.6" class="h1"/><circle cx="401.4" cy="438.0" r="1.6" class="h1"/><circle cx="405.0" cy="438.0" r="1.6" class="h1"/><line x1="225.9" y1="443.0" x2="394.4" y2="443.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,574,406-47,593,831
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 222211111111111111</title></line><circle cx="235.7" cy="443.0" r="1.6" class="h2"/><circle cx="246.7" cy="443.0" r="1.6" class="h2"/><circle cx="262.8" cy="443.0" r="1.6" class="h2"/><circle cx="264.9" cy="443.0" r="1.6" class="h2"/><circle cx="282.4" cy="443.0" r="1.6" class="h1"/><circle cx="293.2" cy="443.0" r="1.6" class="h1"/><circle cx="295.0" cy="443.0" r="1.6" class="h1"/><circle cx="296.9" cy="443.0" r="1.6" class="h1"/><circle cx="312.7" cy="443.0" r="1.6" class="h1"/><circle cx="312.8" cy="443.0" r="1.6" class="h1"/><circle cx="317.3" cy="443.0" r="1.6" class="h1"/><circle cx="335.1" cy="443.0" r="1.6" class="h1"/><circle cx="346.2" cy="443.0" r="1.6" class="h1"/><circle cx="347.3" cy="443.0" r="1.6" class="h1"/><circle cx="350.8" cy="443.0" r="1.6" class="h1"/><circle cx="364.2" cy="443.0" r="1.6" class="h1"/><circle cx="372.8" cy="443.0" r="1.6" class="h1"/><circle cx="372.8" cy="443.0" r="1.6" class="h1"/><line x1="237.5" y1="448.0" x2="408.2" y2="448.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,575,740-47,595,427
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 22211111111111111111</title></line><circle cx="246.7" cy="448.0" r="1.6" class="h2"/><circle cx="262.8" cy="448.0" r="1.6" class="h2"/><circle cx="264.9" cy="448.0" r="1.6" class="h2"/><circle cx="282.4" cy="448.0" r="1.6" class="h1"/><circle cx="293.2" cy="448.0" r="1.6" class="h1"/><circle cx="295.0" cy="448.0" r="1.6" class="h1"/><circle cx="296.9" cy="448.0" r="1.6" class="h1"/><circle cx="312.7" cy="448.0" r="1.6" class="h1"/><circle cx="312.8" cy="448.0" r="1.6" class="h1"/><circle cx="317.3" cy="448.0" r="1.6" class="h1"/><circle cx="335.1" cy="448.0" r="1.6" class="h1"/><circle cx="346.2" cy="448.0" r="1.6" class="h1"/><circle cx="347.3" cy="448.0" r="1.6" class="h1"/><circle cx="350.8" cy="448.0" r="1.6" class="h1"/><circle cx="364.2" cy="448.0" r="1.6" class="h1"/><circle cx="372.8" cy="448.0" r="1.6" class="h1"/><circle cx="372.8" cy="448.0" r="1.6" class="h1"/><circle cx="397.6" cy="448.0" r="1.6" class="h1"/><circle cx="401.4" cy="448.0" r="1.6" class="h1"/><circle cx="405.0" cy="448.0" r="1.6" class="h1"/><line x1="256.4" y1="453.0" x2="502.2" y2="453.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,577,923-47,606,264
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 22111111111111111111111111111111111111</title></line><circle cx="262.8" cy="453.0" r="1.6" class="h2"/><circle cx="264.9" cy="453.0" r="1.6" class="h2"/><circle cx="282.4" cy="453.0" r="1.6" class="h1"/><circle cx="293.2" cy="453.0" r="1.6" class="h1"/><circle cx="295.0" cy="453.0" r="1.6" class="h1"/><circle cx="296.9" cy="453.0" r="1.6" class="h1"/><circle cx="312.7" cy="453.0" r="1.6" class="h1"/><circle cx="312.8" cy="453.0" r="1.6" class="h1"/><circle cx="317.3" cy="453.0" r="1.6" class="h1"/><circle cx="335.1" cy="453.0" r="1.6" class="h1"/><circle cx="346.2" cy="453.0" r="1.6" class="h1"/><circle cx="347.3" cy="453.0" r="1.6" class="h1"/><circle cx="350.8" cy="453.0" r="1.6" class="h1"/><circle cx="364.2" cy="453.0" r="1.6" class="h1"/><circle cx="372.8" cy="453.0" r="1.6" class="h1"/><circle cx="372.8" cy="453.0" r="1.6" class="h1"/><circle cx="397.6" cy="453.0" r="1.6" class="h1"/><circle cx="401.4" cy="453.0" r="1.6" class="h1"/><circle cx="405.0" cy="453.0" r="1.6" class="h1"/><circle cx="414.2" cy="453.0" r="1.6" class="h1"/><circle cx="428.9" cy="453.0" r="1.6" class="h1"/><circle cx="433.4" cy="453.0" r="1.6" class="h1"/><circle cx="438.1" cy="453.0" r="1.6" class="h1"/><circle cx="439.2" cy="453.0" r="1.6" class="h1"/><circle cx="439.9" cy="453.0" r="1.6" class="h1"/><circle cx="441.4" cy="453.0" r="1.6" class="h1"/><circle cx="441.8" cy="453.0" r="1.6" class="h1"/><circle cx="443.9" cy="453.0" r="1.6" class="h1"/><circle cx="445.2" cy="453.0" r="1.6" class="h1"/><circle cx="455.5" cy="453.0" r="1.6" class="h1"/><circle cx="458.7" cy="453.0" r="1.6" class="h1"/><circle cx="466.0" cy="453.0" r="1.6" class="h1"/><circle cx="478.7" cy="453.0" r="1.6" class="h1"/><circle cx="484.0" cy="453.0" r="1.6" class="h1"/><circle cx="488.2" cy="453.0" r="1.6" class="h1"/><circle cx="495.3" cy="453.0" r="1.6" class="h1"/><circle cx="497.1" cy="453.0" r="1.6" class="h1"/><circle cx="500.7" cy="453.0" r="1.6" class="h1"/><line x1="256.6" y1="458.0" x2="396.6" y2="458.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,577,950-47,594,085
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 2211111111111111</title></line><circle cx="262.8" cy="458.0" r="1.6" class="h2"/><circle cx="264.9" cy="458.0" r="1.6" class="h2"/><circle cx="282.4" cy="458.0" r="1.6" class="h1"/><circle cx="293.2" cy="458.0" r="1.6" class="h1"/><circle cx="295.0" cy="458.0" r="1.6" class="h1"/><circle cx="296.9" cy="458.0" r="1.6" class="h1"/><circle cx="312.7" cy="458.0" r="1.6" class="h1"/><circle cx="312.8" cy="458.0" r="1.6" class="h1"/><circle cx="317.3" cy="458.0" r="1.6" class="h1"/><circle cx="335.1" cy="458.0" r="1.6" class="h1"/><circle cx="346.2" cy="458.0" r="1.6" class="h1"/><circle cx="347.3" cy="458.0" r="1.6" class="h1"/><circle cx="350.8" cy="458.0" r="1.6" class="h1"/><circle cx="364.2" cy="458.0" r="1.6" class="h1"/><circle cx="372.8" cy="458.0" r="1.6" class="h1"/><circle cx="372.8" cy="458.0" r="1.6" class="h1"/><line x1="257.3" y1="463.0" x2="421.0" y2="463.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,578,021-47,596,906
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 22111111111111111111</title></line><circle cx="262.8" cy="463.0" r="1.6" class="h2"/><circle cx="264.9" cy="463.0" r="1.6" class="h2"/><circle cx="282.4" cy="463.0" r="1.6" class="h1"/><circle cx="293.2" cy="463.0" r="1.6" class="h1"/><circle cx="295.0" cy="463.0" r="1.6" class="h1"/><circle cx="296.9" cy="463.0" r="1.6" class="h1"/><circle cx="312.7" cy="463.0" r="1.6" class="h1"/><circle cx="312.8" cy="463.0" r="1.6" class="h1"/><circle cx="317.3" cy="463.0" r="1.6" class="h1"/><circle cx="335.1" cy="463.0" r="1.6" class="h1"/><circle cx="346.2" cy="463.0" r="1.6" class="h1"/><circle cx="347.3" cy="463.0" r="1.6" class="h1"/><circle cx="350.8" cy="463.0" r="1.6" class="h1"/><circle cx="364.2" cy="463.0" r="1.6" class="h1"/><circle cx="372.8" cy="463.0" r="1.6" class="h1"/><circle cx="372.8" cy="463.0" r="1.6" class="h1"/><circle cx="397.6" cy="463.0" r="1.6" class="h1"/><circle cx="401.4" cy="463.0" r="1.6" class="h1"/><circle cx="405.0" cy="463.0" r="1.6" class="h1"/><circle cx="414.2" cy="463.0" r="1.6" class="h1"/><line x1="258.7" y1="468.0" x2="474.8" y2="468.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,578,186-47,603,098
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 22111111111111111111111111111111</title></line><circle cx="262.8" cy="468.0" r="1.6" class="h2"/><circle cx="264.9" cy="468.0" r="1.6" class="h2"/><circle cx="282.4" cy="468.0" r="1.6" class="h1"/><circle cx="293.2" cy="468.0" r="1.6" class="h1"/><circle cx="295.0" cy="468.0" r="1.6" class="h1"/><circle cx="296.9" cy="468.0" r="1.6" class="h1"/><circle cx="312.7" cy="468.0" r="1.6" class="h1"/><circle cx="312.8" cy="468.0" r="1.6" class="h1"/><circle cx="317.3" cy="468.0" r="1.6" class="h1"/><circle cx="335.1" cy="468.0" r="1.6" class="h1"/><circle cx="346.2" cy="468.0" r="1.6" class="h1"/><circle cx="347.3" cy="468.0" r="1.6" class="h1"/><circle cx="350.8" cy="468.0" r="1.6" class="h1"/><circle cx="364.2" cy="468.0" r="1.6" class="h1"/><circle cx="372.8" cy="468.0" r="1.6" class="h1"/><circle cx="372.8" cy="468.0" r="1.6" class="h1"/><circle cx="397.6" cy="468.0" r="1.6" class="h1"/><circle cx="401.4" cy="468.0" r="1.6" class="h1"/><circle cx="405.0" cy="468.0" r="1.6" class="h1"/><circle cx="414.2" cy="468.0" r="1.6" class="h1"/><circle cx="428.9" cy="468.0" r="1.6" class="h1"/><circle cx="433.4" cy="468.0" r="1.6" class="h1"/><circle cx="438.1" cy="468.0" r="1.6" class="h1"/><circle cx="439.2" cy="468.0" r="1.6" class="h1"/><circle cx="439.9" cy="468.0" r="1.6" class="h1"/><circle cx="441.4" cy="468.0" r="1.6" class="h1"/><circle cx="441.8" cy="468.0" r="1.6" class="h1"/><circle cx="443.9" cy="468.0" r="1.6" class="h1"/><circle cx="445.2" cy="468.0" r="1.6" class="h1"/><circle cx="455.5" cy="468.0" r="1.6" class="h1"/><circle cx="458.7" cy="468.0" r="1.6" class="h1"/><circle cx="466.0" cy="468.0" r="1.6" class="h1"/><line x1="260.1" y1="473.0" x2="434.2" y2="473.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,578,343-47,598,419
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 2211111111111111111111</title></line><circle cx="262.8" cy="473.0" r="1.6" class="h2"/><circle cx="264.9" cy="473.0" r="1.6" class="h2"/><circle cx="282.4" cy="473.0" r="1.6" class="h1"/><circle cx="293.2" cy="473.0" r="1.6" class="h1"/><circle cx="295.0" cy="473.0" r="1.6" class="h1"/><circle cx="296.9" cy="473.0" r="1.6" class="h1"/><circle cx="312.7" cy="473.0" r="1.6" class="h1"/><circle cx="312.8" cy="473.0" r="1.6" class="h1"/><circle cx="317.3" cy="473.0" r="1.6" class="h1"/><circle cx="335.1" cy="473.0" r="1.6" class="h1"/><circle cx="346.2" cy="473.0" r="1.6" class="h1"/><circle cx="347.3" cy="473.0" r="1.6" class="h1"/><circle cx="350.8" cy="473.0" r="1.6" class="h1"/><circle cx="364.2" cy="473.0" r="1.6" class="h1"/><circle cx="372.8" cy="473.0" r="1.6" class="h1"/><circle cx="372.8" cy="473.0" r="1.6" class="h1"/><circle cx="397.6" cy="473.0" r="1.6" class="h1"/><circle cx="401.4" cy="473.0" r="1.6" class="h1"/><circle cx="405.0" cy="473.0" r="1.6" class="h1"/><circle cx="414.2" cy="473.0" r="1.6" class="h1"/><circle cx="428.9" cy="473.0" r="1.6" class="h1"/><circle cx="433.4" cy="473.0" r="1.6" class="h1"/><line x1="262.1" y1="478.0" x2="414.8" y2="478.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,578,574-47,596,186
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 22111111111111111111</title></line><circle cx="262.8" cy="478.0" r="1.6" class="h2"/><circle cx="264.9" cy="478.0" r="1.6" class="h2"/><circle cx="282.4" cy="478.0" r="1.6" class="h1"/><circle cx="293.2" cy="478.0" r="1.6" class="h1"/><circle cx="295.0" cy="478.0" r="1.6" class="h1"/><circle cx="296.9" cy="478.0" r="1.6" class="h1"/><circle cx="312.7" cy="478.0" r="1.6" class="h1"/><circle cx="312.8" cy="478.0" r="1.6" class="h1"/><circle cx="317.3" cy="478.0" r="1.6" class="h1"/><circle cx="335.1" cy="478.0" r="1.6" class="h1"/><circle cx="346.2" cy="478.0" r="1.6" class="h1"/><circle cx="347.3" cy="478.0" r="1.6" class="h1"/><circle cx="350.8" cy="478.0" r="1.6" class="h1"/><circle cx="364.2" cy="478.0" r="1.6" class="h1"/><circle cx="372.8" cy="478.0" r="1.6" class="h1"/><circle cx="372.8" cy="478.0" r="1.6" class="h1"/><circle cx="397.6" cy="478.0" r="1.6" class="h1"/><circle cx="401.4" cy="478.0" r="1.6" class="h1"/><circle cx="405.0" cy="478.0" r="1.6" class="h1"/><circle cx="414.2" cy="478.0" r="1.6" class="h1"/><line x1="271.0" y1="483.0" x2="415.7" y2="483.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,579,606-47,596,292
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 111111111111111111</title></line><circle cx="282.4" cy="483.0" r="1.6" class="h1"/><circle cx="293.2" cy="483.0" r="1.6" class="h1"/><circle cx="295.0" cy="483.0" r="1.6" class="h1"/><circle cx="296.9" cy="483.0" r="1.6" class="h1"/><circle cx="312.7" cy="483.0" r="1.6" class="h1"/><circle cx="312.8" cy="483.0" r="1.6" class="h1"/><circle cx="317.3" cy="483.0" r="1.6" class="h1"/><circle cx="335.1" cy="483.0" r="1.6" class="h1"/><circle cx="346.2" cy="483.0" r="1.6" class="h1"/><circle cx="347.3" cy="483.0" r="1.6" class="h1"/><circle cx="350.8" cy="483.0" r="1.6" class="h1"/><circle cx="364.2" cy="483.0" r="1.6" class="h1"/><circle cx="372.8" cy="483.0" r="1.6" class="h1"/><circle cx="372.8" cy="483.0" r="1.6" class="h1"/><circle cx="397.6" cy="483.0" r="1.6" class="h1"/><circle cx="401.4" cy="483.0" r="1.6" class="h1"/><circle cx="405.0" cy="483.0" r="1.6" class="h1"/><circle cx="414.2" cy="483.0" r="1.6" class="h1"/><line x1="275.3" y1="488.0" x2="517.6" y2="488.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,580,097-47,608,039
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 111111111111111111111111111111111111111111</title></line><circle cx="282.4" cy="488.0" r="1.6" class="h1"/><circle cx="293.2" cy="488.0" r="1.6" class="h1"/><circle cx="295.0" cy="488.0" r="1.6" class="h1"/><circle cx="296.9" cy="488.0" r="1.6" class="h1"/><circle cx="312.7" cy="488.0" r="1.6" class="h1"/><circle cx="312.8" cy="488.0" r="1.6" class="h1"/><circle cx="317.3" cy="488.0" r="1.6" class="h1"/><circle cx="335.1" cy="488.0" r="1.6" class="h1"/><circle cx="346.2" cy="488.0" r="1.6" class="h1"/><circle cx="347.3" cy="488.0" r="1.6" class="h1"/><circle cx="350.8" cy="488.0" r="1.6" class="h1"/><circle cx="364.2" cy="488.0" r="1.6" class="h1"/><circle cx="372.8" cy="488.0" r="1.6" class="h1"/><circle cx="372.8" cy="488.0" r="1.6" class="h1"/><circle cx="397.6" cy="488.0" r="1.6" class="h1"/><circle cx="401.4" cy="488.0" r="1.6" class="h1"/><circle cx="405.0" cy="488.0" r="1.6" class="h1"/><circle cx="414.2" cy="488.0" r="1.6" class="h1"/><circle cx="428.9" cy="488.0" r="1.6" class="h1"/><circle cx="433.4" cy="488.0" r="1.6" class="h1"/><circle cx="438.1" cy="488.0" r="1.6" class="h1"/><circle cx="439.2" cy="488.0" r="1.6" class="h1"/><circle cx="439.9" cy="488.0" r="1.6" class="h1"/><circle cx="441.4" cy="488.0" r="1.6" class="h1"/><circle cx="441.8" cy="488.0" r="1.6" class="h1"/><circle cx="443.9" cy="488.0" r="1.6" class="h1"/><circle cx="445.2" cy="488.0" r="1.6" class="h1"/><circle cx="455.5" cy="488.0" r="1.6" class="h1"/><circle cx="458.7" cy="488.0" r="1.6" class="h1"/><circle cx="466.0" cy="488.0" r="1.6" class="h1"/><circle cx="478.7" cy="488.0" r="1.6" class="h1"/><circle cx="484.0" cy="488.0" r="1.6" class="h1"/><circle cx="488.2" cy="488.0" r="1.6" class="h1"/><circle cx="495.3" cy="488.0" r="1.6" class="h1"/><circle cx="497.1" cy="488.0" r="1.6" class="h1"/><circle cx="500.7" cy="488.0" r="1.6" class="h1"/><circle cx="506.7" cy="488.0" r="1.6" class="h1"/><circle cx="508.1" cy="488.0" r="1.6" class="h1"/><circle cx="510.1" cy="488.0" r="1.6" class="h1"/><circle cx="511.9" cy="488.0" r="1.6" class="h1"/><circle cx="514.2" cy="488.0" r="1.6" class="h1"/><circle cx="514.3" cy="488.0" r="1.6" class="h1"/><line x1="284.3" y1="493.0" x2="444.9" y2="493.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,581,135-47,599,657
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 1111111111111111111111111</title></line><circle cx="293.2" cy="493.0" r="1.6" class="h1"/><circle cx="295.0" cy="493.0" r="1.6" class="h1"/><circle cx="296.9" cy="493.0" r="1.6" class="h1"/><circle cx="312.7" cy="493.0" r="1.6" class="h1"/><circle cx="312.8" cy="493.0" r="1.6" class="h1"/><circle cx="317.3" cy="493.0" r="1.6" class="h1"/><circle cx="335.1" cy="493.0" r="1.6" class="h1"/><circle cx="346.2" cy="493.0" r="1.6" class="h1"/><circle cx="347.3" cy="493.0" r="1.6" class="h1"/><circle cx="350.8" cy="493.0" r="1.6" class="h1"/><circle cx="364.2" cy="493.0" r="1.6" class="h1"/><circle cx="372.8" cy="493.0" r="1.6" class="h1"/><circle cx="372.8" cy="493.0" r="1.6" class="h1"/><circle cx="397.6" cy="493.0" r="1.6" class="h1"/><circle cx="401.4" cy="493.0" r="1.6" class="h1"/><circle cx="405.0" cy="493.0" r="1.6" class="h1"/><circle cx="414.2" cy="493.0" r="1.6" class="h1"/><circle cx="428.9" cy="493.0" r="1.6" class="h1"/><circle cx="433.4" cy="493.0" r="1.6" class="h1"/><circle cx="438.1" cy="493.0" r="1.6" class="h1"/><circle cx="439.2" cy="493.0" r="1.6" class="h1"/><circle cx="439.9" cy="493.0" r="1.6" class="h1"/><circle cx="441.4" cy="493.0" r="1.6" class="h1"/><circle cx="441.8" cy="493.0" r="1.6" class="h1"/><circle cx="443.9" cy="493.0" r="1.6" class="h1"/><line x1="287.1" y1="498.0" x2="457.3" y2="498.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,581,459-47,601,089
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 111111111111111111111111111</title></line><circle cx="293.2" cy="498.0" r="1.6" class="h1"/><circle cx="295.0" cy="498.0" r="1.6" class="h1"/><circle cx="296.9" cy="498.0" r="1.6" class="h1"/><circle cx="312.7" cy="498.0" r="1.6" class="h1"/><circle cx="312.8" cy="498.0" r="1.6" class="h1"/><circle cx="317.3" cy="498.0" r="1.6" class="h1"/><circle cx="335.1" cy="498.0" r="1.6" class="h1"/><circle cx="346.2" cy="498.0" r="1.6" class="h1"/><circle cx="347.3" cy="498.0" r="1.6" class="h1"/><circle cx="350.8" cy="498.0" r="1.6" class="h1"/><circle cx="364.2" cy="498.0" r="1.6" class="h1"/><circle cx="372.8" cy="498.0" r="1.6" class="h1"/><circle cx="372.8" cy="498.0" r="1.6" class="h1"/><circle cx="397.6" cy="498.0" r="1.6" class="h1"/><circle cx="401.4" cy="498.0" r="1.6" class="h1"/><circle cx="405.0" cy="498.0" r="1.6" class="h1"/><circle cx="414.2" cy="498.0" r="1.6" class="h1"/><circle cx="428.9" cy="498.0" r="1.6" class="h1"/><circle cx="433.4" cy="498.0" r="1.6" class="h1"/><circle cx="438.1" cy="498.0" r="1.6" class="h1"/><circle cx="439.2" cy="498.0" r="1.6" class="h1"/><circle cx="439.9" cy="498.0" r="1.6" class="h1"/><circle cx="441.4" cy="498.0" r="1.6" class="h1"/><circle cx="441.8" cy="498.0" r="1.6" class="h1"/><circle cx="443.9" cy="498.0" r="1.6" class="h1"/><circle cx="445.2" cy="498.0" r="1.6" class="h1"/><circle cx="455.5" cy="498.0" r="1.6" class="h1"/><line x1="289.0" y1="503.0" x2="448.4" y2="503.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,581,677-47,600,058
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 11111111111111111111111111</title></line><circle cx="293.2" cy="503.0" r="1.6" class="h1"/><circle cx="295.0" cy="503.0" r="1.6" class="h1"/><circle cx="296.9" cy="503.0" r="1.6" class="h1"/><circle cx="312.7" cy="503.0" r="1.6" class="h1"/><circle cx="312.8" cy="503.0" r="1.6" class="h1"/><circle cx="317.3" cy="503.0" r="1.6" class="h1"/><circle cx="335.1" cy="503.0" r="1.6" class="h1"/><circle cx="346.2" cy="503.0" r="1.6" class="h1"/><circle cx="347.3" cy="503.0" r="1.6" class="h1"/><circle cx="350.8" cy="503.0" r="1.6" class="h1"/><circle cx="364.2" cy="503.0" r="1.6" class="h1"/><circle cx="372.8" cy="503.0" r="1.6" class="h1"/><circle cx="372.8" cy="503.0" r="1.6" class="h1"/><circle cx="397.6" cy="503.0" r="1.6" class="h1"/><circle cx="401.4" cy="503.0" r="1.6" class="h1"/><circle cx="405.0" cy="503.0" r="1.6" class="h1"/><circle cx="414.2" cy="503.0" r="1.6" class="h1"/><circle cx="428.9" cy="503.0" r="1.6" class="h1"/><circle cx="433.4" cy="503.0" r="1.6" class="h1"/><circle cx="438.1" cy="503.0" r="1.6" class="h1"/><circle cx="439.2" cy="503.0" r="1.6" class="h1"/><circle cx="439.9" cy="503.0" r="1.6" class="h1"/><circle cx="441.4" cy="503.0" r="1.6" class="h1"/><circle cx="441.8" cy="503.0" r="1.6" class="h1"/><circle cx="443.9" cy="503.0" r="1.6" class="h1"/><circle cx="445.2" cy="503.0" r="1.6" class="h1"/><line x1="318.9" y1="508.0" x2="492.5" y2="508.0" class="c1s" stroke-width="0.8"><title>a HiFi read over chr2:47,585,132-47,605,146
+her haplotype 1 before the end, 1 after
+it carries the father&#x27;s own alleles
+its haplotype at each of her phased sites here: 11111111111111111111111111</title></line><circle cx="335.1" cy="508.0" r="1.6" class="h1"/><circle cx="346.2" cy="508.0" r="1.6" class="h1"/><circle cx="347.3" cy="508.0" r="1.6" class="h1"/><circle cx="350.8" cy="508.0" r="1.6" class="h1"/><circle cx="364.2" cy="508.0" r="1.6" class="h1"/><circle cx="372.8" cy="508.0" r="1.6" class="h1"/><circle cx="372.8" cy="508.0" r="1.6" class="h1"/><circle cx="397.6" cy="508.0" r="1.6" class="h1"/><circle cx="401.4" cy="508.0" r="1.6" class="h1"/><circle cx="405.0" cy="508.0" r="1.6" class="h1"/><circle cx="414.2" cy="508.0" r="1.6" class="h1"/><circle cx="428.9" cy="508.0" r="1.6" class="h1"/><circle cx="433.4" cy="508.0" r="1.6" class="h1"/><circle cx="438.1" cy="508.0" r="1.6" class="h1"/><circle cx="439.2" cy="508.0" r="1.6" class="h1"/><circle cx="439.9" cy="508.0" r="1.6" class="h1"/><circle cx="441.4" cy="508.0" r="1.6" class="h1"/><circle cx="441.8" cy="508.0" r="1.6" class="h1"/><circle cx="443.9" cy="508.0" r="1.6" class="h1"/><circle cx="445.2" cy="508.0" r="1.6" class="h1"/><circle cx="455.5" cy="508.0" r="1.6" class="h1"/><circle cx="458.7" cy="508.0" r="1.6" class="h1"/><circle cx="466.0" cy="508.0" r="1.6" class="h1"/><circle cx="478.7" cy="508.0" r="1.6" class="h1"/><circle cx="484.0" cy="508.0" r="1.6" class="h1"/><circle cx="488.2" cy="508.0" r="1.6" class="h1"/><text x="187.7" y="548.0" class="t tm ts" text-anchor="middle">47.570</text><text x="274.4" y="548.0" class="t tm ts" text-anchor="middle">47.580</text><text x="361.2" y="548.0" class="t tm ts" text-anchor="middle">47.590</text><text x="447.9" y="548.0" class="t tm ts" text-anchor="middle">47.600</text><text x="534.6" y="548.0" class="t tm ts" text-anchor="middle">47.610</text><text x="600.0" y="158.0" class="t tb ts">the stretch&#x27;s right end: 18 HiFi reads across chr2:47,704,313-47,713,612</text><rect x="756.9" y="170.0" width="66.3" height="360.0" class="shade"><title>the end of the stretch: between chr2:47,704,313 and chr2:47,713,612</title></rect><text x="600.0" y="182.0" class="t ts tm">10 go from her haplotype 2 to 1</text><line x1="680.5" y1="191.0" x2="861.3" y2="191.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,693,608-47,718,967
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 222222111111111111111111</title></line><circle cx="688.4" cy="191.0" r="1.6" class="h2"/><circle cx="696.5" cy="191.0" r="1.6" class="h2"/><circle cx="711.3" cy="191.0" r="1.6" class="h2"/><circle cx="726.1" cy="191.0" r="1.6" class="h2"/><circle cx="756.9" cy="191.0" r="1.6" class="h2"/><circle cx="786.3" cy="191.0" r="1.6" class="h2"/><circle cx="823.1" cy="191.0" r="1.6" class="h1"/><circle cx="824.5" cy="191.0" r="1.6" class="h1"/><circle cx="827.1" cy="191.0" r="1.6" class="h1"/><circle cx="830.6" cy="191.0" r="1.6" class="h1"/><circle cx="831.7" cy="191.0" r="1.6" class="h1"/><circle cx="832.2" cy="191.0" r="1.6" class="h1"/><circle cx="833.1" cy="191.0" r="1.6" class="h1"/><circle cx="836.0" cy="191.0" r="1.6" class="h1"/><circle cx="836.7" cy="191.0" r="1.6" class="h1"/><circle cx="836.7" cy="191.0" r="1.6" class="h1"/><circle cx="837.1" cy="191.0" r="1.6" class="h1"/><circle cx="837.9" cy="191.0" r="1.6" class="h1"/><circle cx="838.5" cy="191.0" r="1.6" class="h1"/><circle cx="841.6" cy="191.0" r="1.6" class="h1"/><circle cx="842.4" cy="191.0" r="1.6" class="h1"/><circle cx="842.8" cy="191.0" r="1.6" class="h1"/><circle cx="843.7" cy="191.0" r="1.6" class="h1"/><circle cx="845.9" cy="191.0" r="1.6" class="h1"/><line x1="694.2" y1="196.0" x2="860.5" y2="196.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,695,521-47,718,851
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 222221111111111111111111</title></line><circle cx="696.5" cy="196.0" r="1.6" class="h2"/><circle cx="711.3" cy="196.0" r="1.6" class="h2"/><circle cx="726.1" cy="196.0" r="1.6" class="h2"/><circle cx="756.9" cy="196.0" r="1.6" class="h2"/><circle cx="786.3" cy="196.0" r="1.6" class="h2"/><circle cx="823.1" cy="196.0" r="1.6" class="h1"/><circle cx="824.5" cy="196.0" r="1.6" class="h1"/><circle cx="827.1" cy="196.0" r="1.6" class="h1"/><circle cx="829.1" cy="196.0" r="1.6" class="h1"/><circle cx="830.6" cy="196.0" r="1.6" class="h1"/><circle cx="831.7" cy="196.0" r="1.6" class="h1"/><circle cx="832.2" cy="196.0" r="1.6" class="h1"/><circle cx="833.1" cy="196.0" r="1.6" class="h1"/><circle cx="836.0" cy="196.0" r="1.6" class="h1"/><circle cx="836.7" cy="196.0" r="1.6" class="h1"/><circle cx="836.7" cy="196.0" r="1.6" class="h1"/><circle cx="837.1" cy="196.0" r="1.6" class="h1"/><circle cx="837.9" cy="196.0" r="1.6" class="h1"/><circle cx="838.5" cy="196.0" r="1.6" class="h1"/><circle cx="841.6" cy="196.0" r="1.6" class="h1"/><circle cx="842.4" cy="196.0" r="1.6" class="h1"/><circle cx="842.8" cy="196.0" r="1.6" class="h1"/><circle cx="843.7" cy="196.0" r="1.6" class="h1"/><circle cx="845.9" cy="196.0" r="1.6" class="h1"/><line x1="696.0" y1="201.0" x2="846.1" y2="201.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,695,774-47,716,836
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 222221111111111111111111</title></line><circle cx="696.5" cy="201.0" r="1.6" class="h2"/><circle cx="711.3" cy="201.0" r="1.6" class="h2"/><circle cx="726.1" cy="201.0" r="1.6" class="h2"/><circle cx="756.9" cy="201.0" r="1.6" class="h2"/><circle cx="786.3" cy="201.0" r="1.6" class="h2"/><circle cx="823.1" cy="201.0" r="1.6" class="h1"/><circle cx="824.5" cy="201.0" r="1.6" class="h1"/><circle cx="827.1" cy="201.0" r="1.6" class="h1"/><circle cx="829.1" cy="201.0" r="1.6" class="h1"/><circle cx="830.6" cy="201.0" r="1.6" class="h1"/><circle cx="831.7" cy="201.0" r="1.6" class="h1"/><circle cx="832.2" cy="201.0" r="1.6" class="h1"/><circle cx="833.1" cy="201.0" r="1.6" class="h1"/><circle cx="836.0" cy="201.0" r="1.6" class="h1"/><circle cx="836.7" cy="201.0" r="1.6" class="h1"/><circle cx="836.7" cy="201.0" r="1.6" class="h1"/><circle cx="837.1" cy="201.0" r="1.6" class="h1"/><circle cx="837.9" cy="201.0" r="1.6" class="h1"/><circle cx="838.5" cy="201.0" r="1.6" class="h1"/><circle cx="841.6" cy="201.0" r="1.6" class="h1"/><circle cx="842.4" cy="201.0" r="1.6" class="h1"/><circle cx="842.8" cy="201.0" r="1.6" class="h1"/><circle cx="843.7" cy="201.0" r="1.6" class="h1"/><circle cx="845.9" cy="201.0" r="1.6" class="h1"/><line x1="700.8" y1="206.0" x2="845.9" y2="206.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,696,458-47,716,807
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 2222111111111111111111</title></line><circle cx="711.3" cy="206.0" r="1.6" class="h2"/><circle cx="726.1" cy="206.0" r="1.6" class="h2"/><circle cx="756.9" cy="206.0" r="1.6" class="h2"/><circle cx="786.3" cy="206.0" r="1.6" class="h2"/><circle cx="823.1" cy="206.0" r="1.6" class="h1"/><circle cx="824.5" cy="206.0" r="1.6" class="h1"/><circle cx="827.1" cy="206.0" r="1.6" class="h1"/><circle cx="829.1" cy="206.0" r="1.6" class="h1"/><circle cx="830.6" cy="206.0" r="1.6" class="h1"/><circle cx="831.7" cy="206.0" r="1.6" class="h1"/><circle cx="832.2" cy="206.0" r="1.6" class="h1"/><circle cx="833.1" cy="206.0" r="1.6" class="h1"/><circle cx="836.0" cy="206.0" r="1.6" class="h1"/><circle cx="836.7" cy="206.0" r="1.6" class="h1"/><circle cx="836.7" cy="206.0" r="1.6" class="h1"/><circle cx="837.1" cy="206.0" r="1.6" class="h1"/><circle cx="837.9" cy="206.0" r="1.6" class="h1"/><circle cx="838.5" cy="206.0" r="1.6" class="h1"/><circle cx="841.6" cy="206.0" r="1.6" class="h1"/><circle cx="842.4" cy="206.0" r="1.6" class="h1"/><circle cx="842.8" cy="206.0" r="1.6" class="h1"/><circle cx="843.7" cy="206.0" r="1.6" class="h1"/><line x1="712.4" y1="211.0" x2="861.4" y2="211.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,698,076-47,718,978
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 2221111111111111111111</title></line><circle cx="726.1" cy="211.0" r="1.6" class="h2"/><circle cx="756.9" cy="211.0" r="1.6" class="h2"/><circle cx="786.3" cy="211.0" r="1.6" class="h2"/><circle cx="823.1" cy="211.0" r="1.6" class="h1"/><circle cx="824.5" cy="211.0" r="1.6" class="h1"/><circle cx="827.1" cy="211.0" r="1.6" class="h1"/><circle cx="829.1" cy="211.0" r="1.6" class="h1"/><circle cx="830.6" cy="211.0" r="1.6" class="h1"/><circle cx="831.7" cy="211.0" r="1.6" class="h1"/><circle cx="832.2" cy="211.0" r="1.6" class="h1"/><circle cx="833.1" cy="211.0" r="1.6" class="h1"/><circle cx="836.0" cy="211.0" r="1.6" class="h1"/><circle cx="836.7" cy="211.0" r="1.6" class="h1"/><circle cx="836.7" cy="211.0" r="1.6" class="h1"/><circle cx="837.1" cy="211.0" r="1.6" class="h1"/><circle cx="837.9" cy="211.0" r="1.6" class="h1"/><circle cx="838.5" cy="211.0" r="1.6" class="h1"/><circle cx="841.6" cy="211.0" r="1.6" class="h1"/><circle cx="842.4" cy="211.0" r="1.6" class="h1"/><circle cx="842.8" cy="211.0" r="1.6" class="h1"/><circle cx="843.7" cy="211.0" r="1.6" class="h1"/><circle cx="845.9" cy="211.0" r="1.6" class="h1"/><line x1="712.4" y1="216.0" x2="882.9" y2="216.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,698,079-47,721,998
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 2221111111111111111111</title></line><circle cx="726.1" cy="216.0" r="1.6" class="h2"/><circle cx="756.9" cy="216.0" r="1.6" class="h2"/><circle cx="786.3" cy="216.0" r="1.6" class="h2"/><circle cx="823.1" cy="216.0" r="1.6" class="h1"/><circle cx="824.5" cy="216.0" r="1.6" class="h1"/><circle cx="827.1" cy="216.0" r="1.6" class="h1"/><circle cx="829.1" cy="216.0" r="1.6" class="h1"/><circle cx="830.6" cy="216.0" r="1.6" class="h1"/><circle cx="831.7" cy="216.0" r="1.6" class="h1"/><circle cx="832.2" cy="216.0" r="1.6" class="h1"/><circle cx="833.1" cy="216.0" r="1.6" class="h1"/><circle cx="836.0" cy="216.0" r="1.6" class="h1"/><circle cx="836.7" cy="216.0" r="1.6" class="h1"/><circle cx="836.7" cy="216.0" r="1.6" class="h1"/><circle cx="837.1" cy="216.0" r="1.6" class="h1"/><circle cx="837.9" cy="216.0" r="1.6" class="h1"/><circle cx="838.5" cy="216.0" r="1.6" class="h1"/><circle cx="841.6" cy="216.0" r="1.6" class="h1"/><circle cx="842.4" cy="216.0" r="1.6" class="h1"/><circle cx="842.8" cy="216.0" r="1.6" class="h1"/><circle cx="843.7" cy="216.0" r="1.6" class="h1"/><circle cx="845.9" cy="216.0" r="1.6" class="h1"/><line x1="714.1" y1="221.0" x2="859.9" y2="221.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,698,313-47,718,773
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 2221111111111111111111</title></line><circle cx="726.1" cy="221.0" r="1.6" class="h2"/><circle cx="756.9" cy="221.0" r="1.6" class="h2"/><circle cx="786.3" cy="221.0" r="1.6" class="h2"/><circle cx="823.1" cy="221.0" r="1.6" class="h1"/><circle cx="824.5" cy="221.0" r="1.6" class="h1"/><circle cx="827.1" cy="221.0" r="1.6" class="h1"/><circle cx="829.1" cy="221.0" r="1.6" class="h1"/><circle cx="830.6" cy="221.0" r="1.6" class="h1"/><circle cx="831.7" cy="221.0" r="1.6" class="h1"/><circle cx="832.2" cy="221.0" r="1.6" class="h1"/><circle cx="833.1" cy="221.0" r="1.6" class="h1"/><circle cx="836.0" cy="221.0" r="1.6" class="h1"/><circle cx="836.7" cy="221.0" r="1.6" class="h1"/><circle cx="836.7" cy="221.0" r="1.6" class="h1"/><circle cx="837.1" cy="221.0" r="1.6" class="h1"/><circle cx="837.9" cy="221.0" r="1.6" class="h1"/><circle cx="838.5" cy="221.0" r="1.6" class="h1"/><circle cx="841.6" cy="221.0" r="1.6" class="h1"/><circle cx="842.4" cy="221.0" r="1.6" class="h1"/><circle cx="842.8" cy="221.0" r="1.6" class="h1"/><circle cx="843.7" cy="221.0" r="1.6" class="h1"/><circle cx="845.9" cy="221.0" r="1.6" class="h1"/><line x1="715.3" y1="226.0" x2="851.4" y2="226.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,698,489-47,717,573
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 222111111111111111111</title></line><circle cx="726.1" cy="226.0" r="1.6" class="h2"/><circle cx="756.9" cy="226.0" r="1.6" class="h2"/><circle cx="786.3" cy="226.0" r="1.6" class="h2"/><circle cx="823.1" cy="226.0" r="1.6" class="h1"/><circle cx="824.5" cy="226.0" r="1.6" class="h1"/><circle cx="827.1" cy="226.0" r="1.6" class="h1"/><circle cx="830.6" cy="226.0" r="1.6" class="h1"/><circle cx="831.7" cy="226.0" r="1.6" class="h1"/><circle cx="832.2" cy="226.0" r="1.6" class="h1"/><circle cx="833.1" cy="226.0" r="1.6" class="h1"/><circle cx="836.0" cy="226.0" r="1.6" class="h1"/><circle cx="836.7" cy="226.0" r="1.6" class="h1"/><circle cx="836.7" cy="226.0" r="1.6" class="h1"/><circle cx="837.1" cy="226.0" r="1.6" class="h1"/><circle cx="837.9" cy="226.0" r="1.6" class="h1"/><circle cx="838.5" cy="226.0" r="1.6" class="h1"/><circle cx="841.6" cy="226.0" r="1.6" class="h1"/><circle cx="842.4" cy="226.0" r="1.6" class="h1"/><circle cx="842.8" cy="226.0" r="1.6" class="h1"/><circle cx="843.7" cy="226.0" r="1.6" class="h1"/><circle cx="845.9" cy="226.0" r="1.6" class="h1"/><line x1="717.8" y1="231.0" x2="893.3" y2="231.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,698,839-47,723,447
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 2221111111111111111111</title></line><circle cx="726.1" cy="231.0" r="1.6" class="h2"/><circle cx="756.9" cy="231.0" r="1.6" class="h2"/><circle cx="786.3" cy="231.0" r="1.6" class="h2"/><circle cx="823.1" cy="231.0" r="1.6" class="h1"/><circle cx="824.5" cy="231.0" r="1.6" class="h1"/><circle cx="827.1" cy="231.0" r="1.6" class="h1"/><circle cx="829.1" cy="231.0" r="1.6" class="h1"/><circle cx="830.6" cy="231.0" r="1.6" class="h1"/><circle cx="831.7" cy="231.0" r="1.6" class="h1"/><circle cx="832.2" cy="231.0" r="1.6" class="h1"/><circle cx="833.1" cy="231.0" r="1.6" class="h1"/><circle cx="836.0" cy="231.0" r="1.6" class="h1"/><circle cx="836.7" cy="231.0" r="1.6" class="h1"/><circle cx="836.7" cy="231.0" r="1.6" class="h1"/><circle cx="837.1" cy="231.0" r="1.6" class="h1"/><circle cx="837.9" cy="231.0" r="1.6" class="h1"/><circle cx="838.5" cy="231.0" r="1.6" class="h1"/><circle cx="841.6" cy="231.0" r="1.6" class="h1"/><circle cx="842.4" cy="231.0" r="1.6" class="h1"/><circle cx="842.8" cy="231.0" r="1.6" class="h1"/><circle cx="843.7" cy="231.0" r="1.6" class="h1"/><circle cx="845.9" cy="231.0" r="1.6" class="h1"/><line x1="724.9" y1="236.0" x2="875.8" y2="236.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,699,835-47,721,001
+her haplotype 2 before the end, 1 after
+its haplotype at each of her phased sites here: 2221111111111111111111</title></line><circle cx="726.1" cy="236.0" r="1.6" class="h2"/><circle cx="756.9" cy="236.0" r="1.6" class="h2"/><circle cx="786.3" cy="236.0" r="1.6" class="h2"/><circle cx="823.1" cy="236.0" r="1.6" class="h1"/><circle cx="824.5" cy="236.0" r="1.6" class="h1"/><circle cx="827.1" cy="236.0" r="1.6" class="h1"/><circle cx="829.1" cy="236.0" r="1.6" class="h1"/><circle cx="830.6" cy="236.0" r="1.6" class="h1"/><circle cx="831.7" cy="236.0" r="1.6" class="h1"/><circle cx="832.2" cy="236.0" r="1.6" class="h1"/><circle cx="833.1" cy="236.0" r="1.6" class="h1"/><circle cx="836.0" cy="236.0" r="1.6" class="h1"/><circle cx="836.7" cy="236.0" r="1.6" class="h1"/><circle cx="836.7" cy="236.0" r="1.6" class="h1"/><circle cx="837.1" cy="236.0" r="1.6" class="h1"/><circle cx="837.9" cy="236.0" r="1.6" class="h1"/><circle cx="838.5" cy="236.0" r="1.6" class="h1"/><circle cx="841.6" cy="236.0" r="1.6" class="h1"/><circle cx="842.4" cy="236.0" r="1.6" class="h1"/><circle cx="842.8" cy="236.0" r="1.6" class="h1"/><circle cx="843.7" cy="236.0" r="1.6" class="h1"/><circle cx="845.9" cy="236.0" r="1.6" class="h1"/><text x="600.0" y="248.0" class="t ts tm">8 stay on her haplotype 1</text><line x1="695.1" y1="257.0" x2="849.3" y2="257.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,695,651-47,717,284
+her haplotype 1 before the end, 1 after
+its haplotype at each of her phased sites here: 111111111111111111111111</title></line><circle cx="696.5" cy="257.0" r="1.6" class="h1"/><circle cx="711.3" cy="257.0" r="1.6" class="h1"/><circle cx="726.1" cy="257.0" r="1.6" class="h1"/><circle cx="756.9" cy="257.0" r="1.6" class="h1"/><circle cx="786.3" cy="257.0" r="1.6" class="h1"/><circle cx="823.1" cy="257.0" r="1.6" class="h1"/><circle cx="824.5" cy="257.0" r="1.6" class="h1"/><circle cx="827.1" cy="257.0" r="1.6" class="h1"/><circle cx="829.1" cy="257.0" r="1.6" class="h1"/><circle cx="830.6" cy="257.0" r="1.6" class="h1"/><circle cx="831.7" cy="257.0" r="1.6" class="h1"/><circle cx="832.2" cy="257.0" r="1.6" class="h1"/><circle cx="833.1" cy="257.0" r="1.6" class="h1"/><circle cx="836.0" cy="257.0" r="1.6" class="h1"/><circle cx="836.7" cy="257.0" r="1.6" class="h1"/><circle cx="836.7" cy="257.0" r="1.6" class="h1"/><circle cx="837.1" cy="257.0" r="1.6" class="h1"/><circle cx="837.9" cy="257.0" r="1.6" class="h1"/><circle cx="838.5" cy="257.0" r="1.6" class="h1"/><circle cx="841.6" cy="257.0" r="1.6" class="h1"/><circle cx="842.4" cy="257.0" r="1.6" class="h1"/><circle cx="842.8" cy="257.0" r="1.6" class="h1"/><circle cx="843.7" cy="257.0" r="1.6" class="h1"/><circle cx="845.9" cy="257.0" r="1.6" class="h1"/><line x1="697.3" y1="262.0" x2="869.5" y2="262.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,695,959-47,720,119
+her haplotype 1 before the end, 1 after
+its haplotype at each of her phased sites here: 1111111111111111111111</title></line><circle cx="711.3" cy="262.0" r="1.6" class="h1"/><circle cx="726.1" cy="262.0" r="1.6" class="h1"/><circle cx="756.9" cy="262.0" r="1.6" class="h1"/><circle cx="786.3" cy="262.0" r="1.6" class="h1"/><circle cx="823.1" cy="262.0" r="1.6" class="h1"/><circle cx="824.5" cy="262.0" r="1.6" class="h1"/><circle cx="827.1" cy="262.0" r="1.6" class="h1"/><circle cx="829.1" cy="262.0" r="1.6" class="h1"/><circle cx="830.6" cy="262.0" r="1.6" class="h1"/><circle cx="831.7" cy="262.0" r="1.6" class="h1"/><circle cx="832.2" cy="262.0" r="1.6" class="h1"/><circle cx="833.1" cy="262.0" r="1.6" class="h1"/><circle cx="836.0" cy="262.0" r="1.6" class="h1"/><circle cx="836.7" cy="262.0" r="1.6" class="h1"/><circle cx="836.7" cy="262.0" r="1.6" class="h1"/><circle cx="837.1" cy="262.0" r="1.6" class="h1"/><circle cx="837.9" cy="262.0" r="1.6" class="h1"/><circle cx="838.5" cy="262.0" r="1.6" class="h1"/><circle cx="841.6" cy="262.0" r="1.6" class="h1"/><circle cx="842.4" cy="262.0" r="1.6" class="h1"/><circle cx="842.8" cy="262.0" r="1.6" class="h1"/><circle cx="843.7" cy="262.0" r="1.6" class="h1"/><line x1="703.2" y1="267.0" x2="865.9" y2="267.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,696,790-47,719,607
+her haplotype 1 before the end, 1 after
+its haplotype at each of her phased sites here: 11111111111111111111121</title></line><circle cx="711.3" cy="267.0" r="1.6" class="h1"/><circle cx="726.1" cy="267.0" r="1.6" class="h1"/><circle cx="756.9" cy="267.0" r="1.6" class="h1"/><circle cx="786.3" cy="267.0" r="1.6" class="h1"/><circle cx="823.1" cy="267.0" r="1.6" class="h1"/><circle cx="824.5" cy="267.0" r="1.6" class="h1"/><circle cx="827.1" cy="267.0" r="1.6" class="h1"/><circle cx="829.1" cy="267.0" r="1.6" class="h1"/><circle cx="830.6" cy="267.0" r="1.6" class="h1"/><circle cx="831.7" cy="267.0" r="1.6" class="h1"/><circle cx="832.2" cy="267.0" r="1.6" class="h1"/><circle cx="833.1" cy="267.0" r="1.6" class="h1"/><circle cx="836.0" cy="267.0" r="1.6" class="h1"/><circle cx="836.7" cy="267.0" r="1.6" class="h1"/><circle cx="836.7" cy="267.0" r="1.6" class="h1"/><circle cx="837.1" cy="267.0" r="1.6" class="h1"/><circle cx="837.9" cy="267.0" r="1.6" class="h1"/><circle cx="838.5" cy="267.0" r="1.6" class="h1"/><circle cx="841.6" cy="267.0" r="1.6" class="h1"/><circle cx="842.4" cy="267.0" r="1.6" class="h1"/><circle cx="842.8" cy="267.0" r="1.6" class="h1"/><circle cx="843.7" cy="267.0" r="1.6" class="h2"/><circle cx="845.9" cy="267.0" r="1.6" class="h1"/><line x1="705.2" y1="272.0" x2="852.8" y2="272.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,697,074-47,717,769
+her haplotype 1 before the end, 1 after
+its haplotype at each of her phased sites here: 11111111111111111111</title></line><circle cx="711.3" cy="272.0" r="1.6" class="h1"/><circle cx="726.1" cy="272.0" r="1.6" class="h1"/><circle cx="756.9" cy="272.0" r="1.6" class="h1"/><circle cx="823.1" cy="272.0" r="1.6" class="h1"/><circle cx="824.5" cy="272.0" r="1.6" class="h1"/><circle cx="827.1" cy="272.0" r="1.6" class="h1"/><circle cx="829.1" cy="272.0" r="1.6" class="h1"/><circle cx="830.6" cy="272.0" r="1.6" class="h1"/><circle cx="831.7" cy="272.0" r="1.6" class="h1"/><circle cx="832.2" cy="272.0" r="1.6" class="h1"/><circle cx="833.1" cy="272.0" r="1.6" class="h1"/><circle cx="836.0" cy="272.0" r="1.6" class="h1"/><circle cx="837.1" cy="272.0" r="1.6" class="h1"/><circle cx="837.9" cy="272.0" r="1.6" class="h1"/><circle cx="838.5" cy="272.0" r="1.6" class="h1"/><circle cx="841.6" cy="272.0" r="1.6" class="h1"/><circle cx="842.4" cy="272.0" r="1.6" class="h1"/><circle cx="842.8" cy="272.0" r="1.6" class="h1"/><circle cx="843.7" cy="272.0" r="1.6" class="h1"/><circle cx="845.9" cy="272.0" r="1.6" class="h1"/><line x1="706.0" y1="277.0" x2="862.8" y2="277.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,697,177-47,719,174
+her haplotype 1 before the end, 1 after
+its haplotype at each of her phased sites here: 11111111111111111111111</title></line><circle cx="711.3" cy="277.0" r="1.6" class="h1"/><circle cx="726.1" cy="277.0" r="1.6" class="h1"/><circle cx="756.9" cy="277.0" r="1.6" class="h1"/><circle cx="786.3" cy="277.0" r="1.6" class="h1"/><circle cx="823.1" cy="277.0" r="1.6" class="h1"/><circle cx="824.5" cy="277.0" r="1.6" class="h1"/><circle cx="827.1" cy="277.0" r="1.6" class="h1"/><circle cx="829.1" cy="277.0" r="1.6" class="h1"/><circle cx="830.6" cy="277.0" r="1.6" class="h1"/><circle cx="831.7" cy="277.0" r="1.6" class="h1"/><circle cx="832.2" cy="277.0" r="1.6" class="h1"/><circle cx="833.1" cy="277.0" r="1.6" class="h1"/><circle cx="836.0" cy="277.0" r="1.6" class="h1"/><circle cx="836.7" cy="277.0" r="1.6" class="h1"/><circle cx="836.7" cy="277.0" r="1.6" class="h1"/><circle cx="837.1" cy="277.0" r="1.6" class="h1"/><circle cx="837.9" cy="277.0" r="1.6" class="h1"/><circle cx="838.5" cy="277.0" r="1.6" class="h1"/><circle cx="841.6" cy="277.0" r="1.6" class="h1"/><circle cx="842.4" cy="277.0" r="1.6" class="h1"/><circle cx="842.8" cy="277.0" r="1.6" class="h1"/><circle cx="843.7" cy="277.0" r="1.6" class="h1"/><circle cx="845.9" cy="277.0" r="1.6" class="h1"/><line x1="706.2" y1="282.0" x2="844.9" y2="282.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,697,210-47,716,657
+her haplotype 1 before the end, 1 after
+its haplotype at each of her phased sites here: 1111111111111111111111</title></line><circle cx="711.3" cy="282.0" r="1.6" class="h1"/><circle cx="726.1" cy="282.0" r="1.6" class="h1"/><circle cx="756.9" cy="282.0" r="1.6" class="h1"/><circle cx="786.3" cy="282.0" r="1.6" class="h1"/><circle cx="823.1" cy="282.0" r="1.6" class="h1"/><circle cx="824.5" cy="282.0" r="1.6" class="h1"/><circle cx="827.1" cy="282.0" r="1.6" class="h1"/><circle cx="829.1" cy="282.0" r="1.6" class="h1"/><circle cx="830.6" cy="282.0" r="1.6" class="h1"/><circle cx="831.7" cy="282.0" r="1.6" class="h1"/><circle cx="832.2" cy="282.0" r="1.6" class="h1"/><circle cx="833.1" cy="282.0" r="1.6" class="h1"/><circle cx="836.0" cy="282.0" r="1.6" class="h1"/><circle cx="836.7" cy="282.0" r="1.6" class="h1"/><circle cx="836.7" cy="282.0" r="1.6" class="h1"/><circle cx="837.1" cy="282.0" r="1.6" class="h1"/><circle cx="837.9" cy="282.0" r="1.6" class="h1"/><circle cx="838.5" cy="282.0" r="1.6" class="h1"/><circle cx="841.6" cy="282.0" r="1.6" class="h1"/><circle cx="842.4" cy="282.0" r="1.6" class="h1"/><circle cx="842.8" cy="282.0" r="1.6" class="h1"/><circle cx="843.7" cy="282.0" r="1.6" class="h1"/><line x1="717.8" y1="287.0" x2="864.4" y2="287.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,698,834-47,719,403
+her haplotype 1 before the end, 1 after
+its haplotype at each of her phased sites here: 1111111111111111111111</title></line><circle cx="726.1" cy="287.0" r="1.6" class="h1"/><circle cx="756.9" cy="287.0" r="1.6" class="h1"/><circle cx="786.3" cy="287.0" r="1.6" class="h1"/><circle cx="823.1" cy="287.0" r="1.6" class="h1"/><circle cx="824.5" cy="287.0" r="1.6" class="h1"/><circle cx="827.1" cy="287.0" r="1.6" class="h1"/><circle cx="829.1" cy="287.0" r="1.6" class="h1"/><circle cx="830.6" cy="287.0" r="1.6" class="h1"/><circle cx="831.7" cy="287.0" r="1.6" class="h1"/><circle cx="832.2" cy="287.0" r="1.6" class="h1"/><circle cx="833.1" cy="287.0" r="1.6" class="h1"/><circle cx="836.0" cy="287.0" r="1.6" class="h1"/><circle cx="836.7" cy="287.0" r="1.6" class="h1"/><circle cx="836.7" cy="287.0" r="1.6" class="h1"/><circle cx="837.1" cy="287.0" r="1.6" class="h1"/><circle cx="837.9" cy="287.0" r="1.6" class="h1"/><circle cx="838.5" cy="287.0" r="1.6" class="h1"/><circle cx="841.6" cy="287.0" r="1.6" class="h1"/><circle cx="842.4" cy="287.0" r="1.6" class="h1"/><circle cx="842.8" cy="287.0" r="1.6" class="h1"/><circle cx="843.7" cy="287.0" r="1.6" class="h1"/><circle cx="845.9" cy="287.0" r="1.6" class="h1"/><line x1="720.4" y1="292.0" x2="873.7" y2="292.0" class="lm" stroke-width="0.8"><title>a HiFi read over chr2:47,699,200-47,720,699
+her haplotype 1 before the end, 1 after
+its haplotype at each of her phased sites here: 1111111111111111111111</title></line><circle cx="726.1" cy="292.0" r="1.6" class="h1"/><circle cx="756.9" cy="292.0" r="1.6" class="h1"/><circle cx="786.3" cy="292.0" r="1.6" class="h1"/><circle cx="823.1" cy="292.0" r="1.6" class="h1"/><circle cx="824.5" cy="292.0" r="1.6" class="h1"/><circle cx="827.1" cy="292.0" r="1.6" class="h1"/><circle cx="829.1" cy="292.0" r="1.6" class="h1"/><circle cx="830.6" cy="292.0" r="1.6" class="h1"/><circle cx="831.7" cy="292.0" r="1.6" class="h1"/><circle cx="832.2" cy="292.0" r="1.6" class="h1"/><circle cx="833.1" cy="292.0" r="1.6" class="h1"/><circle cx="836.0" cy="292.0" r="1.6" class="h1"/><circle cx="836.7" cy="292.0" r="1.6" class="h1"/><circle cx="836.7" cy="292.0" r="1.6" class="h1"/><circle cx="837.1" cy="292.0" r="1.6" class="h1"/><circle cx="837.9" cy="292.0" r="1.6" class="h1"/><circle cx="838.5" cy="292.0" r="1.6" class="h1"/><circle cx="841.6" cy="292.0" r="1.6" class="h1"/><circle cx="842.4" cy="292.0" r="1.6" class="h1"/><circle cx="842.8" cy="292.0" r="1.6" class="h1"/><circle cx="843.7" cy="292.0" r="1.6" class="h1"/><circle cx="845.9" cy="292.0" r="1.6" class="h1"/><text x="654.8" y="548.0" class="t tm ts" text-anchor="middle">47.690</text><text x="726.1" y="548.0" class="t tm ts" text-anchor="middle">47.700</text><text x="797.4" y="548.0" class="t tm ts" text-anchor="middle">47.710</text><text x="868.7" y="548.0" class="t tm ts" text-anchor="middle">47.720</text><text x="940.0" y="548.0" class="t tm ts" text-anchor="middle">47.730</text><text x="160.0" y="572.0" class="t tm ts">Dots: green her haplotype 1, violet her haplotype 2. Blue lines: reads that carry the father&#x27;s own alleles. Grey band: the end&#x27;s interval.</text></svg>

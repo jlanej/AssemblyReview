@@ -1,0 +1,2 @@
+# source: https://s3-us-west-2.amazonaws.com/human-pangenomics/submissions/ca366a13-5bad-487b-8a57-97344e9aa0e4--HPRC_RELEASE_2_SUPPLEMENTARY_ASSEMBLY_QC/HG01943/hprc_r2/assembly_qc/hmm_flagger/v1.2.0_hifi/HG01943.hifi_minimap2_2.28.corrected.downsample_1.0.hmm_flagger_v1.2.0_prediction.conservative.canonical.no_Hap.hap2.bed (its rows on the child's contigs aligned over the locus)
+HG01943#2#CM089362.1	11739	16000	Dup	0	.	11739	16000	250,104,0
