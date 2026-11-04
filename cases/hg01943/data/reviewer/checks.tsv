@@ -1,0 +1,479 @@
+key	expected	got	ok	note
+snvs	2928	2928	1	
+sites.OH	384	384	1	
+sites_in.OH	221	221	1	
+sites.MH	861	861	1	
+sites_in.MH	382	382	1	
+sites.FH	541	541	1	
+sites_in.FH	361	361	1	
+sites.BH	274	274	1	
+sites_in.BH	74	74	1	
+jr	31	31	1	
+jr_mapq60	31	31	1	
+jr_starts	31	31	1	
+jr_ends	30	30	1	
+jr_left	[997, 23624]	[997, 23624]	1	
+jr_right	[556, 20808]	[556, 20808]	1	
+jr_runs	"{""m64043_210718_100009"": 5, ""m64043_210719_210019"": 6, ""m84081_231122_210358_s4"": 5, ""m84081_231124_031433_s4"": 11, ""m64043_210716_230222"": 4}"	"{""m64043_210718_100009"": 5, ""m64043_210719_210019"": 6, ""m84081_231122_210358_s4"": 5, ""m84081_231124_031433_s4"": 11, ""m64043_210716_230222"": 4}"	1	
+through_e	69	69	1	
+hifi_stop	1	1	1	
+jr_mat	29	29	1	
+jr_pat	0	0	1	
+jr_unphased	2	2	1	
+jr_mom_own	[4, 30]	[4, 30]	1	
+jr_oh_m	535	535	1	
+jr_dad_own	0	0	1	
+through_s.mat	33	33	1	
+through_s.pat	31	31	1	
+consistency.mat|reads	1194	1193	0	alleles read from the primary alignments
+consistency.mat|with a mother-only allele	414	414	1	alleles read from the primary alignments
+consistency.mat|with a father-only allele	10	10	1	alleles read from the primary alignments
+consistency.mat|mother-only alleles	2829	2829	1	alleles read from the primary alignments
+consistency.mat|father-only alleles	10	10	1	alleles read from the primary alignments
+consistency.pat|reads	707	707	1	alleles read from the primary alignments
+consistency.pat|with a mother-only allele	0	0	1	alleles read from the primary alignments
+consistency.pat|with a father-only allele	539	539	1	alleles read from the primary alignments
+consistency.pat|mother-only alleles	0	0	1	alleles read from the primary alignments
+consistency.pat|father-only alleles	4336	4336	1	alleles read from the primary alignments
+oh_in.sr	0.6521739130434783	0.6521739130434783	1	
+oh_in.sr_n	221	221	1	
+oh_in.hifi	0.6814159292035398	0.6814159292035398	1	
+oh_in.hifi_n	221	221	1	
+oh_out.sr	0.5	0.5	1	
+oh_out.sr_n	163	163	1	
+oh_out.hifi	0.42857142857142855	0.42857142857142855	1	
+oh_out.hifi_n	157	157	1	
+last_oh	47291000	47291000	1	
+sr_flank.child	35.5223	35.5311	0	raw depth: samtools bedcov -Q 20; the original counted a fraction of a percent differently
+sr_flank.father	36.5664	36.556	0	raw depth: samtools bedcov -Q 20; the original counted a fraction of a percent differently
+sr_flank.mother	35.1524	35.2812	0	raw depth: samtools bedcov -Q 20; the original counted a fraction of a percent differently
+sr_rel	1.5104511694770226	1.516350161650283	0	per-bin ratio of copies, child against the parents' mean, over the 107 bins fully inside; rests on the raw depth
+sr_child	1.5220326386523395	1.5218055290813952	1	
+sr_father	1.0011458606808437	1.0040079075335056	0	rests on the raw depth
+sr_mother	1.0033966386363378	1.005045955568536	0	rests on the raw depth
+hifi_in	2.7857587965518937	2.8122522462325183	0	rests on the raw depth
+hifi_mat	1.875107275023095	1.9446094286092428	0	bins more than 10 kb inside with 10 or more reads of each parent phased at parent-opposite sites; the original's rule is unpublished
+hifi_pat	0.8867066431253792	0.9267702205355932	0	as hifi_mat
+hifi_phased_bins	29	29	1	
+hifi_phased_span	[46990001, 47320000]	[46990001, 47310000]	0	as hifi_mat
+hifi_flank_bins	8	10	0	as hifi_mat
+hifi_flank_mat	0.8575633674244703	0.8700401743096686	0	as hifi_mat
+hifi_flank_pat	1.1722905198943923	1.1982377511853382	0	as hifi_mat
+hifi_len	18627	18627	1	
+split	6	6	1	
+split_mapq	[0, 6, 21, 23, 41, 60]	[0, 6, 21, 23, 41, 60]	1	
+pairs	31	31	1	
+pair_mapq_med	60.0	60	1	
+clip_s	5	5	1	
+clip_e	7	7	1	
+parents_sr.father	[0, 0, 0]	[0, 0, 0]	1	
+parents_sr.mother	[0, 0, 0]	[0, 0, 0]	1	
+ont.junction	0	0	1	
+ont.through_s	10	10	1	
+ont.through_e	10	10	1	
+ont.reads	2423	2423	1	
+ont.reach	28	28	1	
+ont.len	3555	3553	0	median primary alignment length at MAPQ 20
+ont.blocks	[[47059845, 47106698, 28], [47163438, 47385570, 122], [47557874, 47730934, 177], [47768911, 48146937, 163]]	[[47059845, 47106698, 28], [47163438, 47385570, 122], [47557874, 47730934, 177], [47768930, 48146937, 166]]	0	7 blocks of 2 or more sites; those of 10 or more listed
+ont.conflicts	0	0	1	
+ont.linked	768	781	0	reads carrying two or more of her heterozygous sites
+stretch	[47590351, 47704313]	[47590351, 47704313]	1	
+stretch_differ	111	111	1	
+stretch_n	117	117	1	
+agree_before	118	118	1	
+agree_after	133	133	1	
+differ_outside	[47495696, 47560570, 47571608, 47572237, 47578662, 47578901, 47580921, 47582164, 47586996]	[47495696, 47560570, 47571608, 47572237, 47578662, 47578901, 47580921, 47582164, 47586996]	1	
+bounds	[47588806, 47590351, 47704313, 47713612]	[47588806, 47590351, 47704313, 47713612]	1	
+compo.left	"{""0"": 15, ""1"": 8, ""2"": 7}"	"{""0"": 15, ""1"": 8, ""2"": 7}"	1	
+compo.inside	"{""1"": 109, ""0"": 2, ""2"": 4}"	"{""1"": 109, ""0"": 2, ""2"": 4}"	1	
+compo.right	"{""2"": 22}"	"{""2"": 22}"	1	
+compo.block	[47557874, 47730934, 177]	[47557874, 47730934, 177]	1	
+switch_left	"{""2>2"": 21, ""dad"": 16, ""2>1"": 21}"	"{""2>2"": 26, ""dad"": 27, ""2>1"": 12}"	0	rule: two or more phased sites each side, two in three agreeing; the father's = his own alleles and none of hers
+switch_right	"{""2>1"": 10, ""1>1"": 8}"	"{""1>1"": 13, ""2>1"": 8}"	0	as switch_left
+pieces.A.rs	44588993	44588993	1	
+pieces.A.re	47340307	47340307	1	
+pieces.A.qs	44643737	44643737	1	
+pieces.A.qe	47396431	47396431	1	
+pieces.A.mom_own	0	0	1	
+pieces.A.dad_own	352	352	1	
+pieces.A.nm	8006	8006	1	
+pieces.A.aligned	2749507	2749507	1	
+pieces.A.parent	"""paternal"""	"""paternal"""	1	
+pieces.A.kind	"""supplementary"""	"""supplementary"""	1	
+pieces.A.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+pieces.B.rs	46971835	46971835	1	
+pieces.B.re	47340686	47340686	1	
+pieces.B.qs	47396532	47396532	1	
+pieces.B.qe	47765590	47765590	1	
+pieces.B.mom_own	279	279	1	
+pieces.B.dad_own	0	0	1	
+pieces.B.nm	1210	1210	1	
+pieces.B.aligned	368532	368532	1	
+pieces.B.parent	"""maternal"""	"""maternal"""	1	
+pieces.B.kind	"""supplementary"""	"""supplementary"""	1	
+pieces.B.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+pieces.C.rs	47319800	47319800	1	
+pieces.C.re	47774341	47774341	1	
+pieces.C.qs	47765691	47765691	1	
+pieces.C.qe	48221141	48221141	1	
+pieces.C.mom_own	0	0	1	
+pieces.C.dad_own	122	122	1	
+pieces.C.nm	1658	1658	1	
+pieces.C.aligned	454325	454325	1	
+pieces.C.parent	"""paternal"""	"""paternal"""	1	
+pieces.C.kind	"""supplementary"""	"""supplementary"""	1	
+pieces.C.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+pieces.D.rs	47755434	47755434	1	
+pieces.D.re	48055872	48055872	1	
+pieces.D.qs	48221250	48221250	1	
+pieces.D.qe	48522660	48522660	1	
+pieces.D.mom_own	3	3	1	
+pieces.D.dad_own	0	0	1	
+pieces.D.nm	1486	1486	1	
+pieces.D.aligned	300276	300276	1	
+pieces.D.parent	"""maternal"""	"""maternal"""	1	
+pieces.D.kind	"""supplementary"""	"""supplementary"""	1	
+pieces.D.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+pieces.E.rs	47756575	47756575	1	
+pieces.E.re	48555799	48555799	1	
+pieces.E.qs	48522761	48522761	1	
+pieces.E.qe	49322940	49322940	1	
+pieces.E.mom_own	0	0	1	
+pieces.E.dad_own	7	7	1	
+pieces.E.nm	2146	2146	1	
+pieces.E.aligned	798855	798855	1	
+pieces.E.parent	"""paternal"""	"""paternal"""	1	
+pieces.E.kind	"""supplementary"""	"""supplementary"""	1	
+pieces.E.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+pieces.M.rs	44588649	44588649	1	
+pieces.M.re	48555799	48555799	1	
+pieces.M.qs	44613400	44613400	1	
+pieces.M.qe	48584116	48584116	1	
+pieces.M.mom_own	422	422	1	
+pieces.M.dad_own	0	0	1	
+pieces.M.nm	13112	13112	1	
+pieces.M.aligned	3964333	3964333	1	
+pieces.M.parent	"""maternal"""	"""maternal"""	1	
+pieces.M.kind	"""supplementary"""	"""supplementary"""	1	
+pieces.M.contig	"""CM089362.1"""	"""CM089362.1"""	1	
+pieces.U.rs	47426809	47426809	1	
+pieces.U.re	47656968	47656968	1	
+pieces.U.qs	1	1	1	
+pieces.U.qe	230135	230135	1	
+pieces.U.mom_own	27	27	1	
+pieces.U.dad_own	0	0	1	
+pieces.U.nm	204	204	1	
+pieces.U.aligned	230109	230109	1	
+pieces.U.parent	"""maternal"""	"""maternal"""	1	
+pieces.U.kind	"""primary"""	"""primary"""	1	
+pieces.U.contig	"""JBHIIL010000075.1"""	"""JBHIIL010000075.1"""	1	
+realign.m_segment	[220695, 1308103]	[220695, 1308103]	1	
+holes	[[46970725, 46971834], [47340687, 47426808], [47656969, 47755433], [48055873, 48057041]]	[[46970725, 46971834], [47340687, 47426808], [47656969, 47755433], [48055873, 48057041]]	1	
+holes_total	186866	186866	1	
+copies	"{""3"": 87, ""4"": 3, ""2"": 19}"	"{""3"": 87, ""4"": 3, ""2"": 19}"	1	
+joins.0.left	"""A"""	"""A"""	1	
+joins.0.right	"""B"""	"""B"""	1	
+joins.0.p1	47340307	47340307	1	
+joins.0.p2	46971835	46971835	1	
+joins.0.gap	[47396432, 47396531]	[47396432, 47396531]	1	
+joins.0.unaligned	100	100	1	
+joins.0.back	368472	368472	1	
+joins.0.carry	0	0	1	
+joins.0.through1	80	80	1	
+joins.0.through2	94	94	1	
+joins.0.stop	2	2	1	
+joins.1.left	"""B"""	"""B"""	1	
+joins.1.right	"""C"""	"""C"""	1	
+joins.1.p1	47340686	47340686	1	
+joins.1.p2	47319800	47319800	1	
+joins.1.gap	[47765591, 47765690]	[47765591, 47765690]	1	
+joins.1.unaligned	100	100	1	
+joins.1.back	20886	20886	1	
+joins.1.carry	0	0	1	
+joins.1.through1	79	79	1	
+joins.1.through2	84	84	1	
+joins.1.stop	2	2	1	
+joins.2.left	"""C"""	"""C"""	1	
+joins.2.right	"""D"""	"""D"""	1	
+joins.2.p1	47774341	47774341	1	
+joins.2.p2	47755434	47755434	1	
+joins.2.gap	[48221142, 48221241]	[48221142, 48221241]	1	
+joins.2.unaligned	108	108	1	
+joins.2.back	18907	18907	1	
+joins.2.carry	0	0	1	
+joins.2.through1	80	80	1	
+joins.2.through2	81	81	1	
+joins.2.stop	1	1	1	
+joins.3.left	"""D"""	"""D"""	1	
+joins.3.right	"""E"""	"""E"""	1	
+joins.3.p1	48055872	48055872	1	
+joins.3.p2	47756575	47756575	1	
+joins.3.gap	[48522661, 48522760]	[48522661, 48522760]	1	
+joins.3.unaligned	100	100	1	
+joins.3.back	299297	299297	1	
+joins.3.carry	0	0	1	
+joins.3.through1	99	99	1	
+joins.3.through2	81	81	1	
+joins.3.stop	1	1	1	
+gap_count	4	4	1	
+piece_pairs.AB.lo	46971835	46971835	1	
+piece_pairs.AB.hi	47340307	47340307	1	
+piece_pairs.AB.len	368473	368473	1	
+piece_pairs.AB.snv	436	436	1	
+piece_pairs.AB.indel	127	127	1	
+piece_pairs.AB.first	46972163	46972163	1	
+piece_pairs.AB.last	47323075	47323075	1	
+piece_pairs.AB.same_scaffold	true	true	1	
+piece_pairs.AB.where	"{""elsewhere"": 563}"	"{""elsewhere"": 563}"	1	
+piece_pairs.AC.lo	47319800	47319800	1	
+piece_pairs.AC.hi	47340307	47340307	1	
+piece_pairs.AC.len	20508	20508	1	
+piece_pairs.AC.snv	0	0	1	
+piece_pairs.AC.indel	6	6	1	
+piece_pairs.AC.first	47322834	47322834	1	
+piece_pairs.AC.last	47323075	47323075	1	
+piece_pairs.AC.same_scaffold	true	true	1	
+piece_pairs.AC.where	"{""elsewhere"": 6}"	"{""elsewhere"": 6}"	1	
+piece_pairs.AM.lo	46950725	46950725	1	
+piece_pairs.AM.hi	47340307	47340307	1	
+piece_pairs.AM.len	389583	389583	1	
+piece_pairs.AM.snv	481	481	1	
+piece_pairs.AM.indel	136	136	1	
+piece_pairs.AM.first	46952761	46952761	1	
+piece_pairs.AM.last	47323075	47323075	1	
+piece_pairs.AM.same_scaffold	false	false	1	
+piece_pairs.AM.where	"{""elsewhere"": 617}"	"{""elsewhere"": 617}"	1	
+piece_pairs.BC.lo	47319800	47319800	1	
+piece_pairs.BC.hi	47340686	47340686	1	
+piece_pairs.BC.len	20887	20887	1	
+piece_pairs.BC.snv	0	0	1	
+piece_pairs.BC.indel	0	0	1	
+piece_pairs.BC.first	null	null	1	
+piece_pairs.BC.last	null	null	1	
+piece_pairs.BC.same_scaffold	true	true	1	
+piece_pairs.BC.where	{}	{}	1	
+piece_pairs.BM.lo	46971835	46971835	1	
+piece_pairs.BM.hi	47340686	47340686	1	
+piece_pairs.BM.len	368852	368852	1	
+piece_pairs.BM.snv	0	0	1	
+piece_pairs.BM.indel	0	0	1	
+piece_pairs.BM.first	null	null	1	
+piece_pairs.BM.last	null	null	1	
+piece_pairs.BM.same_scaffold	false	false	1	
+piece_pairs.BM.where	{}	{}	1	
+piece_pairs.CD.lo	47755434	47755434	1	
+piece_pairs.CD.hi	47774341	47774341	1	
+piece_pairs.CD.len	18908	18908	1	
+piece_pairs.CD.snv	0	0	1	
+piece_pairs.CD.indel	0	0	1	
+piece_pairs.CD.first	null	null	1	
+piece_pairs.CD.last	null	null	1	
+piece_pairs.CD.same_scaffold	true	true	1	
+piece_pairs.CD.where	{}	{}	1	
+piece_pairs.CE.lo	47756575	47756575	1	
+piece_pairs.CE.hi	47774341	47774341	1	
+piece_pairs.CE.len	17767	17767	1	
+piece_pairs.CE.snv	0	0	1	
+piece_pairs.CE.indel	0	0	1	
+piece_pairs.CE.first	null	null	1	
+piece_pairs.CE.last	null	null	1	
+piece_pairs.CE.same_scaffold	true	true	1	
+piece_pairs.CE.where	{}	{}	1	
+piece_pairs.CM.lo	47319800	47319800	1	
+piece_pairs.CM.hi	47774341	47774341	1	
+piece_pairs.CM.len	454542	454542	1	
+piece_pairs.CM.snv	285	285	1	
+piece_pairs.CM.indel	108	108	1	
+piece_pairs.CM.first	47344452	47344452	1	
+piece_pairs.CM.last	47744620	47744620	1	
+piece_pairs.CM.same_scaffold	false	false	1	
+piece_pairs.CM.where	"{""stretch"": 162, ""elsewhere"": 197, ""patchy"": 34}"	"{""elsewhere"": 197, ""patchy"": 34, ""stretch"": 162}"	1	
+piece_pairs.CU.lo	47426809	47426809	1	
+piece_pairs.CU.hi	47656968	47656968	1	
+piece_pairs.CU.len	230160	230160	1	
+piece_pairs.CU.snv	58	58	1	
+piece_pairs.CU.indel	23	23	1	
+piece_pairs.CU.first	47432119	47432119	1	
+piece_pairs.CU.last	47636592	47636592	1	
+piece_pairs.CU.same_scaffold	false	false	1	
+piece_pairs.CU.where	"{""patchy"": 38, ""stretch"": 24, ""elsewhere"": 19}"	"{""elsewhere"": 19, ""patchy"": 38, ""stretch"": 24}"	1	
+piece_pairs.DE.lo	47756575	47756575	1	
+piece_pairs.DE.hi	48055872	48055872	1	
+piece_pairs.DE.len	299298	299298	1	
+piece_pairs.DE.snv	15	15	1	
+piece_pairs.DE.indel	6	6	1	
+piece_pairs.DE.first	47775219	47775219	1	
+piece_pairs.DE.last	48054885	48054885	1	
+piece_pairs.DE.same_scaffold	true	true	1	
+piece_pairs.DE.where	"{""elsewhere"": 21}"	"{""elsewhere"": 21}"	1	
+piece_pairs.DM.lo	47755434	47755434	1	
+piece_pairs.DM.hi	48055872	48055872	1	
+piece_pairs.DM.len	300439	300439	1	
+piece_pairs.DM.snv	0	0	1	
+piece_pairs.DM.indel	0	0	1	
+piece_pairs.DM.first	null	null	1	
+piece_pairs.DM.last	null	null	1	
+piece_pairs.DM.same_scaffold	false	false	1	
+piece_pairs.DM.where	{}	{}	1	
+piece_pairs.EM.lo	47756575	47756575	1	
+piece_pairs.EM.hi	48077041	48077041	1	
+piece_pairs.EM.len	320467	320467	1	
+piece_pairs.EM.snv	15	15	1	
+piece_pairs.EM.indel	6	6	1	
+piece_pairs.EM.first	47775219	47775219	1	
+piece_pairs.EM.last	48054885	48054885	1	
+piece_pairs.EM.same_scaffold	false	false	1	
+piece_pairs.EM.where	"{""elsewhere"": 21}"	"{""elsewhere"": 21}"	1	
+piece_pairs.MU.lo	47426809	47426809	1	
+piece_pairs.MU.hi	47656968	47656968	1	
+piece_pairs.MU.len	230160	230160	1	
+piece_pairs.MU.snv	102	102	1	
+piece_pairs.MU.indel	28	28	1	
+piece_pairs.MU.first	47444769	47444769	1	
+piece_pairs.MU.last	47656863	47656863	1	
+piece_pairs.MU.same_scaffold	false	false	1	
+piece_pairs.MU.where	"{""patchy"": 12, ""stretch"": 114, ""elsewhere"": 4}"	"{""elsewhere"": 4, ""patchy"": 12, ""stretch"": 114}"	1	
+missing.0.tally	"{""M same"": 100, ""C differs"": 99, ""C same"": 1}"	"{""M same"": 100, ""C differs"": 99, ""C same"": 1}"	1	
+missing.1.tally	"{""M differs"": 27, ""C same"": 53, ""M same"": 28, ""C differs"": 2}"	"{""M differs"": 27, ""C same"": 53, ""M same"": 28, ""C differs"": 2}"	1	
+flags_placed.0.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+flags_placed.0.qs	47380968	47380968	1	
+flags_placed.0.qe	47411932	47411932	1	
+flags_placed.0.label	"""MISJOIN"""	"""MISJOIN"""	1	
+flags_placed.0.piece	"""A"""	"""A"""	1	
+flags_placed.0.rs	47324847	47324847	1	
+flags_placed.0.re	47340307	47340307	1	
+flags_placed.1.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+flags_placed.1.qs	47747754	47747754	1	
+flags_placed.1.qe	47785333	47785333	1	
+flags_placed.1.label	"""MISJOIN"""	"""MISJOIN"""	1	
+flags_placed.1.piece	"""B"""	"""B"""	1	
+flags_placed.1.rs	47322847	47322847	1	
+flags_placed.1.re	47340686	47340686	1	
+flags_placed.2.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+flags_placed.2.qs	48132360	48132360	1	
+flags_placed.2.qe	48157426	48157426	1	
+flags_placed.2.label	"""COLLAPSE"""	"""COLLAPSE"""	1	
+flags_placed.2.piece	"""C"""	"""C"""	1	
+flags_placed.2.rs	47686528	47686528	1	
+flags_placed.2.re	47711595	47711595	1	
+flags_placed.3.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+flags_placed.3.qs	48190413	48190413	1	
+flags_placed.3.qe	48190430	48190430	1	
+flags_placed.3.label	"""MISJOIN"""	"""MISJOIN"""	1	
+flags_placed.3.piece	"""C"""	"""C"""	1	
+flags_placed.3.rs	47744602	47744602	1	
+flags_placed.3.re	47744619	47744619	1	
+flags_placed.4.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+flags_placed.4.qs	48210885	48210885	1	
+flags_placed.4.qe	48240410	48240410	1	
+flags_placed.4.label	"""MISJOIN"""	"""MISJOIN"""	1	
+flags_placed.4.piece	"""C"""	"""C"""	1	
+flags_placed.4.rs	47765076	47765076	1	
+flags_placed.4.re	47774341	47774341	1	
+flags_placed.5.contig	"""CM089354.1"""	"""CM089354.1"""	1	
+flags_placed.5.qs	48505515	48505515	1	
+flags_placed.5.qe	48566045	48566045	1	
+flags_placed.5.label	"""MISJOIN"""	"""MISJOIN"""	1	
+flags_placed.5.piece	"""D"""	"""D"""	1	
+flags_placed.5.rs	48038699	48038699	1	
+flags_placed.5.re	48055872	48055872	1	
+flags_placed.6.contig	"""JBHIIL010000075.1"""	"""JBHIIL010000075.1"""	1	
+flags_placed.6.qs	2	2	1	
+flags_placed.6.qe	2052	2052	1	
+flags_placed.6.label	"""MISJOIN"""	"""MISJOIN"""	1	
+flags_placed.6.piece	"""U"""	"""U"""	1	
+flags_placed.6.rs	47426810	47426810	1	
+flags_placed.6.re	47428860	47428860	1	
+flags_placed.7.contig	"""JBHIIL010000075.1"""	"""JBHIIL010000075.1"""	1	
+flags_placed.7.qs	229695	229695	1	
+flags_placed.7.qe	230135	230135	1	
+flags_placed.7.label	"""MISJOIN"""	"""MISJOIN"""	1	
+flags_placed.7.piece	"""U"""	"""U"""	1	
+flags_placed.7.rs	47656528	47656528	1	
+flags_placed.7.re	47656968	47656968	1	
+self_pieces	240	240	1	
+self_first	240	240	1	
+self_other	9	9	1	
+self_bp	"{""before the start"": [], ""after the start"": [], ""before the end"": [[""chr2"", 47910579, 47913565, 2996, 0.952]], ""after the end"": []}"	"{""before the start"": [], ""after the start"": [], ""before the end"": [[""chr2"", 47910579, 47913565, 2996, 0.952]], ""after the end"": []}"	1	
+mh	1	1	1	
+realign.per_piece.A.pat	778	771	0	rests on each read's parent, read from its primary alignment
+realign.per_piece.A.reads	901	901	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.A.q0	10	10	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.A.?	123	130	0	rests on each read's parent, read from its primary alignment
+realign.per_piece.M.?	1572	1572	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.M.reads	2691	2691	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.M.q0	1488	1488	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.M.mat	1119	1119	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.B.mat	578	582	0	rests on each read's parent, read from its primary alignment
+realign.per_piece.B.reads	622	622	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.B.q0	622	622	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.B.?	44	40	0	rests on each read's parent, read from its primary alignment
+realign.per_piece.C.?	586	586	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.C.reads	892	892	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.C.q0	72	72	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.C.pat	306	306	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.E.?	771	771	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.E.reads	797	797	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.E.q0	389	389	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.E.pat	26	26	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.D.?	502	502	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.D.reads	504	504	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.D.q0	504	504	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.D.mat	2	2	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.U.?	265	265	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.U.reads	358	358	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.U.q0	103	103	1	rests on each read's parent, read from its primary alignment
+realign.per_piece.U.mat	93	93	1	rests on each read's parent, read from its primary alignment
+realign.reads	6765	6765	1	
+realign.jr_split_at_m	29	29	1	
+realign.jr_at_end	30	30	1	
+realign.jr_at_start	30	30	1	
+realign.jr_through	0	0	1	
+realign.one_copy	37.42	37.45	0	the left flank from 20 kb inside the long-read window to 10 kb before the segment
+realign.flank_pat	41.22	41.47	0	as realign.one_copy
+realign.flank_mat	33.61	33.43	0	as realign.one_copy
+realign.joins.0.lend	590594	590594	1	
+realign.joins.0.rbeg	590695	590695	1	
+realign.joins.0.cross	0	0	1	
+realign.joins.0.stop_left	0	0	1	
+realign.joins.0.stop_right	0	0	1	
+realign.joins.0.p1	"{""n"": 80, ""where"": {""C|?"": 7, ""M|?"": 57, ""C|pat"": 16}}"	"{""n"": 80, ""where"": {""C|?"": 7, ""M|?"": 57, ""C|pat"": 16}}"	1	
+realign.joins.0.p2	"{""n"": 94, ""where"": {""A|pat"": 30, ""M|mat"": 51, ""M|?"": 13}}"	"{""n"": 94, ""where"": {""A|pat"": 30, ""M|mat"": 51, ""M|?"": 13}}"	1	
+realign.joins.0.edge_left	0.04892780904327576	0.053858206322650204	0	the left flank from 20 kb inside the long-read window to 10 kb before the segment
+realign.joins.0.edge_right	0.013632835241606833	0.015006599877704222	0	the left flank from 20 kb inside the long-read window to 10 kb before the segment
+realign.joins.1.lend	959753	959753	1	
+realign.joins.1.rbeg	959854	959854	1	
+realign.joins.1.cross	0	0	1	
+realign.joins.1.stop_left	0	0	1	
+realign.joins.1.stop_right	0	0	1	
+realign.joins.1.p1	"{""n"": 79, ""where"": {""C|?"": 6, ""M|?"": 55, ""C|pat"": 18}}"	"{""n"": 79, ""where"": {""C|?"": 6, ""M|?"": 55, ""C|pat"": 18}}"	1	
+realign.joins.1.p2	"{""n"": 84, ""where"": {""A|pat"": 25, ""M|mat"": 24, ""A|?"": 4, ""B|mat"": 16, ""B|?"": 7, ""M|?"": 8}}"	"{""n"": 84, ""where"": {""A|pat"": 25, ""M|mat"": 24, ""A|?"": 4, ""B|mat"": 16, ""B|?"": 7, ""M|?"": 8}}"	1	
+realign.joins.1.edge_left	0.026537939064622554	0.02921213570499719	0	the left flank from 20 kb inside the long-read window to 10 kb before the segment
+realign.joins.1.edge_right	0.07339171356491365	0.0807873094839753	0	the left flank from 20 kb inside the long-read window to 10 kb before the segment
+realign.joins.2.lend	1415304	1415304	1	
+realign.joins.2.rbeg	1415413	1415413	1	
+realign.joins.2.cross	0	0	1	
+realign.joins.2.stop_left	0	0	1	
+realign.joins.2.stop_right	0	0	1	
+realign.joins.2.p1	"{""n"": 80, ""where"": {""M|?"": 22, ""E|?"": 24, ""D|?"": 31, ""E|pat"": 3}}"	"{""n"": 80, ""where"": {""M|?"": 22, ""E|?"": 24, ""D|?"": 31, ""E|pat"": 3}}"	1	
+realign.joins.2.p2	"{""n"": 81, ""where"": {""M|?"": 55, ""C|?"": 26}}"	"{""n"": 81, ""where"": {""M|?"": 55, ""C|?"": 26}}"	1	
+realign.joins.2.edge_left	0.048491170192121104	0.05337756789240345	0	the left flank from 20 kb inside the long-read window to 10 kb before the segment
+realign.joins.2.edge_right	0.019381913448476618	0.021014580255788652	0	the left flank from 20 kb inside the long-read window to 10 kb before the segment
+realign.joins.3.lend	1716823	1716823	1	
+realign.joins.3.rbeg	1716924	1716924	1	
+realign.joins.3.cross	0	0	1	
+realign.joins.3.stop_left	0	0	1	
+realign.joins.3.stop_right	0	0	1	
+realign.joins.3.p1	"{""n"": 99, ""where"": {""M|mat"": 11, ""M|?"": 50, ""E|?"": 38}}"	"{""n"": 99, ""where"": {""M|mat"": 11, ""M|?"": 50, ""E|?"": 38}}"	1	
+realign.joins.3.p2	"{""n"": 81, ""where"": {""M|?"": 56, ""C|?"": 25}}"	"{""n"": 81, ""where"": {""M|?"": 56, ""C|?"": 25}}"	1	
+realign.joins.3.edge_left	0.08513244711818359	0.09371114283061026	0	the left flank from 20 kb inside the long-read window to 10 kb before the segment
+realign.joins.3.edge_right	0.024257713953037066	0.02670213501370858	0	the left flank from 20 kb inside the long-read window to 10 kb before the segment
+realign.seqs.hap1.len	2241358	2241358	1	
+realign.seqs.hap1.N	400	400	1	
+realign.seqs.hap2.len	1531084	1531084	1	
+realign.seqs.hap2.N	0	0	1	
+realign.seqs.U.len	230135	230135	1	
+realign.seqs.U.N	0	0	1	
+carriers	"[""HG01943""]"	"[""HG01943""]"	1	
+junction_as_called.jr_unbroken	31	31	1	the junction reads on the junction as called, 500 bp either side
+ref_padded.window	true	true	1	ref/grch38.chr2.fa.gz: the window reads back base for base from the padded chromosome

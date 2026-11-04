@@ -24,6 +24,12 @@ both, and puts their disagreements first.
 - Fetch only from public sources, by region where possible, and list each source in the manifest.
 - Read downloaded files with `python3 -I`, from their own folder.
 
+**The reviewer.**
+- `index.html` and `reviewer/` are the page; `tools/prepare_case.py` makes each case's `data/reviewer/` from its
+  `data/` and `case.json`. Never edit the reviewer's tables by hand: change the script or the data, rerun it, and
+  update the manifest. Every threshold lives in `case.json`.
+- The page must work on GitHub Pages and from `serve.py`, with no dependency but the one pinned igv.js release.
+
 **Git.**
 - Commit only when asked, and name explicit paths.
 - Push only when asked: a push publishes.

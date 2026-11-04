@@ -1,0 +1,14 @@
+x	y	parents	lo	hi	len	snv	indel	per_kb	where	first	last	same_scaffold
+A	B	paternal/maternal	46971835	47340307	368473	436	127	1.5279	"{""elsewhere"": 563}"	46972163	47323075	1
+A	C	paternal/paternal	47319800	47340307	20508	0	6	0.2926	"{""elsewhere"": 6}"	47322834	47323075	1
+A	M	paternal/maternal	46950725	47340307	389583	481	136	1.5837	"{""elsewhere"": 617}"	46952761	47323075	0
+B	C	maternal/paternal	47319800	47340686	20887	0	0	0.0000	{}			1
+B	M	maternal/maternal	46971835	47340686	368852	0	0	0.0000	{}			0
+C	D	paternal/maternal	47755434	47774341	18908	0	0	0.0000	{}			1
+C	E	paternal/paternal	47756575	47774341	17767	0	0	0.0000	{}			1
+C	M	paternal/maternal	47319800	47774341	454542	285	108	0.8646	"{""elsewhere"": 197, ""patchy"": 34, ""stretch"": 162}"	47344452	47744620	0
+C	U	paternal/maternal	47426809	47656968	230160	58	23	0.3519	"{""elsewhere"": 19, ""patchy"": 38, ""stretch"": 24}"	47432119	47636592	0
+D	E	maternal/paternal	47756575	48055872	299298	15	6	0.0702	"{""elsewhere"": 21}"	47775219	48054885	1
+D	M	maternal/maternal	47755434	48055872	300439	0	0	0.0000	{}			0
+E	M	paternal/maternal	47756575	48077041	320467	15	6	0.0655	"{""elsewhere"": 21}"	47775219	48054885	0
+M	U	maternal/maternal	47426809	47656968	230160	102	28	0.5648	"{""elsewhere"": 4, ""patchy"": 12, ""stretch"": 114}"	47444769	47656863	0

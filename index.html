@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AssemblyReview</title>
+<meta name="description" content="An interactive reviewer for a structural-variant call and the assembly that disagrees with it, tested on the raw reads of a 1000 Genomes trio.">
+<link rel="stylesheet" href="reviewer/style.css">
+</head>
+<body>
+<a class="skip" href="#picture">Skip to the case</a>
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="kicker" id="kicker">AssemblyReview · a call and an assembly disagree; the raw reads decide</div>
+    <h1 id="title">Loading the case…</h1>
+    <p class="lede" id="lede"></p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+<nav class="toc" id="toc"><div class="wrap"></div></nav>
+<main class="wrap" id="main">
+  <noscript><p class="note">This page needs JavaScript: every panel is drawn from the case's data tables.</p></noscript>
+  <p id="loading" class="note">Loading the case's tables…</p>
+</main>
+<footer class="wrap foot" id="foot"></footer>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<script src="reviewer/lib.js"></script>
+<script src="reviewer/dotplot.js"></script>
+<script src="reviewer/panels.js"></script>
+<script src="reviewer/browsers.js"></script>
+<script src="reviewer/app.js"></script>
+</body>
+</html>

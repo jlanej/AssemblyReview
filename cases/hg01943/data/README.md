@@ -1,7 +1,7 @@
 # HG01943: the data
 
-Everything the case needs: 66 files, 270 MB, each under GitHub's 100-MB limit. Every file is a region slice of a
-public release, or was made from such slices. [MANIFEST.tsv](MANIFEST.tsv) lists each file with its size, md5, what it
+Everything the case needs: 102 files, 294 MB, each under GitHub's 100-MB limit. Every file is a region slice of a
+public release, or was made from such slices (the reviewer's own tables among them). [MANIFEST.tsv](MANIFEST.tsv) lists each file with its size, md5, what it
 holds, its public source and the command that made it.
 
 ## Layout
@@ -18,9 +18,10 @@ There are two windows, in GRCh38 (1-based):
 | `asm/` | HPRC's alignment of each of the child's haplotypes to GRCh38 over WIN, and the haplotypes' published sequence there |
 | `qc/` | HPRC's gaps, NucFlag and Flagger rows on the child's contigs over the locus, as BED |
 | `calls/` | Yale's 16 call sets of the child, the review's 6 published sets and the 1KGP record of the event, as VCF; one `.json` per published set names what was read |
-| `ref/` | GRCh38 over WIN. Its one sequence is named `chr2:46400001-48650000`, so positions in it are offsets: GRCh38 = position + 46,400,000. |
+| `ref/` | GRCh38 over WIN (`grch38.fa`; its one sequence is named `chr2:46400001-48650000`, so positions in it are offsets: GRCh38 = position + 46,400,000), and chr2 whole for the page's read panels (`grch38.chr2.fa.gz`: the window in place, N elsewhere, bgzipped) |
 | `aln/` | the trio's SNVs (BCF), the depth bins (BED) and the self-scan of the segment's pieces (PAF) |
-| `realign/` | HPRC's sequence over the locus as one FASTA (hap1, hap2, U), and the child's HiFi reads realigned to it |
+| `realign/` | HPRC's sequence over the locus as one FASTA (hap1, hap2, U), the child's HiFi reads realigned to it, the junction as called and the HiFi reads aligned to that |
+| `reviewer/` | the reviewer's tables, the direct piece-to-M alignment, the igv.js tracks, the page's data bundle, and `checks.tsv`: every number of the case's numbers.json against its recount. All made by `tools/prepare_case.py`; never edited by hand. |
 
 The coordinates of the event, the assembly's pieces and joins, and every file's own coordinate system are in the
 case's README, section 2.

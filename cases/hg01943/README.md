@@ -10,7 +10,8 @@ reads, and neither was taken as the truth. The call holds; the assembly is wrong
 | this file | The findings (section 1), the coordinates in GRCh38 and in the assembly (2), the data (3), how the evidence was built and checked (4), and the open questions (5). |
 | [data/](data/README.md) | Every file the case needs: region slices of the public releases and the files made from them. [data/MANIFEST.tsv](data/MANIFEST.tsv) gives each one's size, md5, public source and the command that made it. |
 | [numbers.json](numbers.json) | Every number the case page states: the reviewer's acceptance values. |
-| [reference/hg01943_chr2_dup.html](reference/hg01943_chr2_dup.html) | The case page, self-contained; it opens offline. Its section 10 lists every source, every threshold, and a command to check each key claim. |
+| [case.json](case.json) | The case for the reviewer: coordinates, file roles, the assembly's contigs and local offsets, every threshold. `tools/prepare_case.py` reads it. |
+| [reference/hg01943_chr2_dup.html](reference/hg01943_chr2_dup.html) | The original case page, self-contained; it opens offline. Its section 10 lists every source, every threshold, and a command to check each key claim. The interactive reviewer is the repository's `index.html`. |
 | [reference/figures/](reference/figures/) | The page's 13 figures as SVG. |
 | [lab_notes.md](lab_notes.md) | The case's lab-notebook entry (2026-11-03). |
 
@@ -175,7 +176,7 @@ numbers.json and the page use the bare accession.
 
 ## 3. Data
 
-Everything the case needs is in [data/](data/README.md): 66 files, 270 MB, each under GitHub's 100-MB limit. Two are
+Everything the case needs is in [data/](data/README.md): 102 files, 294 MB, each under GitHub's 100-MB limit. Two are
 over GitHub's 50-MB warning: `realign/hifi_on_hprc.bam` (78.9 MB) and `hifi/HG01943.bam` (67.6 MB). Every file is a
 region slice of a public release, or was made from such slices; [data/MANIFEST.tsv](data/MANIFEST.tsv) gives each
 file's size, md5, public source and the command that made it. All of the data is open access, from 1000 Genomes,
@@ -200,6 +201,9 @@ HPRC and the 1000 Genomes ONT project. Paths below are inside `data/`.
 | `aln/segment_pieces.paf` | the 240 pieces against all of GRCh38 | made here: minimap2 -x asm20 |
 | `realign/hprc_local.fa` | HPRC's sequence over the locus as one FASTA: hap1, hap2 and U | made here from `asm/*.region.fa` |
 | `realign/hifi_on_hprc.bam` | the 6,765 primary HiFi reads of LWIN, realigned to `hprc_local.fa` | made here: minimap2 -ax map-hifi --eqx -Y |
+| `realign/junction_as_called.fa`, `realign/hifi_on_junction.bam` | the junction as called (30 kb up to the segment's end joined to its first 30 kb), and the HiFi reads aligned to it: all 31 junction reads cross the join unbroken | made here by `tools/prepare_case.py --align` |
+| `ref/grch38.chr2.fa.gz` | GRCh38 chr2 for the page's read panels: the window in place, N elsewhere, bgzipped | made here from `ref/grch38.fa` |
+| `reviewer/` | the reviewer's tables, the direct piece-to-M alignment, the igv.js tracks, the page's data bundle and `checks.tsv`, every number of numbers.json against its recount | made here by `tools/prepare_case.py` |
 
 With them are their indexes (`.bai`, `.csi`, `.fai`). The headers are clean: no `@PG` lines, no `UR` tags, and no
 header line naming a file path ([data/README.md](data/README.md) lists what was removed). The read records are exactly
@@ -255,6 +259,10 @@ alignments are published. Aligned to GRCh38, those reads would give the child a 
   cd cases/hg01943/data
   samtools view -q 20 -F 0x704 hifi/HG01943.bam chr2:46970725-46970725 | awk '$4 == 46970725 && /SA:Z:chr2,4805?[0-9]/' | wc -l
   ```
+
+- **The reviewer's recount.** `tools/prepare_case.py` recomputes every number here from these files and writes
+  `data/reviewer/checks.tsv`: 444 of 478 equal numbers.json; the rest differ in the third decimal or in a definition
+  the original did not publish, each with its reason.
 
 Traps:
 - The region files' positions are offsets (section 2.3).

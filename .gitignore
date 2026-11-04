@@ -10,3 +10,9 @@ __pycache__/
 
 # Files over GitHub's 100-MB limit go here, by name, each listed in its case's data/MANIFEST.tsv with its public
 # source. None yet.
+
+# the Claude desktop app's per-project run config
+.claude/
+
+# the preparation script's cache (pileups), when run without --cache
+**/.cache/

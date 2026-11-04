@@ -1,0 +1,229 @@
+{
+  "id": "hg01943",
+  "title": "HG01943: a 1.09-Mb de novo tandem duplication on chr2, and the assembly that took it apart",
+  "short": "HG01943 chr2 duplication",
+  "trio": {
+    "child": "HG01943",
+    "father": "HG01941",
+    "mother": "HG01942"
+  },
+  "chrom": "chr2",
+  "segment": [
+    46970725,
+    48057041
+  ],
+  "windows": {
+    "WIN": [
+      46400001,
+      48650000
+    ],
+    "LWIN": [
+      46850001,
+      48180000
+    ]
+  },
+  "call": {
+    "source": "kmer_denovo_filter discovery mode, round 10 of the 1000G trio chain; card chr2:46970724-46970852",
+    "type": "DUP",
+    "independent": "1KGP GATK-SV HGSV_24204 (DUP, 1,086,317 bp, PASS): child 0/1, parents 0/0"
+  },
+  "assembly": {
+    "release": "HPRC release 2 (hifiasm 0.19.9, trio-phased)",
+    "sequences": {
+      "hap1": {
+        "contig": "CM089354.1",
+        "parent": "father",
+        "local_offset": 46805837,
+        "label": "paternal chromosome"
+      },
+      "hap2": {
+        "contig": "CM089362.1",
+        "parent": "mother",
+        "local_offset": 46777284,
+        "label": "maternal chromosome"
+      },
+      "U": {
+        "contig": "JBHIIL010000075.1",
+        "parent": "mother",
+        "local_offset": 0,
+        "label": "unplaced maternal contig"
+      }
+    },
+    "piece_names": {
+      "hap1": "ABCDEFGH",
+      "hap2": {
+        "CM089362.1": "M",
+        "JBHIIL010000075.1": "U"
+      }
+    },
+    "maternal_chromosome": "M"
+  },
+  "files": {
+    "sr": {
+      "child": "sr/child.bam",
+      "father": "sr/father.bam",
+      "mother": "sr/mother.bam"
+    },
+    "hifi": "hifi/HG01943.bam",
+    "ont_mother": "ont/mother.bam",
+    "sites_bcf": "aln/trio.sr.bcf",
+    "sr_bins": "aln/sr.bins.bed",
+    "hifi_bins": "aln/hifi.bins.bed",
+    "pieces_paf": "aln/segment_pieces.paf",
+    "ref": "ref/grch38.fa",
+    "ref_name": "chr2:46400001-48650000",
+    "asm_aln": {
+      "hap1": "asm/pat.winnowmap.bam",
+      "hap2": "asm/mat.winnowmap.bam"
+    },
+    "asm_local": "realign/hprc_local.fa",
+    "realign": "realign/hifi_on_hprc.bam",
+    "qc": {
+      "gaps": [
+        "qc/hap1.gaps.bed",
+        "qc/hap2.gaps.bed"
+      ],
+      "nucflag": [
+        "qc/hap1.nucflag.bed",
+        "qc/hap2.nucflag.bed"
+      ],
+      "flagger_hifi": [
+        "qc/hap1.flagger_hifi.bed",
+        "qc/hap2.flagger_hifi.bed"
+      ],
+      "flagger_ont": [
+        "qc/hap1.flagger_ont.bed",
+        "qc/hap2.flagger_ont.bed"
+      ]
+    },
+    "calls_yale": {
+      "sniffles": [
+        "calls/yale.sniffles.vcf",
+        "HiFi reads"
+      ],
+      "pbsv": [
+        "calls/yale.pbsv.vcf",
+        "HiFi reads"
+      ],
+      "sawfish": [
+        "calls/yale.sawfish.vcf",
+        "HiFi reads"
+      ],
+      "cutesv": [
+        "calls/yale.cutesv.vcf",
+        "HiFi reads"
+      ],
+      "debreak": [
+        "calls/yale.debreak.vcf",
+        "HiFi reads"
+      ],
+      "delly": [
+        "calls/yale.delly.vcf",
+        "HiFi reads"
+      ],
+      "svim": [
+        "calls/yale.svim.vcf",
+        "HiFi reads"
+      ],
+      "svdss": [
+        "calls/yale.svdss.vcf",
+        "HiFi reads"
+      ],
+      "svision-pro": [
+        "calls/yale.svision-pro.vcf",
+        "HiFi reads"
+      ],
+      "longcalld": [
+        "calls/yale.longcalld.vcf",
+        "HiFi reads"
+      ],
+      "pav": [
+        "calls/yale.pav.vcf",
+        "the assembly"
+      ],
+      "dipcall": [
+        "calls/yale.dipcall.vcf",
+        "the assembly"
+      ],
+      "svim-asm": [
+        "calls/yale.svim-asm.vcf",
+        "the assembly"
+      ],
+      "cutesv-asm": [
+        "calls/yale.cutesv-asm.vcf",
+        "the assembly"
+      ],
+      "svision-pro-asm": [
+        "calls/yale.svision-pro-asm.vcf",
+        "the assembly"
+      ],
+      "merged": [
+        "calls/yale.merged.vcf",
+        "both, merged"
+      ]
+    },
+    "calls_published": [
+      [
+        "1KGP",
+        "calls/0.1KGP.vcf",
+        "calls/0.1KGP.vcf.json"
+      ],
+      [
+        "HPRC",
+        "calls/1.HPRC.vcf",
+        "calls/1.HPRC.vcf.json"
+      ],
+      [
+        "HGSVC3",
+        "calls/2.HGSVC3.vcf",
+        "calls/2.HGSVC3.vcf.json"
+      ],
+      [
+        "HGSVC3",
+        "calls/3.HGSVC3.vcf",
+        "calls/3.HGSVC3.vcf.json"
+      ],
+      [
+        "ONT",
+        "calls/4.ONT.vcf",
+        "calls/4.ONT.vcf.json"
+      ],
+      [
+        "1KGP-asm",
+        "calls/5.1KGP-asm.vcf",
+        "calls/5.1KGP-asm.vcf.json"
+      ]
+    ],
+    "event_all_samples": "calls/1KGP.event_all_samples.vcf",
+    "junction_ref": "realign/junction_as_called.fa",
+    "hifi_on_junction": "realign/hifi_on_junction.bam",
+    "ref_padded": "ref/grch38.chr2.fa.gz"
+  },
+  "dotplot": {
+    "read": "m84081_231124_031433_s4/133041701/ccs",
+    "join_reads": [
+      "m84081_231124_031433_s4/208276713/ccs",
+      "m84081_231124_031433_s4/147914807/ccs"
+    ]
+  },
+  "thresholds": {
+    "site_qual": 30,
+    "mapq": 20,
+    "junction_slack": 50,
+    "junction_clip": 100,
+    "through_flank": 1000,
+    "gap_slack": 1000,
+    "phase_opposite_min": 2,
+    "phase_opposite_agree": 0.8,
+    "phase_own_min": 2,
+    "junction_phase_window": 30000,
+    "site_min_hifi": 20,
+    "parent_piece_min": 3,
+    "parent_piece_other": 0.02,
+    "pair_window": 20000,
+    "ont_link_min_reads": 3,
+    "ont_link_agree": 0.85,
+    "dotplot_k": 16,
+    "dotplot_min_run": 40
+  }
+}
