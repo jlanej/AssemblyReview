@@ -1,38 +1,26 @@
 # The reviewer: what was built
 
-A static page (`index.html`, `reviewer/*.js`) that draws every panel from tables made by `tools/prepare_case.py`
-out of the case's `data/` folder. It runs on GitHub Pages or any server that answers byte-range requests
-(`serve.py`); opened from the file system, everything but the read panels still works. One exact igv.js release
-(3.8.10, jsdelivr) is the only dependency, and only the read panels use it.
+A static page (`index.html`, `reviewer/*.js`) in the form of a short paper: a title, an abstract, one evidence
+table, four numbered figures with lettered panels and captions, three supplementary interactive views, methods, and a
+data note. Every figure is drawn from tables that `tools/prepare_case.py` rebuilds from the case's `data/` folder.
+It runs on GitHub Pages or any server that answers byte-range requests (`serve.py`); opened from the file system,
+everything but the interactive views still works. One pinned igv.js release (3.8.10, jsdelivr) is the only
+dependency, used only by the interactive views.
 
-## The design
+## The page
 
-The case has five sides of evidence, and the page's core puts them on one axis so that they can be weighed at once:
+| Element | What it shows |
+|---|---|
+| Table 1 | Each line of evidence by data type (short reads of the trio, HiFi of the proband, ONT of the mother, the HPRC assembly): copy number, junction, parental origin of the extra copy, zygosity, reads realigned to the assembly, other call sets. |
+| Figure 1 | The locus on one GRCh38 axis, zoomable: (a) short-read copy number of the trio with the junction pairs; (b) HiFi copy number by parental origin with the junction-spanning reads; (c) maternal allele fraction at parent-opposite SNVs; (d) maternal-specific allele fraction at mother-only SNVs; (e) the assembly aligned to GRCh38 as contig position against reference position; (f) parental origin of the reads each contig segment receives; (g) identity of each hap1 segment and U to hap2 by direct alignment; (h) call-set records. |
+| Figure 2 | The junction: (a) the sequence with its microhomology; (b) all junction-spanning HiFi reads aligned at the junction with their parent-informative alleles; (c) dot plots of one read (selectable) against GRCh38, GRCh38 joined as called, hap2, and hap2 joined as called. |
+| Figure 3, Table 2 | The assembly: (a) the structure of the locus to scale, reads against assembly; (b) each gap-free hap1 segment and U aligned directly to hap2; (c) the proband's reads realigned to the assembly, depth by parental origin, gaps, NucFlag. Table 2 lists each contig segment with its alleles, reads, identity to hap2 and join support. |
+| Figure 4 | The two maternal copies: (a) copies carrying the maternal-specific allele along the segment; (b) the maternal haplotype each copy carries within the mother's ONT phase block; (c, d) HiFi reads spanning each haplotype transition. |
+| Interactive views | igv.js on GRCh38 (the trio at both breakpoints), on HPRC's sequence (the realigned reads) and on the junction as called. Reads coloured by parental origin through a colour function keyed on the read name, so the BAMs stay as published. |
+| Methods | Nine numbered paragraphs with every threshold, and the recount against the case record. |
 
-| Comparison | What the board shows | Where to dig |
-|---|---|---|
-| Short reads (the guide) | the trio's depth in copies, bin by bin; the pairs and split reads at the junction | the read panels on GRCh38 |
-| Long reads vs GRCh38 | HiFi depth by parent; the 31 junction molecules; the reads straight through each end | the junction-read table, dot plots, the read panels |
-| Assembly vs GRCh38 | HPRC's own alignment: contig coordinate against GRCh38, each piece a diagonal, each gap a jump back | the picture, the pieces table |
-| Assembly vs long reads | whose reads each piece takes once realigned to it; the junction reads splitting at M's ends; no read across a gap | depth by parent on HPRC's sequence; the assembly browser |
-| Assembly vs assembly | each piece of the paternal scaffold, and U, aligned directly to the maternal chromosome: B and D identical to M | the hap1-against-hap2 dot plot |
-
-Above the board, five cards give each comparison's verdict and numbers. Everything is hoverable, the board zooms
-(drag) and resets (double-click), and a click sends the read panels to that place. Pieces are clickable everywhere
-and open in the assembly browser.
-
-Then, in order: the picture of what happened (the child's two chromosomes between HPRC's two, with bands from each
-piece to the copy it holds); the read panels on GRCh38 (the trio's short reads coloured by pair orientation, the
-child's HiFi reads coloured by parent, the mother's nanopore reads; the junction reads outlined); the 31 junction
-reads with k-mer dot plots on demand (against GRCh38's two ends, GRCh38 joined as called, M's two ends, M joined as
-called, and the paternal scaffold at gaps 1 and 4); the assembly tested on its own reads (depth by parent on HPRC's
-sequence, the direct hap1-against-hap2 alignment, the pieces, the joins, every pair of pieces, HPRC's QC calls, and
-igv.js on HPRC's local sequence and on the junction as called); where the copy was made (the mother's phase, each
-copy's haplotype site by site, the reads that switch); every call set; every claim with its recount; the verdict row;
-methods and provenance with every threshold.
-
-Colours are the same everywhere: blue the father's, amber the mother's, pink the junction and whatever is missing or
-differs, green and violet the mother's two haplotypes, grey unphased, black a gap.
+Colours are the same throughout: paternal blue, maternal orange, junction and absent sequence magenta, maternal
+haplotype 1 teal and haplotype 2 purple, unphased grey, gaps black.
 
 ## The data preparation
 
@@ -43,29 +31,30 @@ differs, green and violet the mother's two haplotypes, grey unphased, black a ga
   `self_matches.tsv`), the direct assembly alignment (`asm_vs_asm.paf`), the igv.js tracks (`tracks/*.bed`), the
   page's bundle (`bundle.js`, `sequences.js`) and `checks.tsv`;
 - with `--align`, the junction as called (`realign/junction_as_called.fa`) and the HiFi reads aligned to it;
-- a bgzipped GRCh38 chr2 with N outside the window (`ref/grch38.chr2.fa.gz`), so that the read panels need no
-  reference from anywhere else.
+- a bgzipped GRCh38 chr2 with N outside the window (`ref/grch38.chr2.fa.gz`), so that the interactive views need
+  no reference from anywhere else.
 
-Every threshold is in `case.json` and listed on the page. The script reproduces the case's `numbers.json` where the
-original workup's definition is known (444 of 478 numbers, including every junction, phasing, piece, join, hole and
-stretch count); the rest differ in the third decimal or in a definition the original did not publish (raw depth,
-the phased-depth rule, the switch-read classes, the mother's last phase block), and each is listed with its reason in
-`checks.tsv` and on the page.
+Every threshold is in `case.json` and listed in the page's Methods. The script reproduces the case's `numbers.json`
+where the original workup's definition is known (444 of 478 numbers, including every junction, phasing, segment,
+join, hole and interval count); the rest differ in the third decimal or in a definition the original did not publish
+(raw depth, the phased-depth rule, the switch-read classes, the mother's last phase block), and each is listed with
+its reason in `checks.tsv`.
 
 ## Where it departs from the brief
 
-- **Reads are coloured by parent through a colour function keyed on the read name** (igv.js takes one), so the BAMs
-  stay exactly as published: no tagged copies.
-- **GRCh38 for the read panels is a padded chr2 from the repository**, not igv's hosted genome: no outside
-  dependency, and it works offline with `serve.py`. A button adds RefSeq genes from UCSC's mirror when wanted.
-- **The assembly against itself** is a sixth view the brief did not ask for: each gap-free piece aligned directly to
-  the maternal chromosome, which shows B and D identical to M without any reference in between.
-- **The verdict** is a row the reviewer copies or downloads, not a file the page writes: the page is static.
-- Not made: the trio's short reads and the mother's nanopore reads on HPRC's sequence (two more alignments, about 90
-  MB of BAM), and the breakpoint figures as separate panels, which the read panels cover.
+The brief (`docs/brief.md`) described a reviewer with many views and a verdict file. The page was redesigned as a
+figure-led scientific presentation instead:
+- the sides of the evidence are weighed at once (Table 1 and Figure 1) rather than visited view by view;
+- the assembly is compared with itself by direct alignment (Figure 3b), which the brief did not ask for and which
+  shows B and D identical to hap2 without any reference in between;
+- reads are coloured by parent through a colour function, not through tagged BAM copies;
+- GRCh38 for the interactive views is a padded chr2 from the repository, not a hosted genome;
+- the verdict row, the claims scorecard and the breakpoint figures as separate panels were dropped; the recount
+  against `numbers.json` lives in `checks.tsv` and the Methods;
+- not made: the trio's short reads and the mother's nanopore reads realigned to HPRC's sequence.
 
 ## Adding a case
 
-Make `cases/<case>/case.json` and `cases/<case>/data/` on the pattern of HG01943 (the same file roles; the piece
+Make `cases/<case>/case.json` and `cases/<case>/data/` on the pattern of HG01943 (the same file roles; the segment
 letters and local offsets in `assembly`), run `tools/prepare_case.py`, list the new files in the manifest, and open
 `index.html?case=<case>`.

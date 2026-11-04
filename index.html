@@ -4,29 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AssemblyReview</title>
-<meta name="description" content="An interactive reviewer for a structural-variant call and the assembly that disagrees with it, tested on the raw reads of a 1000 Genomes trio.">
+<meta name="description" content="A de novo tandem duplication tested against the raw reads of a 1000 Genomes trio and against the HPRC assembly that misrepresents it.">
 <link rel="stylesheet" href="reviewer/style.css">
 </head>
 <body>
-<a class="skip" href="#picture">Skip to the case</a>
-<header class="hero" id="top">
-  <div class="wrap">
-    <div class="kicker" id="kicker">AssemblyReview · a call and an assembly disagree; the raw reads decide</div>
-    <h1 id="title">Loading the case…</h1>
-    <p class="lede" id="lede"></p>
-    <div class="stats" id="stats"></div>
-  </div>
+<header class="wrap">
+  <h1 id="title">Loading the case…</h1>
+  <p class="byline" id="byline"></p>
 </header>
-<nav class="toc" id="toc"><div class="wrap"></div></nav>
-<main class="wrap" id="main">
-  <noscript><p class="note">This page needs JavaScript: every panel is drawn from the case's data tables.</p></noscript>
-  <p id="loading" class="note">Loading the case's tables…</p>
-</main>
-<footer class="wrap foot" id="foot"></footer>
+<nav><div class="wrap">
+  <a href="#table1">Table 1</a><a href="#figure1">Figure 1</a><a href="#figure2">Figure 2</a><a href="#figure3">Figure 3</a><a href="#figure4">Figure 4</a><a href="#views">Interactive views</a><a href="#methods">Methods</a><a href="#data">Data and code</a>
+</div></nav>
+<main class="wrap" id="main"><noscript><p>This page draws every figure from the case's data tables and needs JavaScript.</p></noscript></main>
+<footer class="wrap">AssemblyReview · figures drawn from the case's data tables; igv.js 3.8.10 for the interactive views.</footer>
 <div id="tip" class="tip" role="tooltip" hidden></div>
 <script src="reviewer/lib.js"></script>
 <script src="reviewer/dotplot.js"></script>
-<script src="reviewer/panels.js"></script>
+<script src="reviewer/figures.js"></script>
 <script src="reviewer/browsers.js"></script>
 <script src="reviewer/app.js"></script>
 </body>

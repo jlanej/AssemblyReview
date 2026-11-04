@@ -58,8 +58,8 @@
       canvas.width = W * dpr; canvas.height = H * dpr; canvas.style.width = `${W}px`; canvas.style.maxWidth = '100%';
       const ctx = canvas.getContext('2d'); ctx.scale(dpr, dpr);
       const css = getComputedStyle(document.documentElement);
-      const ink = css.getPropertyValue('--ink').trim() || '#111', muted = css.getPropertyValue('--muted').trim() || '#666',
-        line = css.getPropertyValue('--line').trim() || '#ccc', panel = css.getPropertyValue('--panel').trim() || '#fff';
+      const ink = css.getPropertyValue('--ink').trim() || '#222', muted = css.getPropertyValue('--muted').trim() || '#666',
+        line = css.getPropertyValue('--rule').trim() || '#d9d9d9', panel = '#ffffff';
       ctx.fillStyle = panel; ctx.fillRect(0, 0, W, H);
       const total = computed.reduce((s, w) => s + w.len, 0);
       const gapPx = 10, plotH = H - mT - mB - gapPx * (computed.length - 1), plotW = W - mL - mR;
@@ -100,7 +100,7 @@
       for (const m of opts.xmarks || []) {
         const x = mL + m.at * sx; ctx.save(); ctx.strokeStyle = opts.markColor || '#d1336e'; ctx.setLineDash([4, 3]);
         ctx.beginPath(); ctx.moveTo(x, mT); ctx.lineTo(x, H - mB); ctx.stroke(); ctx.restore();
-        if (m.label) { ctx.fillStyle = opts.markColor || '#d1336e'; ctx.textAlign = 'left'; ctx.fillText(m.label, x + 3, mT + 24); }
+        if (m.label) { ctx.fillStyle = opts.markColor || '#d1336e'; ctx.textAlign = 'left'; ctx.fillText(m.label, x + 4, H - mB - 6); }
       }
     },
   };

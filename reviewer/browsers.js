@@ -53,10 +53,10 @@
 
   async function create(which, container, config, B) {
     if (!Bw.canServeRanges()) {
-      note(container, 'The read panels need the page served over HTTP (igv.js reads the BAM and FASTA files by byte range): open the GitHub Pages copy, or run <code>python3 serve.py</code> in the repo and open <code>http://localhost:8000/</code>. The other panels on this page need no server.');
+      note(container, 'This view needs the page served over HTTP (igv.js reads the BAM and FASTA files by byte range): open the GitHub Pages copy, or run <code>python3 serve.py</code> in the repository and open <code>http://localhost:8000/</code>. The figures need no server.');
       return null;
     }
-    note(container, 'Loading igv.js and the read panels…');
+    note(container, 'Loading igv.js…');
     try {
       const igv = await Bw.load();
       AR.clear(container);
@@ -81,17 +81,17 @@
       showCenterGuide: false, showCursorTrackingGuide: true,
       tracks: [
         { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_segment.bed'), name: 'the segment', displayMode: 'COLLAPSED', height: 22, order: 1 },
-        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_junction_reads.bed'), name: `the ${B.numbers.jr} junction reads: both sides`, displayMode: 'SQUISHED', height: 60, order: 2 },
-        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_pieces.bed'), name: "HPRC's pieces (blue the father's, amber the mother's by alleles)", displayMode: 'EXPANDED', height: 70, order: 3 },
-        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_missing.bed'), name: 'the second copy: missing from the assembly', displayMode: 'COLLAPSED', height: 22, order: 4 },
-        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_nucflag.bed'), name: 'NucFlag calls, placed on GRCh38', displayMode: 'COLLAPSED', height: 22, order: 5 },
-        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_sites.bed'), name: 'the trio\'s informative SNVs (pink parent-opposite, amber mother-only, blue father-only, grey both heterozygous)', displayMode: 'COLLAPSED', height: 22, order: 6 },
-        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_calls.bed'), name: 'call-set records over the segment', displayMode: 'EXPANDED', height: 60, order: 7 },
-        { type: 'alignment', format: 'bam', url: base + C.files.hifi, indexURL: base + C.files.hifi + '.bai', name: `${C.trio.child}, HiFi reads (amber the mother's, blue the father's, grey unphased)`, height: 320, colorBy: 'none', color, showSoftClips: true, displayMode: 'EXPANDED', visibilityWindow: 150000, order: 8 },
-        { type: 'alignment', format: 'bam', url: base + C.files.sr.child, indexURL: base + C.files.sr.child + '.bai', name: `${C.trio.child}, the child's short reads (coloured by pair orientation: a tandem duplication's pairs stand out)`, height: 220, colorBy: 'pairOrientation', showSoftClips: true, displayMode: 'SQUISHED', visibilityWindow: 80000, order: 9 },
-        { type: 'alignment', format: 'bam', url: base + C.files.sr.father, indexURL: base + C.files.sr.father + '.bai', name: `${C.trio.father}, the father's short reads`, height: 160, colorBy: 'pairOrientation', showSoftClips: true, displayMode: 'SQUISHED', visibilityWindow: 80000, order: 10 },
-        { type: 'alignment', format: 'bam', url: base + C.files.sr.mother, indexURL: base + C.files.sr.mother + '.bai', name: `${C.trio.mother}, the mother's short reads`, height: 160, colorBy: 'pairOrientation', showSoftClips: true, displayMode: 'SQUISHED', visibilityWindow: 80000, order: 11 },
-        { type: 'alignment', format: 'bam', url: base + C.files.ont_mother, indexURL: base + C.files.ont_mother + '.bai', name: `${C.trio.mother}, the mother's nanopore reads`, height: 180, colorBy: 'none', color: AR.solid.grey, showSoftClips: true, displayMode: 'SQUISHED', visibilityWindow: 150000, order: 12 },
+        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_junction_reads.bed'), name: `junction-spanning HiFi reads (${B.numbers.jr}), both alignments`, displayMode: 'SQUISHED', height: 60, order: 2 },
+        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_pieces.bed'), name: 'contig segments on GRCh38 (blue paternal, orange maternal, by alleles)', displayMode: 'EXPANDED', height: 70, order: 3 },
+        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_missing.bed'), name: 'second maternal copy: absent from the assembly', displayMode: 'COLLAPSED', height: 22, order: 4 },
+        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_nucflag.bed'), name: 'NucFlag calls placed on GRCh38', displayMode: 'COLLAPSED', height: 22, order: 5 },
+        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_sites.bed'), name: 'informative SNVs (magenta parents-opposite, orange mother-only, blue father-only, grey both heterozygous)', displayMode: 'COLLAPSED', height: 22, order: 6 },
+        { type: 'annotation', format: 'bed', color: bedColor, url: tr('grch38_calls.bed'), name: 'SV records over the segment', displayMode: 'EXPANDED', height: 60, order: 7 },
+        { type: 'alignment', format: 'bam', url: base + C.files.hifi, indexURL: base + C.files.hifi + '.bai', name: `proband ${C.trio.child} HiFi (orange maternal, blue paternal, grey unphased)`, height: 320, colorBy: 'none', color, showSoftClips: true, displayMode: 'EXPANDED', visibilityWindow: 150000, order: 8 },
+        { type: 'alignment', format: 'bam', url: base + C.files.sr.child, indexURL: base + C.files.sr.child + '.bai', name: `proband ${C.trio.child} short reads (pair orientation)`, height: 220, colorBy: 'pairOrientation', showSoftClips: true, displayMode: 'SQUISHED', visibilityWindow: 80000, order: 9 },
+        { type: 'alignment', format: 'bam', url: base + C.files.sr.father, indexURL: base + C.files.sr.father + '.bai', name: `father ${C.trio.father} short reads`, height: 160, colorBy: 'pairOrientation', showSoftClips: true, displayMode: 'SQUISHED', visibilityWindow: 80000, order: 10 },
+        { type: 'alignment', format: 'bam', url: base + C.files.sr.mother, indexURL: base + C.files.sr.mother + '.bai', name: `mother ${C.trio.mother} short reads`, height: 160, colorBy: 'pairOrientation', showSoftClips: true, displayMode: 'SQUISHED', visibilityWindow: 80000, order: 11 },
+        { type: 'alignment', format: 'bam', url: base + C.files.ont_mother, indexURL: base + C.files.ont_mother + '.bai', name: `mother ${C.trio.mother} ONT reads`, height: 180, colorBy: 'none', color: AR.solid.grey, showSoftClips: true, displayMode: 'SQUISHED', visibilityWindow: 150000, order: 12 },
       ],
     };
     if (reference) config.reference = reference; else config.genome = 'hg38';
@@ -108,12 +108,12 @@
       reference: { id: 'hprc_local', name: "HPRC's sequence over the locus", fastaURL: base + C.files.asm_local, indexURL: base + C.files.asm_local + '.fai' },
       locus: locus || (g1 ? `${g1[0]}:${g1[1] - 12000}-${g1[2] + 12000}` : 'hap1:580000-600000'), showCenterGuide: false, showCursorTrackingGuide: true,
       tracks: [
-        { type: 'annotation', format: 'bed', color: bedColor, url: tr('asm_pieces.bed'), name: 'pieces (blue the father\'s, amber the mother\'s by alleles)', displayMode: 'COLLAPSED', height: 24, order: 1 },
+        { type: 'annotation', format: 'bed', color: bedColor, url: tr('asm_pieces.bed'), name: 'contig segments (blue paternal, orange maternal, by alleles)', displayMode: 'COLLAPSED', height: 24, order: 1 },
         { type: 'annotation', format: 'bed', color: bedColor, url: tr('asm_gaps.bed'), name: 'gaps (100 N)', displayMode: 'COLLAPSED', height: 20, order: 2 },
-        { type: 'annotation', format: 'bed', color: bedColor, url: tr('asm_m_segment.bed'), name: 'M: the segment, once', displayMode: 'COLLAPSED', height: 20, order: 3 },
+        { type: 'annotation', format: 'bed', color: bedColor, url: tr('asm_m_segment.bed'), name: 'hap2: the single copy of the segment', displayMode: 'COLLAPSED', height: 20, order: 3 },
         { type: 'annotation', format: 'bed', color: bedColor, url: tr('asm_nucflag.bed'), name: 'NucFlag (orange misjoin, red collapse)', displayMode: 'COLLAPSED', height: 20, order: 4 },
         { type: 'annotation', format: 'bed', color: bedColor, url: tr('asm_flagger.bed'), name: 'Flagger (HiFi and ONT)', displayMode: 'COLLAPSED', height: 20, order: 5 },
-        { type: 'alignment', format: 'bam', url: base + C.files.realign, indexURL: base + C.files.realign + '.bai', name: "the child's HiFi reads, realigned to HPRC's sequence (MAPQ 0 shown faint, not hidden)", height: 420, colorBy: 'none', color, showSoftClips: true, displayMode: 'EXPANDED', filter: { mq: 0 }, visibilityWindow: 150000, order: 6 },
+        { type: 'alignment', format: 'bam', url: base + C.files.realign, indexURL: base + C.files.realign + '.bai', name: 'proband HiFi reads realigned to the assembly (MAPQ 0 faint, not hidden)', height: 420, colorBy: 'none', color, showSoftClips: true, displayMode: 'EXPANDED', filter: { mq: 0 }, visibilityWindow: 150000, order: 6 },
       ],
     };
     const browser = await create('assembly', container, config, B);
@@ -128,7 +128,7 @@
       reference: { id: 'junction', name: 'the junction as called', fastaURL: base + C.files.junction_ref, indexURL: base + C.files.junction_ref + '.fai' },
       locus: 'junction_chr2_48027042-48057041_46970725-47000724:22000-38000', showCenterGuide: true, showCursorTrackingGuide: true,
       tracks: [
-        { type: 'alignment', format: 'bam', url: base + C.files.hifi_on_junction, indexURL: base + C.files.hifi_on_junction + '.bai', name: "the child's HiFi reads on the junction as called (join point at 30,000)", height: 360, colorBy: 'none', color, showSoftClips: true, displayMode: 'EXPANDED', visibilityWindow: 150000, order: 1 },
+        { type: 'alignment', format: 'bam', url: base + C.files.hifi_on_junction, indexURL: base + C.files.hifi_on_junction + '.bai', name: 'proband HiFi reads on the junction as called (join point at 30,000)', height: 360, colorBy: 'none', color, showSoftClips: true, displayMode: 'EXPANDED', visibilityWindow: 150000, order: 1 },
       ],
     };
     const browser = await create('junction', container, config, B);

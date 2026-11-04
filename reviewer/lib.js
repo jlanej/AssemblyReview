@@ -4,12 +4,7 @@
   const AR = (window.AR = window.AR || {});
   const SVGNS = 'http://www.w3.org/2000/svg';
 
-  AR.colors = {
-    pat: 'var(--pat)', mat: 'var(--mat)', jx: 'var(--jx)', h1: 'var(--h1)', h2: 'var(--h2)', grey: 'var(--grey)', gap: 'var(--gap)',
-    patL: 'var(--pat-l)', matL: 'var(--mat-l)', jxL: 'var(--jx-l)', ok: 'var(--ok)', bad: 'var(--bad)',
-  };
-  // solid colours for canvas and igv.js, which cannot read CSS variables
-  AR.solid = { pat: '#2f6fdb', mat: '#b8862b', jx: '#d1336e', h1: '#0e9f8f', h2: '#7c4dda', grey: '#8f96a3', gap: '#111111' };
+  AR.solid = { pat: '#2b6cb0', mat: '#d98c1f', jx: '#c2185b', h1: '#138d75', h2: '#7e57c2', grey: '#9e9e9e', gap: '#111111' };
 
   AR.fmt = {
     int: (n) => (n == null || isNaN(n) ? '–' : Math.round(n).toLocaleString('en-US')),

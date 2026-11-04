@@ -23,13 +23,16 @@ then open `http://localhost:8000/`. (Python's own `http.server` ignores range re
 
 ## What the page shows
 
-One axis, five comparisons, linked: the trio's short reads (the guide the screen followed), the child's long reads
-against GRCh38, HPRC's assembly against GRCh38 (each piece a diagonal, each gap a jump back), the assembly against
-its own long reads (whose reads each piece takes), and the assembly against itself (each piece aligned directly to
-the maternal chromosome). Above it, a five-line verdict; below it, the picture of what happened, the read panels on
-GRCh38 and on HPRC's sequence (igv.js, reads coloured by parent), the 31 junction reads with dot plots on demand, the
-stretch where the two maternal copies differ, every call set, every claim recounted from the files here against the
-case's record, and a verdict row for the screen's review. [docs/reviewer.md](docs/reviewer.md) describes the design.
+A short paper: an abstract; Table 1, each line of evidence by data type; Figure 1, the locus on one zoomable GRCh38
+axis (copy number from short reads and from HiFi by parental origin, allele fractions, the assembly aligned to
+GRCh38 as contig position against reference position, the parental origin of the reads each contig segment receives,
+each segment's identity to hap2 by direct alignment, and the call-set records); Figure 2, the junction at base
+resolution, every junction-spanning HiFi molecule with its parent-informative alleles, and dot plots of any one of
+them against reference and assembly; Figure 3, the structure of the locus, each hap1 segment aligned directly to
+hap2, and the proband's reads realigned to the assembly, with Table 2 of the contig segments; Figure 4, the maternal
+haplotype carried by each of the two maternal copies and the reads that span the transitions; three interactive
+igv.js views (GRCh38, the assembly, the junction as called); and methods with every threshold.
+[docs/reviewer.md](docs/reviewer.md) describes the design.
 
 | | |
 |---|---|
