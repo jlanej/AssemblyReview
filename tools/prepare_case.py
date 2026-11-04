@@ -1676,10 +1676,11 @@ def main():
 
     # igv.js tracks (BED, 0-based)
     def bed(path, rows):
+        # igv.js splits BED lines on any whitespace, so no field may hold a space
         with open(path, 'w') as f:
             f.write('track itemRgb="On"\n')
             for r in rows:
-                f.write('\t'.join(str(x) for x in r) + '\n')
+                f.write('\t'.join(re.sub(r'\s+', '_', str(x)) for x in r) + '\n')
 
     col = {'paternal': '47,111,219', 'maternal': '184,134,43', 'unknown': '143,150,163'}
     bed(os.path.join(out, 'tracks', 'grch38_segment.bed'), [[chrom, S - 1, E, 'the segment (DUP, 1 copy more on the maternal chromosome)', 0, '+', S - 1, E, '209,51,110']])
