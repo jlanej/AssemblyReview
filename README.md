@@ -26,10 +26,12 @@ then open `http://localhost:8000/`. (Python's own `http.server` ignores range re
 A short paper: an abstract; Table 1, each line of evidence by data type; Figure 1, the locus on one zoomable GRCh38
 axis (copy number from short reads and from HiFi by parental origin, allele fractions, the assembly aligned to
 GRCh38 as contig position against reference position, the parental origin of the reads each contig segment receives,
-each segment's identity to hap2 by direct alignment, and the call-set records); Figure 2, the junction at base
+each segment's identity to hap2 by direct alignment, and the call-set records); Table 2, every record over
+the segment from the 22 call sets as its VCF states it, with its offset from the junction or the scaffold step it
+reflects, and which sets hold nothing; Figure 2, the junction at base
 resolution, every junction-spanning HiFi molecule with its parent-informative alleles, and dot plots of any one of
 them against reference and assembly; Figure 3, the structure of the locus, each hap1 segment aligned directly to
-hap2, and the proband's reads realigned to the assembly, with Table 2 of the contig segments; Figure 4, the maternal
+hap2, and the proband's reads realigned to the assembly, with Table 3 of the contig segments; Figure 4, the maternal
 haplotype carried by each of the two maternal copies and the reads that span the transitions; three interactive
 igv.js views (GRCh38, the assembly, the junction as called); and methods with every threshold.
 [docs/reviewer.md](docs/reviewer.md) describes the design.

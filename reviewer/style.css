@@ -50,6 +50,13 @@ td.na { color: #bbb; text-align: center; }
 table.evidence td { max-width: 300px; line-height: 1.4; }
 table.evidence thead th:first-child { width: 170px; }
 tr:last-child td, tr:last-child th { border-bottom: 0; }
+tr.muted td { color: var(--muted); }
+td .small { font-size: 11.5px; }
+td .muted { color: var(--muted); }
+td.nowrap { white-space: nowrap; }
+table.calls td { line-height: 1.35; }
+table.calls td.rel { min-width: 150px; }
+table.calls td.support { min-width: 260px; }
 /* sequences, dot plots */
 .seqpanel { margin-bottom: 10px; }
 .seqbox { font-family: var(--mono); font-size: 12.5px; white-space: pre; overflow-x: auto; line-height: 1.7; margin: 4px 0; }

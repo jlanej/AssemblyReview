@@ -117,7 +117,7 @@
   // a sortable table from rows and column specs [{key, label, num, fmt, cls}]
   AR.table = function (rows, cols, opts = {}) {
     const wrap = AR.h('div', { class: 'tbl' + (opts.scroll ? ' scroll' : '') });
-    const table = AR.h('table');
+    const table = AR.h('table', { class: opts.cls || null });
     const thead = AR.h('thead'); const tbody = AR.h('tbody');
     let sortKey = opts.sort || null, sortDir = opts.dir || 1;
     const render = () => {
@@ -141,6 +141,7 @@
         if (opts.rowAttrs) { const a = opts.rowAttrs(r); if (a) for (const [k, v] of Object.entries(a)) tr.setAttribute(k, v); }
         tbody.appendChild(tr);
       }
+      if (opts.foot) for (const tr of opts.foot) tbody.appendChild(tr);
     };
     const trh = AR.h('tr');
     for (const c of cols) {

@@ -421,14 +421,15 @@ def parse_vcf(path):
                         info[k] = v
                     else:
                         info[kv] = True
-                gts = []
+                gts, fmts = [], []
                 if len(f_) > 9:
                     fmt_keys = f_[8].split(':')
                     for col in f_[9:]:
                         vals = col.split(':')
                         gts.append(vals[0] if fmt_keys and fmt_keys[0] == 'GT' else '.')
+                        fmts.append(dict(zip(fmt_keys, vals)))
                 recs.append({'chrom': f_[0], 'pos': int(f_[1]), 'id': f_[2], 'ref': f_[3], 'alt': f_[4],
-                             'qual': f_[5], 'filter': f_[6], 'info': info, 'gts': gts, 'samples': samples})
+                             'qual': f_[5], 'filter': f_[6], 'info': info, 'gts': gts, 'fmt': fmts, 'samples': samples})
     return samples, recs
 
 
@@ -461,12 +462,41 @@ def sv_of(rec):
         if end is not None and end > rec['pos']:
             svlen = end - rec['pos']
         elif not alt.startswith('<'):
-            svlen = abs(len(alt) - len(rec['ref']))
+            svlen = max(abs(len(a) - len(rec['ref'])) for a in alt.split(','))
         else:
             svlen = 0
     if end is None:
         end = rec['pos'] + (svlen if svtype in ('DEL', 'DUP', 'INV', 'CNV') else 0)
     return svtype, rec['pos'], end, svlen, None
+
+
+def carried_len(rec, svlen):
+    """For a multiallelic record without SVLEN, the length of the allele the held samples carry (else the longest)."""
+    if 'SVLEN' in rec['info'] or rec['alt'].startswith('<') or ',' not in rec['alt']:
+        return svlen
+    alts = rec['alt'].split(',')
+    ks = {int(a) for g in rec['gts'] for a in g.replace('|', '/').split('/') if a.isdigit() and 0 < int(a) <= len(alts)}
+    return max(abs(len(alts[k - 1]) - len(rec['ref'])) for k in ks) if ks else svlen
+
+
+# the fields a record's own caller uses to state its evidence and precision, in the order shown
+SUPPORT_INFO = ['SUPPORT', 'SUPPREAD', 'SR', 'PE', 'RE', 'VAF', 'SRQ', 'PRECISE', 'IMPRECISE', 'CIPOS', 'CIEND', 'HOMLEN', 'MAPQ', 'SRMAPQ',
+                'CT', 'STRAND', 'STRANDS', 'MATEDIST', 'HAP', 'RNAMES', 'ALGORITHMS', 'EVIDENCE', 'BOTHSIDES_SUPPORT']
+SUPPORT_FORMAT = ['GQ', 'DR', 'DV', 'RR', 'RV', 'AD', 'DP', 'RD_CN', 'RDCN', 'PE_GT', 'SR_GT', 'EV']
+
+
+def support_of(rec):
+    """The record's evidence as its caller states it: INFO fields, then each sample's FORMAT fields, as one string."""
+    parts = []
+    for k in SUPPORT_INFO:
+        if k in rec['info']:
+            v = rec['info'][k]
+            parts.append(k if v is True else f'{k} {v}')
+    for name, f in zip(rec['samples'], rec['fmt']):
+        vals = [f'{k} {f[k]}' for k in SUPPORT_FORMAT if k in f and f[k].strip('.,')]
+        if vals:
+            parts.append((f'{name}: ' if len(rec['fmt']) > 1 else '') + ', '.join(vals))
+    return '; '.join(parts)
 
 
 # ================================================================================================= main
@@ -1425,42 +1455,56 @@ def main():
     yale_summary = {}
     for caller, (path, made_from) in cfg['files']['calls_yale'].items():
         samples, recs = parse_vcf(P(path))
-        found, bnd_single = [], 0
+        found, bnd_near, n50, longest = [], 0, 0, 0
         for rec in recs:
             svtype, pos, end, svlen, mate = sv_of(rec)
             gt = rec['gts'][0] if rec['gts'] else '.'
+            if svtype not in ('BND', 'SNV') and svlen is not None and LWIN[0] <= pos <= LWIN[1]:
+                n50 += svlen >= 50
+                longest = max(longest, svlen)
             if svtype == 'BND':
                 near_s, near_e = abs(pos - S) <= 5000, abs(pos - E) <= 5000
-                mate_near = mate is not None and mate[0] == chrom and (abs(mate[1] - S) <= 5000 or abs(mate[1] - E) <= 5000)
+                same = mate is not None and mate[0] == chrom
+                mate_near = same and (abs(mate[1] - S) <= 5000 or abs(mate[1] - E) <= 5000)
+                inside = same and S - 5000 <= pos <= E + 5000 and S - 5000 <= mate[1] <= E + 5000 and abs(mate[1] - pos) >= 10000
                 if (near_s or near_e) and mate_near:
-                    found.append({'set': caller, 'made_from': made_from, 'type': 'BND', 'pos': pos, 'end': mate[1] if mate else pos,
-                                  'len': abs((mate[1] if mate else pos) - pos), 'gt': gt, 'id': rec['id'], 'filter': rec['filter'],
-                                  'reflects': 'the junction' if (near_s and abs(mate[1] - E) <= 5000) or (near_e and abs(mate[1] - S) <= 5000) else 'other'})
-                elif S - 5000 <= pos <= E + 5000:
-                    bnd_single += 1
+                    reflects = 'the junction' if (near_s and abs(mate[1] - E) <= 5000) or (near_e and abs(mate[1] - S) <= 5000) else 'other'
+                elif inside:
+                    # a breakend pair within the segment, 10 kb or more apart: from the assembly, a step of the scaffold
+                    reflects = 'the scaffold' if made_from == 'the assembly' else 'other'
+                else:
+                    bnd_near += near_s or near_e
+                    continue
+                found.append({'set': caller, 'made_from': made_from, 'type': 'BND', 'alt': rec['alt'], 'pos': pos, 'end': mate[1], 'len': abs(mate[1] - pos),
+                              'gt': gt, 'id': rec['id'], 'filter': rec['filter'], 'qual': rec['qual'], 'support': support_of(rec), 'reflects': reflects})
                 continue
             if svlen is None or svlen < 10000:
                 continue
             if end < S - 5000 or pos > E + 5000 or pos < LWIN[0] or end > LWIN[1]:
                 continue
-            reflects = 'the junction' if abs(pos - S) <= 100 and abs(end - E) <= 100 and svtype == 'DUP' else 'the scaffold'
-            found.append({'set': caller, 'made_from': made_from, 'type': svtype, 'pos': pos, 'end': end, 'len': svlen, 'gt': gt,
-                          'id': rec['id'], 'filter': rec['filter'], 'reflects': reflects})
+            if abs(pos - S) <= 100 and abs(end - E) <= 100 and svtype == 'DUP':
+                reflects = 'the junction'
+            else:
+                reflects = 'the scaffold' if made_from == 'the assembly' else 'other'
+            found.append({'set': caller, 'made_from': made_from, 'type': svtype, 'alt': rec['alt'] if rec['alt'].startswith('<') else f'<{svtype}>',
+                          'pos': pos, 'end': end, 'len': svlen, 'gt': gt, 'id': rec['id'], 'filter': rec['filter'], 'qual': rec['qual'],
+                          'support': support_of(rec), 'reflects': reflects})
         calls.extend(found)
-        yale_summary[caller] = {'made_from': made_from, 'n': len(found), 'bnd_single': bnd_single,
+        yale_summary[caller] = {'made_from': made_from, 'n': len(found), 'bnd_near': bnd_near, 'n50': n50, 'longest': longest, 'records': len(recs),
                                 'verdict': 'silent' if not found else ('calls it' if any(f['reflects'] == 'the junction' for f in found) else 'calls the scaffold')}
     published = []
     for setname, path, jpath in cfg['files']['calls_published']:
         meta = json.load(open(P(jpath)))
         samples, recs = parse_vcf(P(path))
         held = meta.get('held', [])
-        n = longest = 0
+        n = longest = n_big = 0
         big = []
         for rec in recs:
             svtype, pos, end, svlen, mate = sv_of(rec)
             if svtype in ('SNV', None) or svlen is None:
                 continue
-            carried = any('1' in g.replace('|', '/').split('/') for g in rec['gts']) if rec['gts'] else False
+            svlen = carried_len(rec, svlen)
+            carried = any(a.isdigit() and int(a) > 0 for g in rec['gts'] for a in g.replace('|', '/').split('/')) if rec['gts'] else False
             if not held:
                 carried = False
             if carried and svlen >= 50 and end >= S and pos <= E:
@@ -1469,12 +1513,13 @@ def main():
                 if svlen >= 10000:
                     big.append(rec)
             if svlen >= 10000 and end >= S - 5000 and pos <= E + 5000 and pos >= LWIN[0] and end <= LWIN[1]:
+                n_big += 1
                 gts = ';'.join(f'{s}={g}' for s, g in zip(samples, rec['gts'])) if rec['gts'] else ''
-                calls.append({'set': setname, 'made_from': 'published', 'type': svtype, 'pos': pos, 'end': end, 'len': svlen,
-                              'gt': gts, 'id': rec['id'], 'filter': rec['filter'],
-                              'reflects': 'the junction' if abs(pos - S) <= 100 and abs(end - E) <= 100 else 'other'})
+                calls.append({'set': setname, 'made_from': 'published', 'type': svtype, 'alt': rec['alt'] if rec['alt'].startswith('<') else f'<{svtype}>',
+                              'pos': pos, 'end': end, 'len': svlen, 'gt': gts, 'id': rec['id'], 'filter': rec['filter'], 'qual': rec['qual'],
+                              'support': support_of(rec), 'reflects': 'the junction' if abs(pos - S) <= 100 and abs(end - E) <= 100 else 'other'})
         published.append({'set': setname, 'file': os.path.basename(meta.get('url', path)), 'held': held, 'n_sv50': n, 'longest': longest,
-                          'columns': meta.get('columns')})
+                          'n_big': n_big, 'records': len(recs), 'columns': meta.get('columns')})
     samples, recs = parse_vcf(P(cfg['files']['event_all_samples']))
     carriers = []
     for rec in recs:
@@ -1670,7 +1715,7 @@ def main():
     tsv(os.path.join(out, 'piece_pairs.tsv'), [dict(p, where=json.dumps(p['where']), parents='/'.join(p['parents'])) for p in piece_pairs],
         ['x', 'y', 'parents', 'lo', 'hi', 'len', 'snv', 'indel', 'per_kb', 'where', 'first', 'last', 'same_scaffold'])
     tsv(os.path.join(out, 'qc_placed.tsv'), flags_placed, ['track', 'contig', 'qs', 'qe', 'label', 'piece', 'rs', 're'])
-    tsv(os.path.join(out, 'calls.tsv'), calls, ['set', 'made_from', 'type', 'pos', 'end', 'len', 'gt', 'id', 'filter', 'reflects'])
+    tsv(os.path.join(out, 'calls.tsv'), calls, ['set', 'made_from', 'type', 'alt', 'pos', 'end', 'len', 'gt', 'id', 'filter', 'qual', 'support', 'reflects'])
     tsv(os.path.join(out, 'sr_pairs.tsv'), sr_pairs_rows, ['member', 'name', 'fwd_start', 'fwd_end', 'fwd_mapq', 'rev_start', 'rev_end', 'rev_mapq'])
     tsv(os.path.join(out, 'self_matches.tsv'), self_rows, ['piece', 'matches', 'longest', 'bp', 'identity'])
 
