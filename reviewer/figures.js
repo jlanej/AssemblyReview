@@ -142,6 +142,10 @@
       arc(g, x(E), x(S), top + 34, 20, C.jx, `${jr.length} junction-spanning HiFi reads: ${jrMat} maternal, ${jrPat} paternal, ${jr.length - jrMat - jrPat} unphased`,
         `<b>Junction-spanning HiFi reads</b>: ${jr.length} reads align up to ${fmt.pos(chrom, E)} and continue from ${fmt.pos(chrom, S)}, both alignments MAPQ 60. Reads continuous across the start: ${thrS}; across the end: ${thrE}.`);
       for (const [p, n, lab] of [[S, thrS, 'start'], [E, thrE, 'end']]) g.appendChild(hover(text(x(p) + (p === S ? 4 : -4), base - 3, `${n} reads continuous across the ${lab}`, { 'text-anchor': p === S ? 'start' : 'end', 'font-size': 9.5, fill: C.muted }), `${n} HiFi reads align continuously across ${fmt.pos(chrom, p)} with 1 kb on either side${p === S ? ` (${AR.count(reads, (r) => r.through_S && r.parent === 'mother')} maternal, ${AR.count(reads, (r) => r.through_S && r.parent === 'father')} paternal)` : ''}.`));
+      const [LW0, LW1] = Cs.windows.LWIN, lastOH = B.last_oh;
+      g.appendChild(text(x(LW0) + 4, top + 48, `HiFi reads: ${fmt.range(chrom, LW0, LW1)}`, { 'font-size': 9.5, fill: C.muted }));
+      g.appendChild(hover(text(x(lastOH) + 8, Yh(3.55), `no parent-opposite SNVs beyond ${fmt.pos(chrom, lastOH)}: reads cannot be phased by them here (see c, d)`, { 'font-size': 9.5, fill: C.muted }),
+        `Reads are phased here only at SNVs where the parents are homozygous for opposite alleles, which occur between ${fmt.pos(chrom, Math.min(...sites.filter((s) => s.kind === 'OH').map((s) => s.pos)))} and ${fmt.pos(chrom, lastOH)}. Beyond, the two maternal copies are counted at mother-only SNVs instead (panel d).`));
       for (const d of vis) {
         const r = svg('rect', { x: x(d.bin0 + 1), y: py.sr + 36, width: Math.max(1, x(d.bin1) - x(d.bin0 + 1)), height: panels[0].h + panels[1].h - 46, fill: 'transparent' });
         AR.hover(r, () => `<b>${fmt.range(chrom, d.bin0 + 1, d.bin1)}</b>${d.inside ? ' · within the segment' : d.flank ? ' · flank' : ''}<br>short-read copy number: proband ${fmt.f(d.cp_child)} (${fmt.f(d.cp_rel)} relative to the parents), father ${fmt.f(d.cp_father)}, mother ${fmt.f(d.cp_mother)}<br>` +
@@ -153,6 +157,9 @@
       axisY(body, Yo, x0, [0, 0.5, 1], { fmt: (v) => v.toFixed(1), grid: [x0, x1], label: 'fraction', labelOffset: 34 });
       g.appendChild(line(x0, Yo(2 / 3), x1, Yo(2 / 3), { stroke: C.mat, 'stroke-dasharray': '2 3', 'stroke-opacity': .6 }));
       for (const s of sites) if (inView(s.pos, s.pos) && s.kind === 'OH' && s.share_sr != null) g.appendChild(hover(svg('circle', { cx: x(s.pos), cy: Yo(s.share_sr), r: 2.2, fill: s.in_segment ? C.mat : C.grey, 'fill-opacity': .85 }), () => F.siteTip(B, s)));
+      const nTail = AR.count(sites, (s) => s.kind === 'MH' && s.pos > lastOH && s.pos <= E);
+      g.appendChild(hover(text(x(lastOH) + 8, Yo(0.5) - 5, `no such SNVs beyond ${fmt.pos(chrom, lastOH)}: one maternal haplotype matches the paternal there; ${nTail} mother-only SNVs cover it in (d)`, { 'font-size': 9.5, fill: C.muted }),
+        `Of the trio's informative SNVs, those where the parents are homozygous for opposite alleles (${AR.count(sites, (s) => s.kind === 'OH')}) all lie between ${fmt.pos(chrom, Math.min(...sites.filter((s) => s.kind === 'OH').map((s) => s.pos)))} and ${fmt.pos(chrom, lastOH)}. Over the rest of the segment the parents share a haplotype by state, and only parent-private alleles (mother-only and father-only heterozygous sites) tell the reads apart.`));
       // d. maternal-specific allele fraction
       top = py.mh; base = top + panels[3].h - 8; const Ym = AR.scale(0, 1, base, top + 22);
       axisY(body, Ym, x0, [0, 1 / 3, 2 / 3, 1], { fmt: (v) => (v === 1 / 3 ? '1/3' : v === 2 / 3 ? '2/3' : String(v)), grid: [x0, x1], label: 'fraction', labelOffset: 34 });
